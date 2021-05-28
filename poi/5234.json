@@ -1,0 +1,381 @@
+{
+  "ID": 5234,
+  "UUID": "DC31955B-6019-4D3B-807A-BCBF5BED7D9D",
+  "ParentChargePointID": null,
+  "DataProviderID": 1,
+  "DataProvidersReference": null,
+  "OperatorID": 20,
+  "OperatorsReference": "30075",
+  "UsageTypeID": 4,
+  "UsageCost": "£1.00/session",
+  "AddressInfo": {
+    "ID": 5174,
+    "Title": "Belmont Park and Ride",
+    "AddressLine1": "Carrville",
+    "AddressLine2": null,
+    "Town": "Durham",
+    "StateOrProvince": "County Durham",
+    "Postcode": "DH1 1SR",
+    "CountryID": 1,
+    "Country": {
+      "ID": 1,
+      "Title": "United Kingdom",
+      "ISOCode": "GB",
+      "ContinentCode": "EU"
+    },
+    "Latitude": 54.795081464156,
+    "Longitude": -1.52462124824524,
+    "ContactTelephone1": null,
+    "ContactTelephone2": null,
+    "ContactEmail": null,
+    "AccessComments": "Only available 7am - 7pm",
+    "RelatedURL": null,
+    "Distance": null,
+    "DistanceUnit": 0,
+    "GeneralComments": null
+  },
+  "Connections": [
+    {
+      "ID": 344,
+      "ConnectionTypeID": 25,
+      "ConnectionType": {
+        "ID": 25,
+        "Title": "Type 2 (Socket Only)",
+        "FormalName": "IEC 62196-2 Type 2",
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
+        "IsUserSelectable": true
+      },
+      "LevelID": 2,
+      "Level": {
+        "ID": 2,
+        "Title": "Level 2 : Medium (Over 2kW)",
+        "Comments": "Over 2 kW, usually non-domestic socket type",
+        "IsFastChargeCapable": false
+      },
+      "Amps": 32,
+      "Voltage": 230,
+      "PowerKW": 7,
+      "CurrentTypeID": 10,
+      "CurrentType": {
+        "ID": 10,
+        "Title": "AC (Single-Phase)",
+        "Description": "Alternating Current - Single Phase"
+      },
+      "Quantity": 1,
+      "Comments": null
+    },
+    {
+      "ID": 64102,
+      "ConnectionTypeID": 2,
+      "ConnectionType": {
+        "ID": 2,
+        "Title": "CHAdeMO",
+        "FormalName": "IEC 62196-3 Configuration AA",
+        "IsDiscontinued": null,
+        "IsObsolete": null
+      },
+      "Reference": null,
+      "StatusTypeID": 100,
+      "StatusType": {
+        "ID": 100,
+        "Title": "Not Operational",
+        "IsOperational": false,
+        "IsUserSelectable": true
+      },
+      "LevelID": 3,
+      "Level": {
+        "ID": 3,
+        "Title": "Level 3:  High (Over 40kW)",
+        "Comments": "40KW and Higher",
+        "IsFastChargeCapable": true
+      },
+      "Amps": 125,
+      "Voltage": 400,
+      "PowerKW": 50,
+      "CurrentTypeID": 30,
+      "CurrentType": {
+        "ID": 30,
+        "Title": "DC",
+        "Description": "Direct Current"
+      },
+      "Quantity": 1,
+      "Comments": null
+    },
+    {
+      "ID": 64103,
+      "ConnectionTypeID": 25,
+      "ConnectionType": {
+        "ID": 25,
+        "Title": "Type 2 (Socket Only)",
+        "FormalName": "IEC 62196-2 Type 2",
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
+        "IsUserSelectable": true
+      },
+      "LevelID": 2,
+      "Level": {
+        "ID": 2,
+        "Title": "Level 2 : Medium (Over 2kW)",
+        "Comments": "Over 2 kW, usually non-domestic socket type",
+        "IsFastChargeCapable": false
+      },
+      "Amps": 32,
+      "Voltage": 400,
+      "PowerKW": 22,
+      "CurrentTypeID": 20,
+      "CurrentType": {
+        "ID": 20,
+        "Title": "AC (Three-Phase)",
+        "Description": "Alternating Current - Three Phase"
+      },
+      "Quantity": 1,
+      "Comments": null
+    },
+    {
+      "ID": 133925,
+      "ConnectionTypeID": 3,
+      "ConnectionType": {
+        "ID": 3,
+        "Title": "BS1363 3 Pin 13 Amp",
+        "FormalName": "BS1363 / Type G",
+        "IsDiscontinued": null,
+        "IsObsolete": null
+      },
+      "Reference": null,
+      "StatusTypeID": 100,
+      "StatusType": {
+        "ID": 100,
+        "Title": "Not Operational",
+        "IsOperational": false,
+        "IsUserSelectable": true
+      },
+      "LevelID": 2,
+      "Level": {
+        "ID": 2,
+        "Title": "Level 2 : Medium (Over 2kW)",
+        "Comments": "Over 2 kW, usually non-domestic socket type",
+        "IsFastChargeCapable": false
+      },
+      "Amps": 13,
+      "Voltage": 230,
+      "PowerKW": 3,
+      "CurrentTypeID": 10,
+      "CurrentType": {
+        "ID": 10,
+        "Title": "AC (Single-Phase)",
+        "Description": "Alternating Current - Single Phase"
+      },
+      "Quantity": 1,
+      "Comments": null
+    }
+  ],
+  "NumberOfPoints": 2,
+  "GeneralComments": "Must be using Park & Ride",
+  "DatePlanned": null,
+  "DateLastConfirmed": null,
+  "StatusTypeID": 100,
+  "DateLastStatusUpdate": {
+    "$date": "2019-08-08T05:22:00Z"
+  },
+  "MetadataValues": null,
+  "DataQualityLevel": 1,
+  "DateCreated": {
+    "$date": "2011-08-24T15:40:00Z"
+  },
+  "SubmissionStatusTypeID": 200,
+  "AddressCleaningRequired": false,
+  "DataProvider": {
+    "ID": 1,
+    "Title": "Open Charge Map Contributors",
+    "WebsiteURL": "http://openchargemap.org",
+    "Comments": null,
+    "DataProviderStatusType": {
+      "ID": 1,
+      "Title": "Manual Data Entry",
+      "IsProviderEnabled": true
+    },
+    "IsRestrictedEdit": false,
+    "IsOpenDataLicensed": true,
+    "IsApprovedImport": true,
+    "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+    "DateLastImported": null
+  },
+  "OperatorInfo": {
+    "ID": 20,
+    "Title": "Charge Your Car",
+    "WebsiteURL": "http://www.chargeyourcar.org.uk/",
+    "Comments": null,
+    "PhonePrimaryContact": "0191 26 50 500",
+    "PhoneSecondaryContact": null,
+    "IsPrivateIndividual": false,
+    "AddressInfo": null,
+    "BookingURL": null,
+    "ContactEmail": "admin@chargeyourcar.org.uk",
+    "FaultReportEmail": "admin@chargeyourcar.org.uk",
+    "IsRestrictedEdit": false
+  },
+  "UsageType": {
+    "ID": 4,
+    "Title": "Public - Membership Required",
+    "IsPayAtLocation": false,
+    "IsMembershipRequired": true,
+    "IsAccessKeyRequired": true
+  },
+  "StatusType": {
+    "ID": 100,
+    "Title": "Not Operational",
+    "IsOperational": false,
+    "IsUserSelectable": true
+  },
+  "SubmissionStatus": {
+    "ID": 200,
+    "Title": "Submission Published",
+    "IsLive": true
+  },
+  "UserComments": [
+    {
+      "ID": 1004,
+      "ChargePointID": 5234,
+      "CommentTypeID": 10,
+      "CommentType": {
+        "ID": 10,
+        "Title": "General Comment"
+      },
+      "UserName": "",
+      "Comment": "£1 per session via Charge Your Car rfid card (for the Type 2 posst).",
+      "Rating": 5,
+      "RelatedURL": null,
+      "DateCreated": {
+        "$date": "2014-07-14T15:36:47.01Z"
+      },
+      "User": null,
+      "CheckinStatusTypeID": 10,
+      "CheckinStatusType": {
+        "ID": 10,
+        "Title": "Charged Successfully",
+        "IsPositive": true,
+        "IsAutomatedCheckin": false
+      },
+      "IsActionedByEditor": null
+    },
+    {
+      "ID": 454,
+      "ChargePointID": 5234,
+      "CommentTypeID": 10,
+      "CommentType": {
+        "ID": 10,
+        "Title": "General Comment"
+      },
+      "UserName": "SaidJoesaid1954",
+      "Comment": "Do you have to use park and ride to charge here? ",
+      "Rating": null,
+      "RelatedURL": null,
+      "DateCreated": {
+        "$date": "2013-09-29T08:17:06.093Z"
+      },
+      "User": {
+        "ID": 1212,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "SaidJoesaid1954",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 4,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": null,
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "CheckinStatusTypeID": 0,
+      "CheckinStatusType": {
+        "ID": 0,
+        "Title": "Did Not Visit Location",
+        "IsPositive": null,
+        "IsAutomatedCheckin": false
+      },
+      "IsActionedByEditor": null
+    }
+  ],
+  "PercentageSimilarity": null,
+  "MediaItems": [
+    {
+      "ID": 515,
+      "ChargePointID": 5234,
+      "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM5234/OCM-5234.orig.2014071217440968.jpg",
+      "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM5234/OCM-5234.thmb.2014071217440968.jpg",
+      "Comment": "",
+      "IsEnabled": true,
+      "IsVideo": false,
+      "IsFeaturedItem": false,
+      "IsExternalResource": false,
+      "MetadataValue": null,
+      "User": {
+        "ID": 1736,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "therajpacket",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 5,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": null,
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "DateCreated": {
+        "$date": "2014-07-12T17:44:00Z"
+      }
+    }
+  ],
+  "LevelOfDetail": null,
+  "Chargers": null,
+  "MetadataTags": null,
+  "SpatialPosition": {
+    "type": "Point",
+    "coordinates": [
+      -1.52462124824524,
+      54.795081464156
+    ]
+  }
+}

@@ -1,0 +1,490 @@
+{
+  "ID": 42387,
+  "UUID": "0CF2D4C1-3ED7-4FA7-AF38-612E1B6ABF1F",
+  "ParentChargePointID": null,
+  "DataProviderID": 1,
+  "DataProvidersReference": null,
+  "OperatorID": 25,
+  "OperatorsReference": "9860000644",
+  "UsageTypeID": 4,
+  "UsageCost": "£0.073/minute; min £1.38; other tariffs available",
+  "AddressInfo": {
+    "ID": 42733,
+    "Title": "70 Acton Street",
+    "AddressLine1": "70 Acton Street",
+    "AddressLine2": null,
+    "Town": "Camden",
+    "StateOrProvince": "London",
+    "Postcode": "WC1X 9NB",
+    "CountryID": 1,
+    "Country": {
+      "ID": 1,
+      "Title": "United Kingdom",
+      "ISOCode": "GB",
+      "ContinentCode": "EU"
+    },
+    "Latitude": 51.5283068937474,
+    "Longitude": -0.118677020072937,
+    "ContactTelephone1": null,
+    "ContactTelephone2": null,
+    "ContactEmail": null,
+    "AccessComments": null,
+    "RelatedURL": null,
+    "Distance": null,
+    "DistanceUnit": 0,
+    "GeneralComments": null
+  },
+  "Connections": [
+    {
+      "ID": 50995,
+      "ConnectionTypeID": 1,
+      "ConnectionType": {
+        "ID": 1,
+        "Title": "Type 1 (J1772)",
+        "FormalName": "SAE J1772-2009",
+        "IsDiscontinued": null,
+        "IsObsolete": null
+      },
+      "Reference": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
+        "IsUserSelectable": true
+      },
+      "LevelID": 2,
+      "Level": {
+        "ID": 2,
+        "Title": "Level 2 : Medium (Over 2kW)",
+        "Comments": "Over 2 kW, usually non-domestic socket type",
+        "IsFastChargeCapable": false
+      },
+      "Amps": 16,
+      "Voltage": 230,
+      "PowerKW": 4,
+      "CurrentTypeID": 10,
+      "CurrentType": {
+        "ID": 10,
+        "Title": "AC (Single-Phase)",
+        "Description": "Alternating Current - Single Phase"
+      },
+      "Quantity": 1,
+      "Comments": null
+    },
+    {
+      "ID": 91339,
+      "ConnectionTypeID": 25,
+      "ConnectionType": {
+        "ID": 25,
+        "Title": "Type 2 (Socket Only)",
+        "FormalName": "IEC 62196-2 Type 2",
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
+        "IsUserSelectable": true
+      },
+      "LevelID": 2,
+      "Level": {
+        "ID": 2,
+        "Title": "Level 2 : Medium (Over 2kW)",
+        "Comments": "Over 2 kW, usually non-domestic socket type",
+        "IsFastChargeCapable": false
+      },
+      "Amps": 32,
+      "Voltage": 230,
+      "PowerKW": 7,
+      "CurrentTypeID": 10,
+      "CurrentType": {
+        "ID": 10,
+        "Title": "AC (Single-Phase)",
+        "Description": "Alternating Current - Single Phase"
+      },
+      "Quantity": 1,
+      "Comments": null
+    }
+  ],
+  "NumberOfPoints": 1,
+  "GeneralComments": null,
+  "DatePlanned": null,
+  "DateLastConfirmed": null,
+  "StatusTypeID": 50,
+  "DateLastStatusUpdate": {
+    "$date": "2019-05-12T05:26:00Z"
+  },
+  "MetadataValues": null,
+  "DataQualityLevel": 1,
+  "DateCreated": {
+    "$date": "2015-03-01T12:36:00Z"
+  },
+  "SubmissionStatusTypeID": 200,
+  "AddressCleaningRequired": false,
+  "DataProvider": {
+    "ID": 1,
+    "Title": "Open Charge Map Contributors",
+    "WebsiteURL": "http://openchargemap.org",
+    "Comments": null,
+    "DataProviderStatusType": {
+      "ID": 1,
+      "Title": "Manual Data Entry",
+      "IsProviderEnabled": true
+    },
+    "IsRestrictedEdit": false,
+    "IsOpenDataLicensed": true,
+    "IsApprovedImport": true,
+    "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+    "DateLastImported": null
+  },
+  "OperatorInfo": {
+    "ID": 25,
+    "Title": "Source London",
+    "WebsiteURL": "http://www.sourcelondon.net/",
+    "Comments": "Monthly post-payment membership system, with per-minute billing and optional lower tariffs in return for monthly subscription payment.",
+    "PhonePrimaryContact": null,
+    "PhoneSecondaryContact": null,
+    "IsPrivateIndividual": false,
+    "AddressInfo": null,
+    "BookingURL": "https://www.sourcelondon.net/membership",
+    "ContactEmail": "membership@sourcelondon.net",
+    "FaultReportEmail": "membership@sourcelondon.net",
+    "IsRestrictedEdit": false
+  },
+  "UsageType": {
+    "ID": 4,
+    "Title": "Public - Membership Required",
+    "IsPayAtLocation": false,
+    "IsMembershipRequired": true,
+    "IsAccessKeyRequired": true
+  },
+  "StatusType": {
+    "ID": 50,
+    "Title": "Operational",
+    "IsOperational": true,
+    "IsUserSelectable": true
+  },
+  "SubmissionStatus": {
+    "ID": 200,
+    "Title": "Submission Published",
+    "IsLive": true
+  },
+  "UserComments": [
+    {
+      "ID": 10260,
+      "ChargePointID": 42387,
+      "CommentTypeID": 10,
+      "CommentType": {
+        "ID": 10,
+        "Title": "General Comment"
+      },
+      "UserName": "Simon Hewison",
+      "Comment": null,
+      "Rating": 3,
+      "RelatedURL": null,
+      "DateCreated": {
+        "$date": "2016-04-29T14:43:24.657Z"
+      },
+      "User": {
+        "ID": 4575,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "Simon Hewison",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 47477,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/b6797fc022c04bb79e21d4ff9ba07154?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "CheckinStatusTypeID": 10,
+      "CheckinStatusType": {
+        "ID": 10,
+        "Title": "Charged Successfully",
+        "IsPositive": true,
+        "IsAutomatedCheckin": false
+      },
+      "IsActionedByEditor": null
+    },
+    {
+      "ID": 10067,
+      "ChargePointID": 42387,
+      "CommentTypeID": 10,
+      "CommentType": {
+        "ID": 10,
+        "Title": "General Comment"
+      },
+      "UserName": "Simon Hewison",
+      "Comment": "Someone manages to leave this post with an abandoned charge , and software on the post never clears down.",
+      "Rating": null,
+      "RelatedURL": null,
+      "DateCreated": {
+        "$date": "2016-04-01T11:55:25.567Z"
+      },
+      "User": {
+        "ID": 4575,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "Simon Hewison",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 47477,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/b6797fc022c04bb79e21d4ff9ba07154?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "CheckinStatusTypeID": 10,
+      "CheckinStatusType": {
+        "ID": 10,
+        "Title": "Charged Successfully",
+        "IsPositive": true,
+        "IsAutomatedCheckin": false
+      },
+      "IsActionedByEditor": null
+    },
+    {
+      "ID": 6541,
+      "ChargePointID": 42387,
+      "CommentTypeID": 10,
+      "CommentType": {
+        "ID": 10,
+        "Title": "General Comment"
+      },
+      "UserName": "Simon Hewison",
+      "Comment": "Still disappeared from Source London map, but a popular spot, even if it is just 13A, Plug-in-Prius was leaving as I arrived.",
+      "Rating": null,
+      "RelatedURL": null,
+      "DateCreated": {
+        "$date": "2015-09-22T23:57:45.707Z"
+      },
+      "User": {
+        "ID": 4575,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "Simon Hewison",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 47477,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/b6797fc022c04bb79e21d4ff9ba07154?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "CheckinStatusTypeID": 10,
+      "CheckinStatusType": {
+        "ID": 10,
+        "Title": "Charged Successfully",
+        "IsPositive": true,
+        "IsAutomatedCheckin": false
+      },
+      "IsActionedByEditor": null
+    },
+    {
+      "ID": 4754,
+      "ChargePointID": 42387,
+      "CommentTypeID": 10,
+      "CommentType": {
+        "ID": 10,
+        "Title": "General Comment"
+      },
+      "UserName": "Simon Hewison",
+      "Comment": "This post is now accepting my Source London card.",
+      "Rating": null,
+      "RelatedURL": null,
+      "DateCreated": {
+        "$date": "2015-06-24T13:38:36.49Z"
+      },
+      "User": {
+        "ID": 4575,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "Simon Hewison",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 47477,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/b6797fc022c04bb79e21d4ff9ba07154?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "CheckinStatusTypeID": 10,
+      "CheckinStatusType": {
+        "ID": 10,
+        "Title": "Charged Successfully",
+        "IsPositive": true,
+        "IsAutomatedCheckin": false
+      },
+      "IsActionedByEditor": null
+    },
+    {
+      "ID": 4371,
+      "ChargePointID": 42387,
+      "CommentTypeID": 10,
+      "CommentType": {
+        "ID": 10,
+        "Title": "General Comment"
+      },
+      "UserName": "Simon Hewison",
+      "Comment": "Still no change from last report. Doesn't accept any tag.",
+      "Rating": 1,
+      "RelatedURL": null,
+      "DateCreated": {
+        "$date": "2015-05-04T20:24:50.55Z"
+      },
+      "User": {
+        "ID": 4575,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "Simon Hewison",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 47477,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/b6797fc022c04bb79e21d4ff9ba07154?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "CheckinStatusTypeID": 25,
+      "CheckinStatusType": {
+        "ID": 25,
+        "Title": "Failed to Charge (Equipment Problem)",
+        "IsPositive": false,
+        "IsAutomatedCheckin": false
+      },
+      "IsActionedByEditor": null
+    },
+    {
+      "ID": 4091,
+      "ChargePointID": 42387,
+      "CommentTypeID": 10,
+      "CommentType": {
+        "ID": 10,
+        "Title": "General Comment"
+      },
+      "UserName": "Simon Hewison",
+      "Comment": "Elektromotive post has fotgotten what tags it is supposed to accept. No tags worked. Nearest was cyc with a \"wrong zone\" error. All others gave \"tag not found\"",
+      "Rating": 1,
+      "RelatedURL": null,
+      "DateCreated": {
+        "$date": "2015-03-28T19:31:26.75Z"
+      },
+      "User": {
+        "ID": 4575,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "Simon Hewison",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 47477,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/b6797fc022c04bb79e21d4ff9ba07154?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "CheckinStatusTypeID": 25,
+      "CheckinStatusType": {
+        "ID": 25,
+        "Title": "Failed to Charge (Equipment Problem)",
+        "IsPositive": false,
+        "IsAutomatedCheckin": false
+      },
+      "IsActionedByEditor": null
+    }
+  ],
+  "PercentageSimilarity": null,
+  "MediaItems": null,
+  "LevelOfDetail": null,
+  "Chargers": null,
+  "MetadataTags": null,
+  "SpatialPosition": {
+    "type": "Point",
+    "coordinates": [
+      -0.118677020072937,
+      51.5283068937474
+    ]
+  }
+}

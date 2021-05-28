@@ -1,0 +1,203 @@
+{
+  "ID": 5746,
+  "UUID": "9337AE6F-2399-4A0C-8B98-6524DB9554C4",
+  "ParentChargePointID": null,
+  "DataProviderID": 1,
+  "DataProvidersReference": null,
+  "OperatorID": 3,
+  "OperatorsReference": "PG-80498",
+  "UsageTypeID": 6,
+  "UsageCost": "Free",
+  "AddressInfo": {
+    "ID": 5668,
+    "Title": "Bicester North Railway Station",
+    "AddressLine1": "Chiltern Approach",
+    "AddressLine2": null,
+    "Town": "Bicester",
+    "StateOrProvince": "Oxfordshire",
+    "Postcode": "OX26 6EF",
+    "CountryID": 1,
+    "Country": {
+      "ID": 1,
+      "Title": "United Kingdom",
+      "ISOCode": "GB",
+      "ContinentCode": "EU"
+    },
+    "Latitude": 51.9035778,
+    "Longitude": -1.1525764,
+    "ContactTelephone1": "020 7247 4114",
+    "ContactTelephone2": null,
+    "ContactEmail": null,
+    "AccessComments": null,
+    "RelatedURL": "http://www.pod-point.com/live-availabilty",
+    "Distance": null,
+    "DistanceUnit": 0,
+    "GeneralComments": null
+  },
+  "Connections": [
+    {
+      "ID": 495,
+      "ConnectionTypeID": 25,
+      "ConnectionType": {
+        "ID": 25,
+        "Title": "Type 2 (Socket Only)",
+        "FormalName": "IEC 62196-2 Type 2",
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
+        "IsUserSelectable": true
+      },
+      "LevelID": 2,
+      "Level": {
+        "ID": 2,
+        "Title": "Level 2 : Medium (Over 2kW)",
+        "Comments": "Over 2 kW, usually non-domestic socket type",
+        "IsFastChargeCapable": false
+      },
+      "Amps": 32,
+      "Voltage": 230,
+      "PowerKW": 3,
+      "CurrentTypeID": 10,
+      "CurrentType": {
+        "ID": 10,
+        "Title": "AC (Single-Phase)",
+        "Description": "Alternating Current - Single Phase"
+      },
+      "Quantity": 2,
+      "Comments": null
+    }
+  ],
+  "NumberOfPoints": 2,
+  "GeneralComments": null,
+  "DatePlanned": null,
+  "DateLastConfirmed": null,
+  "StatusTypeID": 50,
+  "DateLastStatusUpdate": {
+    "$date": "2020-12-05T11:15:00Z"
+  },
+  "MetadataValues": null,
+  "DataQualityLevel": 1,
+  "DateCreated": {
+    "$date": "2011-09-12T11:40:00Z"
+  },
+  "SubmissionStatusTypeID": 1001,
+  "AddressCleaningRequired": false,
+  "DataProvider": {
+    "ID": 1,
+    "Title": "Open Charge Map Contributors",
+    "WebsiteURL": "http://openchargemap.org",
+    "Comments": null,
+    "DataProviderStatusType": {
+      "ID": 1,
+      "Title": "Manual Data Entry",
+      "IsProviderEnabled": true
+    },
+    "IsRestrictedEdit": false,
+    "IsOpenDataLicensed": true,
+    "IsApprovedImport": true,
+    "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+    "DateLastImported": null
+  },
+  "OperatorInfo": {
+    "ID": 3,
+    "Title": "POD Point (UK)",
+    "WebsiteURL": "http://www.pod-point.com/",
+    "Comments": "Part of Groupe EDF",
+    "PhonePrimaryContact": "020 7247 4114",
+    "PhoneSecondaryContact": null,
+    "IsPrivateIndividual": false,
+    "AddressInfo": null,
+    "BookingURL": null,
+    "ContactEmail": "enquiries@pod-point.com",
+    "FaultReportEmail": "enquiries@pod-point.com",
+    "IsRestrictedEdit": false
+  },
+  "UsageType": {
+    "ID": 6,
+    "Title": "Private - For Staff, Visitors or Customers",
+    "IsPayAtLocation": false,
+    "IsMembershipRequired": false,
+    "IsAccessKeyRequired": false
+  },
+  "StatusType": {
+    "ID": 50,
+    "Title": "Operational",
+    "IsOperational": true,
+    "IsUserSelectable": true
+  },
+  "SubmissionStatus": {
+    "ID": 1001,
+    "Title": "Delisted - Duplicate",
+    "IsLive": false
+  },
+  "UserComments": [
+    {
+      "ID": 4069,
+      "ChargePointID": 5746,
+      "CommentTypeID": 50,
+      "CommentType": {
+        "ID": 50,
+        "Title": "Important Notice (For Other Users)"
+      },
+      "UserName": "",
+      "Comment": "Chiltern Railways out of order bag over the unit. Contacted Pod, they couldn't give me a fix date because they are in negotiations with Chiltern Railways over a maintenance contract.",
+      "Rating": null,
+      "RelatedURL": null,
+      "DateCreated": {
+        "$date": "2015-03-25T11:01:32.987Z"
+      },
+      "User": null,
+      "CheckinStatusTypeID": 20,
+      "CheckinStatusType": {
+        "ID": 20,
+        "Title": "Failed to Charge (Equipment Not Operational)",
+        "IsPositive": false,
+        "IsAutomatedCheckin": false
+      },
+      "IsActionedByEditor": null
+    },
+    {
+      "ID": 3967,
+      "ChargePointID": 5746,
+      "CommentTypeID": 50,
+      "CommentType": {
+        "ID": 50,
+        "Title": "Important Notice (For Other Users)"
+      },
+      "UserName": "",
+      "Comment": "",
+      "Rating": 1,
+      "RelatedURL": null,
+      "DateCreated": {
+        "$date": "2015-03-10T15:28:29.427Z"
+      },
+      "User": null,
+      "CheckinStatusTypeID": 25,
+      "CheckinStatusType": {
+        "ID": 25,
+        "Title": "Failed to Charge (Equipment Problem)",
+        "IsPositive": false,
+        "IsAutomatedCheckin": false
+      },
+      "IsActionedByEditor": null
+    }
+  ],
+  "PercentageSimilarity": null,
+  "MediaItems": null,
+  "LevelOfDetail": null,
+  "Chargers": null,
+  "MetadataTags": null,
+  "SpatialPosition": {
+    "type": "Point",
+    "coordinates": [
+      -1.1525764,
+      51.9035778
+    ]
+  }
+}

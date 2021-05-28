@@ -1,0 +1,189 @@
+{
+  "ID": 30777,
+  "UUID": "C9B5F46D-5FD4-4081-9A56-C3EE528ECC5F",
+  "ParentChargePointID": null,
+  "DataProviderID": 1,
+  "DataProvidersReference": null,
+  "OperatorID": 1,
+  "OperatorsReference": null,
+  "UsageTypeID": 0,
+  "UsageCost": "",
+  "AddressInfo": {
+    "ID": 31123,
+    "Title": "High Voltage Valley",
+    "AddressLine1": "Fredsgatan 27",
+    "AddressLine2": "",
+    "Town": "LUDVIKA",
+    "StateOrProvince": "DALARNA",
+    "Postcode": "77128",
+    "CountryID": 216,
+    "Country": {
+      "ID": 216,
+      "Title": "Sweden",
+      "ISOCode": "SE",
+      "ContinentCode": "EU"
+    },
+    "Latitude": 60.14703,
+    "Longitude": 15.18481,
+    "ContactTelephone1": "",
+    "ContactTelephone2": "",
+    "ContactEmail": "",
+    "AccessComments": "Till vänster om entrén till High Voltage Valley på Fredsgatan 27.",
+    "RelatedURL": "",
+    "Distance": null,
+    "DistanceUnit": 0,
+    "GeneralComments": null
+  },
+  "Connections": [
+    {
+      "ID": 34006,
+      "ConnectionTypeID": 28,
+      "ConnectionType": {
+        "ID": 28,
+        "Title": "CEE 7/4 - Schuko - Type F",
+        "FormalName": "CEE 7/4",
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": "1",
+      "StatusTypeID": 0,
+      "StatusType": {
+        "ID": 0,
+        "Title": "Unknown",
+        "IsOperational": null,
+        "IsUserSelectable": true
+      },
+      "LevelID": 2,
+      "Level": {
+        "ID": 2,
+        "Title": "Level 2 : Medium (Over 2kW)",
+        "Comments": "Over 2 kW, usually non-domestic socket type",
+        "IsFastChargeCapable": false
+      },
+      "Amps": 16,
+      "Voltage": 230,
+      "PowerKW": 3,
+      "CurrentTypeID": 10,
+      "CurrentType": {
+        "ID": 10,
+        "Title": "AC (Single-Phase)",
+        "Description": "Alternating Current - Single Phase"
+      },
+      "Quantity": null,
+      "Comments": "Mode 1"
+    },
+    {
+      "ID": 60802,
+      "ConnectionTypeID": 2,
+      "ConnectionType": {
+        "ID": 2,
+        "Title": "CHAdeMO",
+        "FormalName": "IEC 62196-3 Configuration AA",
+        "IsDiscontinued": null,
+        "IsObsolete": null
+      },
+      "Reference": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
+        "IsUserSelectable": true
+      },
+      "LevelID": 3,
+      "Level": {
+        "ID": 3,
+        "Title": "Level 3:  High (Over 40kW)",
+        "Comments": "40KW and Higher",
+        "IsFastChargeCapable": true
+      },
+      "Amps": null,
+      "Voltage": null,
+      "PowerKW": 40,
+      "CurrentTypeID": 30,
+      "CurrentType": {
+        "ID": 30,
+        "Title": "DC",
+        "Description": "Direct Current"
+      },
+      "Quantity": 1,
+      "Comments": null
+    }
+  ],
+  "NumberOfPoints": 2,
+  "GeneralComments": "",
+  "DatePlanned": null,
+  "DateLastConfirmed": null,
+  "StatusTypeID": 50,
+  "DateLastStatusUpdate": {
+    "$date": "2015-07-13T11:47:00Z"
+  },
+  "MetadataValues": null,
+  "DataQualityLevel": 2,
+  "DateCreated": {
+    "$date": "2014-12-09T09:00:00Z"
+  },
+  "SubmissionStatusTypeID": 100,
+  "AddressCleaningRequired": false,
+  "DataProvider": {
+    "ID": 1,
+    "Title": "Open Charge Map Contributors",
+    "WebsiteURL": "http://openchargemap.org",
+    "Comments": null,
+    "DataProviderStatusType": {
+      "ID": 1,
+      "Title": "Manual Data Entry",
+      "IsProviderEnabled": true
+    },
+    "IsRestrictedEdit": false,
+    "IsOpenDataLicensed": true,
+    "IsApprovedImport": true,
+    "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+    "DateLastImported": null
+  },
+  "OperatorInfo": {
+    "ID": 1,
+    "Title": "(Unknown Operator)",
+    "WebsiteURL": null,
+    "Comments": null,
+    "PhonePrimaryContact": null,
+    "PhoneSecondaryContact": null,
+    "IsPrivateIndividual": null,
+    "AddressInfo": null,
+    "BookingURL": null,
+    "ContactEmail": null,
+    "FaultReportEmail": null,
+    "IsRestrictedEdit": null
+  },
+  "UsageType": {
+    "ID": 0,
+    "Title": "(Unknown)",
+    "IsPayAtLocation": null,
+    "IsMembershipRequired": null,
+    "IsAccessKeyRequired": null
+  },
+  "StatusType": {
+    "ID": 50,
+    "Title": "Operational",
+    "IsOperational": true,
+    "IsUserSelectable": true
+  },
+  "SubmissionStatus": {
+    "ID": 100,
+    "Title": "Imported and Published",
+    "IsLive": true
+  },
+  "UserComments": null,
+  "PercentageSimilarity": null,
+  "MediaItems": null,
+  "LevelOfDetail": null,
+  "Chargers": null,
+  "MetadataTags": null,
+  "SpatialPosition": {
+    "type": "Point",
+    "coordinates": [
+      15.18481,
+      60.14703
+    ]
+  }
+}

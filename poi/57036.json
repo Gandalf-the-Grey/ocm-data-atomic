@@ -1,0 +1,423 @@
+{
+  "ID": 57036,
+  "UUID": "FC149402-4A3B-472E-9347-28F1929A51DA",
+  "ParentChargePointID": null,
+  "DataProviderID": 1,
+  "DataProvidersReference": null,
+  "OperatorID": 45,
+  "OperatorsReference": null,
+  "UsageTypeID": 1,
+  "UsageCost": null,
+  "AddressInfo": {
+    "ID": 57382,
+    "Title": "Autohaus Mükra",
+    "AddressLine1": "Zamdorfer Straße 90",
+    "AddressLine2": null,
+    "Town": "München",
+    "StateOrProvince": "Bayern",
+    "Postcode": "81677",
+    "CountryID": 87,
+    "Country": {
+      "ID": 87,
+      "Title": "Germany",
+      "ISOCode": "DE",
+      "ContinentCode": "EU"
+    },
+    "Latitude": 48.1384623,
+    "Longitude": 11.6428777,
+    "ContactTelephone1": "089 - 93 00 94 4",
+    "ContactTelephone2": null,
+    "ContactEmail": null,
+    "AccessComments": "Kostenloses Laden ohne RFID oder Code an grün markiertem Ladeplatz vor dem Zufahrtstor am Nissan Schild. CHAdeMO Stecker: Hebel wird auf der Unterseite verriegelt.",
+    "RelatedURL": "http://www.autohaus-muekra.de/",
+    "Distance": null,
+    "DistanceUnit": 0,
+    "GeneralComments": null
+  },
+  "Connections": [
+    {
+      "ID": 72043,
+      "ConnectionTypeID": 2,
+      "ConnectionType": {
+        "ID": 2,
+        "Title": "CHAdeMO",
+        "FormalName": "IEC 62196-3 Configuration AA",
+        "IsDiscontinued": null,
+        "IsObsolete": null
+      },
+      "Reference": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
+        "IsUserSelectable": true
+      },
+      "LevelID": 3,
+      "Level": {
+        "ID": 3,
+        "Title": "Level 3:  High (Over 40kW)",
+        "Comments": "40KW and Higher",
+        "IsFastChargeCapable": true
+      },
+      "Amps": null,
+      "Voltage": null,
+      "PowerKW": 50,
+      "CurrentTypeID": 30,
+      "CurrentType": {
+        "ID": 30,
+        "Title": "DC",
+        "Description": "Direct Current"
+      },
+      "Quantity": 1,
+      "Comments": null
+    },
+    {
+      "ID": 72044,
+      "ConnectionTypeID": 33,
+      "ConnectionType": {
+        "ID": 33,
+        "Title": "CCS (Type 2)",
+        "FormalName": "IEC 62196-3 Configuration FF",
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
+        "IsUserSelectable": true
+      },
+      "LevelID": 3,
+      "Level": {
+        "ID": 3,
+        "Title": "Level 3:  High (Over 40kW)",
+        "Comments": "40KW and Higher",
+        "IsFastChargeCapable": true
+      },
+      "Amps": null,
+      "Voltage": null,
+      "PowerKW": 50,
+      "CurrentTypeID": 30,
+      "CurrentType": {
+        "ID": 30,
+        "Title": "DC",
+        "Description": "Direct Current"
+      },
+      "Quantity": 1,
+      "Comments": null
+    }
+  ],
+  "NumberOfPoints": 1,
+  "GeneralComments": null,
+  "DatePlanned": null,
+  "DateLastConfirmed": null,
+  "StatusTypeID": 50,
+  "DateLastStatusUpdate": {
+    "$date": "2017-11-28T07:39:00Z"
+  },
+  "MetadataValues": null,
+  "DataQualityLevel": 1,
+  "DateCreated": {
+    "$date": "2015-11-21T09:49:00Z"
+  },
+  "SubmissionStatusTypeID": 200,
+  "AddressCleaningRequired": false,
+  "DataProvider": {
+    "ID": 1,
+    "Title": "Open Charge Map Contributors",
+    "WebsiteURL": "http://openchargemap.org",
+    "Comments": null,
+    "DataProviderStatusType": {
+      "ID": 1,
+      "Title": "Manual Data Entry",
+      "IsProviderEnabled": true
+    },
+    "IsRestrictedEdit": false,
+    "IsOpenDataLicensed": true,
+    "IsApprovedImport": true,
+    "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+    "DateLastImported": null
+  },
+  "OperatorInfo": {
+    "ID": 45,
+    "Title": "(Business Owner at Location)",
+    "WebsiteURL": null,
+    "Comments": "For use when the operator of the equipment is a single business owner connected to the location and equipment is not part of a larger network",
+    "PhonePrimaryContact": null,
+    "PhoneSecondaryContact": null,
+    "IsPrivateIndividual": false,
+    "AddressInfo": null,
+    "BookingURL": null,
+    "ContactEmail": null,
+    "FaultReportEmail": null,
+    "IsRestrictedEdit": null
+  },
+  "UsageType": {
+    "ID": 1,
+    "Title": "Public",
+    "IsPayAtLocation": null,
+    "IsMembershipRequired": null,
+    "IsAccessKeyRequired": null
+  },
+  "StatusType": {
+    "ID": 50,
+    "Title": "Operational",
+    "IsOperational": true,
+    "IsUserSelectable": true
+  },
+  "SubmissionStatus": {
+    "ID": 200,
+    "Title": "Submission Published",
+    "IsLive": true
+  },
+  "UserComments": [
+    {
+      "ID": 17972,
+      "ChargePointID": 57036,
+      "CommentTypeID": 50,
+      "CommentType": {
+        "ID": 50,
+        "Title": "Important Notice (For Other Users)"
+      },
+      "UserName": "El_Christo",
+      "Comment": "DC Combo: Help via phone available. Error code suggest - according to help line - a platine error",
+      "Rating": 2,
+      "RelatedURL": null,
+      "DateCreated": {
+        "$date": "2017-11-28T07:39:17.537Z"
+      },
+      "User": {
+        "ID": 12126,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "El_Christo",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 9,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/c97a3a2b4b3274df0562ab5b425f5739?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "CheckinStatusTypeID": 20,
+      "CheckinStatusType": {
+        "ID": 20,
+        "Title": "Failed to Charge (Equipment Not Operational)",
+        "IsPositive": false,
+        "IsAutomatedCheckin": false
+      },
+      "IsActionedByEditor": null
+    },
+    {
+      "ID": 17404,
+      "ChargePointID": 57036,
+      "CommentTypeID": 10,
+      "CommentType": {
+        "ID": 10,
+        "Title": "General Comment"
+      },
+      "UserName": "Marienkarpfen",
+      "Comment": "Is working very fine",
+      "Rating": 5,
+      "RelatedURL": null,
+      "DateCreated": {
+        "$date": "2017-06-15T14:08:55.54Z"
+      },
+      "User": {
+        "ID": 15522,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "Marienkarpfen",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 6,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/84ff9eabeb2f0067845b0be1cb19cf52?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "CheckinStatusTypeID": 10,
+      "CheckinStatusType": {
+        "ID": 10,
+        "Title": "Charged Successfully",
+        "IsPositive": true,
+        "IsAutomatedCheckin": false
+      },
+      "IsActionedByEditor": null
+    },
+    {
+      "ID": 10425,
+      "ChargePointID": 57036,
+      "CommentTypeID": 10,
+      "CommentType": {
+        "ID": 10,
+        "Title": "General Comment"
+      },
+      "UserName": "Dreman69",
+      "Comment": "The best 24 hours charging Station you can get in Munich.",
+      "Rating": 5,
+      "RelatedURL": null,
+      "DateCreated": {
+        "$date": "2016-05-16T13:25:14.447Z"
+      },
+      "User": {
+        "ID": 6725,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "Dreman69",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 3,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/65ce60eb504d0b851b19a01fda7d3742?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "CheckinStatusTypeID": 10,
+      "CheckinStatusType": {
+        "ID": 10,
+        "Title": "Charged Successfully",
+        "IsPositive": true,
+        "IsAutomatedCheckin": false
+      },
+      "IsActionedByEditor": null
+    }
+  ],
+  "PercentageSimilarity": null,
+  "MediaItems": [
+    {
+      "ID": 12865,
+      "ChargePointID": 57036,
+      "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM57036/OCM-57036.orig.2017061514060961.jpg",
+      "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM57036/OCM-57036.thmb.2017061514060961.jpg",
+      "Comment": "",
+      "IsEnabled": true,
+      "IsVideo": false,
+      "IsFeaturedItem": false,
+      "IsExternalResource": false,
+      "MetadataValue": null,
+      "User": {
+        "ID": 15522,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "Marienkarpfen",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 6,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/84ff9eabeb2f0067845b0be1cb19cf52?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "DateCreated": {
+        "$date": "2017-06-15T14:06:00Z"
+      }
+    },
+    {
+      "ID": 6299,
+      "ChargePointID": 57036,
+      "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM57036/OCM-57036.orig.2016042309104771.jpg",
+      "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM57036/OCM-57036.thmb.2016042309104771.jpg",
+      "Comment": "",
+      "IsEnabled": true,
+      "IsVideo": false,
+      "IsFeaturedItem": false,
+      "IsExternalResource": false,
+      "MetadataValue": null,
+      "User": {
+        "ID": 6725,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "Dreman69",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 3,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/65ce60eb504d0b851b19a01fda7d3742?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "DateCreated": {
+        "$date": "2016-04-23T09:11:00Z"
+      }
+    }
+  ],
+  "LevelOfDetail": null,
+  "Chargers": null,
+  "MetadataTags": null,
+  "SpatialPosition": {
+    "type": "Point",
+    "coordinates": [
+      11.6428777,
+      48.1384623
+    ]
+  }
+}

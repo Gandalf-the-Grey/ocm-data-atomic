@@ -1,0 +1,226 @@
+{
+  "ID": 61364,
+  "UUID": "AA41EDC0-49AD-4968-AEBA-9C3A371AA363",
+  "ParentChargePointID": null,
+  "DataProviderID": 1,
+  "DataProvidersReference": null,
+  "OperatorID": 20,
+  "OperatorsReference": "51232",
+  "UsageTypeID": 6,
+  "UsageCost": "Free",
+  "AddressInfo": {
+    "ID": 61710,
+    "Title": "Murrayburn Depot",
+    "AddressLine1": "33 Murrayburn Road",
+    "AddressLine2": null,
+    "Town": "Edinburgh",
+    "StateOrProvince": null,
+    "Postcode": "EH14 2TF",
+    "CountryID": 1,
+    "Country": {
+      "ID": 1,
+      "Title": "United Kingdom",
+      "ISOCode": "GB",
+      "ContinentCode": "EU"
+    },
+    "Latitude": 55.92229,
+    "Longitude": -3.26992,
+    "ContactTelephone1": null,
+    "ContactTelephone2": null,
+    "ContactEmail": null,
+    "AccessComments": null,
+    "RelatedURL": null,
+    "Distance": null,
+    "DistanceUnit": 0,
+    "GeneralComments": null
+  },
+  "Connections": [
+    {
+      "ID": 78158,
+      "ConnectionTypeID": 2,
+      "ConnectionType": {
+        "ID": 2,
+        "Title": "CHAdeMO",
+        "FormalName": "IEC 62196-3 Configuration AA",
+        "IsDiscontinued": null,
+        "IsObsolete": null
+      },
+      "Reference": null,
+      "StatusTypeID": 0,
+      "StatusType": {
+        "ID": 0,
+        "Title": "Unknown",
+        "IsOperational": null,
+        "IsUserSelectable": true
+      },
+      "LevelID": 3,
+      "Level": {
+        "ID": 3,
+        "Title": "Level 3:  High (Over 40kW)",
+        "Comments": "40KW and Higher",
+        "IsFastChargeCapable": true
+      },
+      "Amps": 125,
+      "Voltage": 400,
+      "PowerKW": 50,
+      "CurrentTypeID": 30,
+      "CurrentType": {
+        "ID": 30,
+        "Title": "DC",
+        "Description": "Direct Current"
+      },
+      "Quantity": 1,
+      "Comments": null
+    },
+    {
+      "ID": 78159,
+      "ConnectionTypeID": 1036,
+      "ConnectionType": {
+        "ID": 1036,
+        "Title": "Type 2 (Tethered Connector) ",
+        "FormalName": "IEC 62196-2",
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": null,
+      "StatusTypeID": 0,
+      "StatusType": {
+        "ID": 0,
+        "Title": "Unknown",
+        "IsOperational": null,
+        "IsUserSelectable": true
+      },
+      "LevelID": 3,
+      "Level": {
+        "ID": 3,
+        "Title": "Level 3:  High (Over 40kW)",
+        "Comments": "40KW and Higher",
+        "IsFastChargeCapable": true
+      },
+      "Amps": 63,
+      "Voltage": 400,
+      "PowerKW": 43,
+      "CurrentTypeID": 20,
+      "CurrentType": {
+        "ID": 20,
+        "Title": "AC (Three-Phase)",
+        "Description": "Alternating Current - Three Phase"
+      },
+      "Quantity": 1,
+      "Comments": null
+    },
+    {
+      "ID": 78160,
+      "ConnectionTypeID": 33,
+      "ConnectionType": {
+        "ID": 33,
+        "Title": "CCS (Type 2)",
+        "FormalName": "IEC 62196-3 Configuration FF",
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": null,
+      "StatusTypeID": 0,
+      "StatusType": {
+        "ID": 0,
+        "Title": "Unknown",
+        "IsOperational": null,
+        "IsUserSelectable": true
+      },
+      "LevelID": 3,
+      "Level": {
+        "ID": 3,
+        "Title": "Level 3:  High (Over 40kW)",
+        "Comments": "40KW and Higher",
+        "IsFastChargeCapable": true
+      },
+      "Amps": 125,
+      "Voltage": 400,
+      "PowerKW": 50,
+      "CurrentTypeID": 30,
+      "CurrentType": {
+        "ID": 30,
+        "Title": "DC",
+        "Description": "Direct Current"
+      },
+      "Quantity": 1,
+      "Comments": null
+    }
+  ],
+  "NumberOfPoints": 2,
+  "GeneralComments": "This unit is for taxis and council fleet vehicles.",
+  "DatePlanned": null,
+  "DateLastConfirmed": null,
+  "StatusTypeID": 0,
+  "DateLastStatusUpdate": {
+    "$date": "2019-06-04T05:18:00Z"
+  },
+  "MetadataValues": null,
+  "DataQualityLevel": 1,
+  "DateCreated": {
+    "$date": "2016-02-26T21:07:00Z"
+  },
+  "SubmissionStatusTypeID": 1005,
+  "AddressCleaningRequired": false,
+  "DataProvider": {
+    "ID": 1,
+    "Title": "Open Charge Map Contributors",
+    "WebsiteURL": "http://openchargemap.org",
+    "Comments": null,
+    "DataProviderStatusType": {
+      "ID": 1,
+      "Title": "Manual Data Entry",
+      "IsProviderEnabled": true
+    },
+    "IsRestrictedEdit": false,
+    "IsOpenDataLicensed": true,
+    "IsApprovedImport": true,
+    "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+    "DateLastImported": null
+  },
+  "OperatorInfo": {
+    "ID": 20,
+    "Title": "Charge Your Car",
+    "WebsiteURL": "http://www.chargeyourcar.org.uk/",
+    "Comments": null,
+    "PhonePrimaryContact": "0191 26 50 500",
+    "PhoneSecondaryContact": null,
+    "IsPrivateIndividual": false,
+    "AddressInfo": null,
+    "BookingURL": null,
+    "ContactEmail": "admin@chargeyourcar.org.uk",
+    "FaultReportEmail": "admin@chargeyourcar.org.uk",
+    "IsRestrictedEdit": false
+  },
+  "UsageType": {
+    "ID": 6,
+    "Title": "Private - For Staff, Visitors or Customers",
+    "IsPayAtLocation": false,
+    "IsMembershipRequired": false,
+    "IsAccessKeyRequired": false
+  },
+  "StatusType": {
+    "ID": 0,
+    "Title": "Unknown",
+    "IsOperational": null,
+    "IsUserSelectable": true
+  },
+  "SubmissionStatus": {
+    "ID": 1005,
+    "Title": "Delisted - Superseded by Update",
+    "IsLive": false
+  },
+  "UserComments": null,
+  "PercentageSimilarity": null,
+  "MediaItems": null,
+  "LevelOfDetail": null,
+  "Chargers": null,
+  "MetadataTags": null,
+  "SpatialPosition": {
+    "type": "Point",
+    "coordinates": [
+      -3.26992,
+      55.92229
+    ]
+  }
+}

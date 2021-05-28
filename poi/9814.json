@@ -1,0 +1,525 @@
+{
+  "ID": 9814,
+  "UUID": "B9884520-212B-4385-9008-0A2CCA55DD06",
+  "ParentChargePointID": null,
+  "DataProviderID": 1,
+  "DataProvidersReference": null,
+  "OperatorID": 45,
+  "OperatorsReference": "PP-12311",
+  "UsageTypeID": 6,
+  "UsageCost": "Free",
+  "AddressInfo": {
+    "ID": 9711,
+    "Title": "Wessex Garages Cardiff",
+    "AddressLine1": "Hadfield Road",
+    "AddressLine2": null,
+    "Town": "Cardiff",
+    "StateOrProvince": "Wales",
+    "Postcode": "CF11 8AQ",
+    "CountryID": 1,
+    "Country": {
+      "ID": 1,
+      "Title": "United Kingdom",
+      "ISOCode": "GB",
+      "ContinentCode": "EU"
+    },
+    "Latitude": 51.4665486,
+    "Longitude": -3.20170359999997,
+    "ContactTelephone1": "02920 343333",
+    "ContactTelephone2": null,
+    "ContactEmail": "enquiries@wessexgarages.co.uk",
+    "AccessComments": null,
+    "RelatedURL": null,
+    "Distance": null,
+    "DistanceUnit": 0,
+    "GeneralComments": null
+  },
+  "Connections": [
+    {
+      "ID": 7665,
+      "ConnectionTypeID": 2,
+      "ConnectionType": {
+        "ID": 2,
+        "Title": "CHAdeMO",
+        "FormalName": "IEC 62196-3 Configuration AA",
+        "IsDiscontinued": null,
+        "IsObsolete": null
+      },
+      "Reference": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
+        "IsUserSelectable": true
+      },
+      "LevelID": 3,
+      "Level": {
+        "ID": 3,
+        "Title": "Level 3:  High (Over 40kW)",
+        "Comments": "40KW and Higher",
+        "IsFastChargeCapable": true
+      },
+      "Amps": 125,
+      "Voltage": 400,
+      "PowerKW": 50,
+      "CurrentTypeID": 30,
+      "CurrentType": {
+        "ID": 30,
+        "Title": "DC",
+        "Description": "Direct Current"
+      },
+      "Quantity": 2,
+      "Comments": null
+    },
+    {
+      "ID": 14080,
+      "ConnectionTypeID": 3,
+      "ConnectionType": {
+        "ID": 3,
+        "Title": "BS1363 3 Pin 13 Amp",
+        "FormalName": "BS1363 / Type G",
+        "IsDiscontinued": null,
+        "IsObsolete": null
+      },
+      "Reference": null,
+      "StatusTypeID": 75,
+      "StatusType": {
+        "ID": 75,
+        "Title": "Partly Operational (Mixed)",
+        "IsOperational": true,
+        "IsUserSelectable": true
+      },
+      "LevelID": 2,
+      "Level": {
+        "ID": 2,
+        "Title": "Level 2 : Medium (Over 2kW)",
+        "Comments": "Over 2 kW, usually non-domestic socket type",
+        "IsFastChargeCapable": false
+      },
+      "Amps": 13,
+      "Voltage": 230,
+      "PowerKW": 3,
+      "CurrentTypeID": 10,
+      "CurrentType": {
+        "ID": 10,
+        "Title": "AC (Single-Phase)",
+        "Description": "Alternating Current - Single Phase"
+      },
+      "Quantity": 2,
+      "Comments": null
+    }
+  ],
+  "NumberOfPoints": 3,
+  "GeneralComments": null,
+  "DatePlanned": null,
+  "DateLastConfirmed": null,
+  "StatusTypeID": 0,
+  "DateLastStatusUpdate": {
+    "$date": "2018-06-14T21:28:00Z"
+  },
+  "MetadataValues": null,
+  "DataQualityLevel": 1,
+  "DateCreated": {
+    "$date": "2012-04-30T13:05:00Z"
+  },
+  "SubmissionStatusTypeID": 200,
+  "AddressCleaningRequired": false,
+  "DataProvider": {
+    "ID": 1,
+    "Title": "Open Charge Map Contributors",
+    "WebsiteURL": "http://openchargemap.org",
+    "Comments": null,
+    "DataProviderStatusType": {
+      "ID": 1,
+      "Title": "Manual Data Entry",
+      "IsProviderEnabled": true
+    },
+    "IsRestrictedEdit": false,
+    "IsOpenDataLicensed": true,
+    "IsApprovedImport": true,
+    "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+    "DateLastImported": null
+  },
+  "OperatorInfo": {
+    "ID": 45,
+    "Title": "(Business Owner at Location)",
+    "WebsiteURL": null,
+    "Comments": "For use when the operator of the equipment is a single business owner connected to the location and equipment is not part of a larger network",
+    "PhonePrimaryContact": null,
+    "PhoneSecondaryContact": null,
+    "IsPrivateIndividual": false,
+    "AddressInfo": null,
+    "BookingURL": null,
+    "ContactEmail": null,
+    "FaultReportEmail": null,
+    "IsRestrictedEdit": null
+  },
+  "UsageType": {
+    "ID": 6,
+    "Title": "Private - For Staff, Visitors or Customers",
+    "IsPayAtLocation": false,
+    "IsMembershipRequired": false,
+    "IsAccessKeyRequired": false
+  },
+  "StatusType": {
+    "ID": 0,
+    "Title": "Unknown",
+    "IsOperational": null,
+    "IsUserSelectable": true
+  },
+  "SubmissionStatus": {
+    "ID": 200,
+    "Title": "Submission Published",
+    "IsLive": true
+  },
+  "UserComments": [
+    {
+      "ID": 10213,
+      "ChargePointID": 9814,
+      "CommentTypeID": 10,
+      "CommentType": {
+        "ID": 10,
+        "Title": "General Comment"
+      },
+      "UserName": "Welshleaf",
+      "Comment": "Staff will usually be happy to assist with moving vehicle(s) to access chargers",
+      "Rating": 4,
+      "RelatedURL": null,
+      "DateCreated": {
+        "$date": "2016-04-18T19:40:02.69Z"
+      },
+      "User": {
+        "ID": 4908,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "Welshleaf",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 10,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/40e68f066b959057ca7fce2c7cb4c300?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "CheckinStatusTypeID": 10,
+      "CheckinStatusType": {
+        "ID": 10,
+        "Title": "Charged Successfully",
+        "IsPositive": true,
+        "IsAutomatedCheckin": false
+      },
+      "IsActionedByEditor": null
+    },
+    {
+      "ID": 1318,
+      "ChargePointID": 9814,
+      "CommentTypeID": 10,
+      "CommentType": {
+        "ID": 10,
+        "Title": "General Comment"
+      },
+      "UserName": "Martin Winlow",
+      "Comment": "Ian - Did you notice what error code the RC was giving?  Could  you have left the C-0's ignition on?  matwinlowdotcodotuk",
+      "Rating": null,
+      "RelatedURL": null,
+      "DateCreated": {
+        "$date": "2014-10-20T16:01:22.84Z"
+      },
+      "User": {
+        "ID": 1479,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "Martin Winlow",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 17,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": null,
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "CheckinStatusTypeID": 0,
+      "CheckinStatusType": {
+        "ID": 0,
+        "Title": "Did Not Visit Location",
+        "IsPositive": null,
+        "IsAutomatedCheckin": false
+      },
+      "IsActionedByEditor": null
+    },
+    {
+      "ID": 1316,
+      "ChargePointID": 9814,
+      "CommentTypeID": 50,
+      "CommentType": {
+        "ID": 50,
+        "Title": "Important Notice (For Other Users)"
+      },
+      "UserName": "Ian James",
+      "Comment": "Synced with my c-zero then failed, repeated several times, failed continuously. No charge. Also point being used for staff cars and took a while to track down keys to move. Staff tried and equipment seemed to work with Leafs but not C-Zero. Not resolved. ",
+      "Rating": 1,
+      "RelatedURL": null,
+      "DateCreated": {
+        "$date": "2014-10-20T08:50:07.167Z"
+      },
+      "User": {
+        "ID": 2353,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "Ian James",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 1,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": null,
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "CheckinStatusTypeID": 25,
+      "CheckinStatusType": {
+        "ID": 25,
+        "Title": "Failed to Charge (Equipment Problem)",
+        "IsPositive": false,
+        "IsAutomatedCheckin": false
+      },
+      "IsActionedByEditor": null
+    },
+    {
+      "ID": 739,
+      "ChargePointID": 9814,
+      "CommentTypeID": 50,
+      "CommentType": {
+        "ID": 50,
+        "Title": "Important Notice (For Other Users)"
+      },
+      "UserName": "Harel peretz",
+      "Comment": "Conexion ok but , the manager park one car behind my car for block the exit of my car.  becose only its for customers , 3 pins conection used. bad , never again ",
+      "Rating": 1,
+      "RelatedURL": null,
+      "DateCreated": {
+        "$date": "2014-04-17T18:33:09.923Z"
+      },
+      "User": {
+        "ID": 1572,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "Harel peretz",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 18,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/4901457b6e1707ebdddcfef256893238?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "CheckinStatusTypeID": 200,
+      "CheckinStatusType": {
+        "ID": 200,
+        "Title": "Other (Negative/Bad)",
+        "IsPositive": false,
+        "IsAutomatedCheckin": false
+      },
+      "IsActionedByEditor": null
+    },
+    {
+      "ID": 277,
+      "ChargePointID": 9814,
+      "CommentTypeID": 10,
+      "CommentType": {
+        "ID": 10,
+        "Title": "General Comment"
+      },
+      "UserName": "Nikki Gordon-Bloomfield",
+      "Comment": "Charged again succesfully today. Dealers are helpful and friendly :) ",
+      "Rating": 5,
+      "RelatedURL": null,
+      "DateCreated": {
+        "$date": "2013-03-22T11:19:44.907Z"
+      },
+      "User": {
+        "ID": 1034,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "Nikki Gordon-Bloomfield",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 43,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/ace877aac73b3afffabd0eb5b6dec7c5?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "CheckinStatusTypeID": null,
+      "CheckinStatusType": null,
+      "IsActionedByEditor": null
+    },
+    {
+      "ID": 251,
+      "ChargePointID": 9814,
+      "CommentTypeID": 10,
+      "CommentType": {
+        "ID": 10,
+        "Title": "General Comment"
+      },
+      "UserName": "Nikki Gordon-Bloomfield",
+      "Comment": "Charged successfully. Talked to Carl Thorne, EVRM. rapid charge is temperamental so best to phone in advance. ",
+      "Rating": 5,
+      "RelatedURL": null,
+      "DateCreated": {
+        "$date": "2013-02-18T15:47:43.72Z"
+      },
+      "User": {
+        "ID": 1034,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "Nikki Gordon-Bloomfield",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 43,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/ace877aac73b3afffabd0eb5b6dec7c5?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "CheckinStatusTypeID": null,
+      "CheckinStatusType": null,
+      "IsActionedByEditor": null
+    },
+    {
+      "ID": 239,
+      "ChargePointID": 9814,
+      "CommentTypeID": 10,
+      "CommentType": {
+        "ID": 10,
+        "Title": "General Comment"
+      },
+      "UserName": "Nikki Gordon-Bloomfield",
+      "Comment": "Called today (16 Jan, 2013). Was told that the CHADeMO charging Station is still waiting for parts, and that it will charge some Leafs but not others. Suggest you avoid! ",
+      "Rating": 1,
+      "RelatedURL": null,
+      "DateCreated": {
+        "$date": "2013-01-17T14:31:59.823Z"
+      },
+      "User": {
+        "ID": 1034,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "Nikki Gordon-Bloomfield",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 43,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/ace877aac73b3afffabd0eb5b6dec7c5?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "CheckinStatusTypeID": null,
+      "CheckinStatusType": null,
+      "IsActionedByEditor": null
+    }
+  ],
+  "PercentageSimilarity": null,
+  "MediaItems": null,
+  "LevelOfDetail": null,
+  "Chargers": null,
+  "MetadataTags": null,
+  "SpatialPosition": {
+    "type": "Point",
+    "coordinates": [
+      -3.20170359999997,
+      51.4665486
+    ]
+  }
+}

@@ -1,0 +1,697 @@
+{
+  "ID": 61503,
+  "UUID": "29A1B95B-6FAA-4143-BE33-BC3D036EFEC2",
+  "ParentChargePointID": null,
+  "DataProviderID": 1,
+  "DataProvidersReference": null,
+  "OperatorID": 47,
+  "OperatorsReference": "T53_2415_014,ICUEVE900224,ICUEVE900222,ICUEVE900223",
+  "UsageTypeID": 4,
+  "UsageCost": "£0.20/kWh. 7kW are free. Parking fees apply.",
+  "AddressInfo": {
+    "ID": 61849,
+    "Title": "Carlton Street Car Park",
+    "AddressLine1": "12 Carlton Street",
+    "AddressLine2": null,
+    "Town": "Weston-Super-Mare",
+    "StateOrProvince": "North Somerset",
+    "Postcode": "BS23 1UA",
+    "CountryID": 1,
+    "Country": {
+      "ID": 1,
+      "Title": "United Kingdom",
+      "ISOCode": "GB",
+      "ContinentCode": "EU"
+    },
+    "Latitude": 51.3452166,
+    "Longitude": -2.97815749999995,
+    "ContactTelephone1": null,
+    "ContactTelephone2": null,
+    "ContactEmail": null,
+    "AccessComments": "In Carlton Street Multi-Storey pay and display car park, on ground floor. Max height 2.6m",
+    "RelatedURL": "https://www.n-somerset.gov.uk/my-services/parking-travel-roads/parking/tickets-penalty-charges-enforcement-restrictions/restrictions-car-parks/",
+    "Distance": null,
+    "DistanceUnit": 0,
+    "GeneralComments": null
+  },
+  "Connections": [
+    {
+      "ID": 78377,
+      "ConnectionTypeID": 2,
+      "ConnectionType": {
+        "ID": 2,
+        "Title": "CHAdeMO",
+        "FormalName": "IEC 62196-3 Configuration AA",
+        "IsDiscontinued": null,
+        "IsObsolete": null
+      },
+      "Reference": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
+        "IsUserSelectable": true
+      },
+      "LevelID": 3,
+      "Level": {
+        "ID": 3,
+        "Title": "Level 3:  High (Over 40kW)",
+        "Comments": "40KW and Higher",
+        "IsFastChargeCapable": true
+      },
+      "Amps": 125,
+      "Voltage": 400,
+      "PowerKW": 50,
+      "CurrentTypeID": 30,
+      "CurrentType": {
+        "ID": 30,
+        "Title": "DC",
+        "Description": "Direct Current"
+      },
+      "Quantity": 1,
+      "Comments": null
+    },
+    {
+      "ID": 78378,
+      "ConnectionTypeID": 1036,
+      "ConnectionType": {
+        "ID": 1036,
+        "Title": "Type 2 (Tethered Connector) ",
+        "FormalName": "IEC 62196-2",
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
+        "IsUserSelectable": true
+      },
+      "LevelID": 3,
+      "Level": {
+        "ID": 3,
+        "Title": "Level 3:  High (Over 40kW)",
+        "Comments": "40KW and Higher",
+        "IsFastChargeCapable": true
+      },
+      "Amps": 63,
+      "Voltage": 400,
+      "PowerKW": 43,
+      "CurrentTypeID": 20,
+      "CurrentType": {
+        "ID": 20,
+        "Title": "AC (Three-Phase)",
+        "Description": "Alternating Current - Three Phase"
+      },
+      "Quantity": 1,
+      "Comments": null
+    },
+    {
+      "ID": 83410,
+      "ConnectionTypeID": 33,
+      "ConnectionType": {
+        "ID": 33,
+        "Title": "CCS (Type 2)",
+        "FormalName": "IEC 62196-3 Configuration FF",
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
+        "IsUserSelectable": true
+      },
+      "LevelID": 3,
+      "Level": {
+        "ID": 3,
+        "Title": "Level 3:  High (Over 40kW)",
+        "Comments": "40KW and Higher",
+        "IsFastChargeCapable": true
+      },
+      "Amps": 125,
+      "Voltage": 400,
+      "PowerKW": 50,
+      "CurrentTypeID": 30,
+      "CurrentType": {
+        "ID": 30,
+        "Title": "DC",
+        "Description": "Direct Current"
+      },
+      "Quantity": 1,
+      "Comments": null
+    },
+    {
+      "ID": 92121,
+      "ConnectionTypeID": 25,
+      "ConnectionType": {
+        "ID": 25,
+        "Title": "Type 2 (Socket Only)",
+        "FormalName": "IEC 62196-2 Type 2",
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
+        "IsUserSelectable": true
+      },
+      "LevelID": 2,
+      "Level": {
+        "ID": 2,
+        "Title": "Level 2 : Medium (Over 2kW)",
+        "Comments": "Over 2 kW, usually non-domestic socket type",
+        "IsFastChargeCapable": false
+      },
+      "Amps": 32,
+      "Voltage": 230,
+      "PowerKW": 7,
+      "CurrentTypeID": 10,
+      "CurrentType": {
+        "ID": 10,
+        "Title": "AC (Single-Phase)",
+        "Description": "Alternating Current - Single Phase"
+      },
+      "Quantity": 8,
+      "Comments": null
+    }
+  ],
+  "NumberOfPoints": 8,
+  "GeneralComments": "ABB Terra 53 rapid charger.",
+  "DatePlanned": null,
+  "DateLastConfirmed": null,
+  "StatusTypeID": 50,
+  "DateLastStatusUpdate": {
+    "$date": "2018-04-12T22:54:00Z"
+  },
+  "MetadataValues": null,
+  "DataQualityLevel": 1,
+  "DateCreated": {
+    "$date": "2016-03-02T15:04:00Z"
+  },
+  "SubmissionStatusTypeID": 200,
+  "AddressCleaningRequired": false,
+  "DataProvider": {
+    "ID": 1,
+    "Title": "Open Charge Map Contributors",
+    "WebsiteURL": "http://openchargemap.org",
+    "Comments": null,
+    "DataProviderStatusType": {
+      "ID": 1,
+      "Title": "Manual Data Entry",
+      "IsProviderEnabled": true
+    },
+    "IsRestrictedEdit": false,
+    "IsOpenDataLicensed": true,
+    "IsApprovedImport": true,
+    "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+    "DateLastImported": null
+  },
+  "OperatorInfo": {
+    "ID": 47,
+    "Title": "The New Motion (NL)",
+    "WebsiteURL": "http://www.thenewmotion.com/",
+    "Comments": null,
+    "PhonePrimaryContact": "088 01 09 500",
+    "PhoneSecondaryContact": null,
+    "IsPrivateIndividual": false,
+    "AddressInfo": null,
+    "BookingURL": null,
+    "ContactEmail": "info@thenewmotion.com",
+    "FaultReportEmail": "klantenservice@thenewmotion.com",
+    "IsRestrictedEdit": false
+  },
+  "UsageType": {
+    "ID": 4,
+    "Title": "Public - Membership Required",
+    "IsPayAtLocation": false,
+    "IsMembershipRequired": true,
+    "IsAccessKeyRequired": true
+  },
+  "StatusType": {
+    "ID": 50,
+    "Title": "Operational",
+    "IsOperational": true,
+    "IsUserSelectable": true
+  },
+  "SubmissionStatus": {
+    "ID": 200,
+    "Title": "Submission Published",
+    "IsLive": true
+  },
+  "UserComments": [
+    {
+      "ID": 19411,
+      "ChargePointID": 61503,
+      "CommentTypeID": 10,
+      "CommentType": {
+        "ID": 10,
+        "Title": "General Comment"
+      },
+      "UserName": "Clive ",
+      "Comment": "",
+      "Rating": null,
+      "RelatedURL": null,
+      "DateCreated": {
+        "$date": "2018-04-12T22:53:38.56Z"
+      },
+      "User": {
+        "ID": 9176,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "Clive ",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 61,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/80201ca27ca30c2fd8d3647dd8ae6d9c?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "CheckinStatusTypeID": 10,
+      "CheckinStatusType": {
+        "ID": 10,
+        "Title": "Charged Successfully",
+        "IsPositive": true,
+        "IsAutomatedCheckin": false
+      },
+      "IsActionedByEditor": null
+    },
+    {
+      "ID": 19403,
+      "ChargePointID": 61503,
+      "CommentTypeID": 10,
+      "CommentType": {
+        "ID": 10,
+        "Title": "General Comment"
+      },
+      "UserName": "Clive ",
+      "Comment": "",
+      "Rating": null,
+      "RelatedURL": null,
+      "DateCreated": {
+        "$date": "2018-04-11T03:29:33.94Z"
+      },
+      "User": {
+        "ID": 9176,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "Clive ",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 61,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/80201ca27ca30c2fd8d3647dd8ae6d9c?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "CheckinStatusTypeID": 10,
+      "CheckinStatusType": {
+        "ID": 10,
+        "Title": "Charged Successfully",
+        "IsPositive": true,
+        "IsAutomatedCheckin": false
+      },
+      "IsActionedByEditor": null
+    },
+    {
+      "ID": 17572,
+      "ChargePointID": 61503,
+      "CommentTypeID": 100,
+      "CommentType": {
+        "ID": 100,
+        "Title": "Suggested Change (Note To Editors)"
+      },
+      "UserName": "Uncle Dave",
+      "Comment": "Charged using a polar card last weekend but it says its now run by https://newmotion.com/en_GB",
+      "Rating": null,
+      "RelatedURL": null,
+      "DateCreated": {
+        "$date": "2017-08-10T07:44:18.567Z"
+      },
+      "User": {
+        "ID": 11911,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "Uncle Dave",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 84,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/82f7613d252b2daf0d177825279c8ef1?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "CheckinStatusTypeID": 10,
+      "CheckinStatusType": {
+        "ID": 10,
+        "Title": "Charged Successfully",
+        "IsPositive": true,
+        "IsAutomatedCheckin": false
+      },
+      "IsActionedByEditor": null
+    },
+    {
+      "ID": 17319,
+      "ChargePointID": 61503,
+      "CommentTypeID": 110,
+      "CommentType": {
+        "ID": 110,
+        "Title": "Suggested Changed (Actioned By Editor)"
+      },
+      "UserName": "Simon Hewison",
+      "Comment": "Confirmed that none are showing live on CYC map, and are showing as live on New Motion's map.",
+      "Rating": null,
+      "RelatedURL": null,
+      "DateCreated": {
+        "$date": "2017-05-23T18:45:44.717Z"
+      },
+      "User": {
+        "ID": 4575,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "Simon Hewison",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 47477,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/b6797fc022c04bb79e21d4ff9ba07154?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "CheckinStatusTypeID": 0,
+      "CheckinStatusType": {
+        "ID": 0,
+        "Title": "Did Not Visit Location",
+        "IsPositive": null,
+        "IsAutomatedCheckin": false
+      },
+      "IsActionedByEditor": null
+    },
+    {
+      "ID": 17316,
+      "ChargePointID": 61503,
+      "CommentTypeID": 100,
+      "CommentType": {
+        "ID": 100,
+        "Title": "Suggested Change (Note To Editors)"
+      },
+      "UserName": "Clive Timbrell",
+      "Comment": "NOT Charge your car network. Neither are fast chargers nearby. All are now New Motion which need RFID card which is not much use if you are on holiday or an app which I could not get to work. ",
+      "Rating": null,
+      "RelatedURL": null,
+      "DateCreated": {
+        "$date": "2017-05-23T10:44:39.107Z"
+      },
+      "User": {
+        "ID": 12117,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "Clive Timbrell",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 11,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": null,
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "CheckinStatusTypeID": 140,
+      "CheckinStatusType": {
+        "ID": 140,
+        "Title": "Equipment & Location Confirmed Correct",
+        "IsPositive": true,
+        "IsAutomatedCheckin": false
+      },
+      "IsActionedByEditor": null
+    },
+    {
+      "ID": 14186,
+      "ChargePointID": 61503,
+      "CommentTypeID": 10,
+      "CommentType": {
+        "ID": 10,
+        "Title": "General Comment"
+      },
+      "UserName": "Simon Hewison",
+      "Comment": "Worked perfectly with CYC card. Good cheap tariff on the rapid charger. Car park fee a bit steep though.",
+      "Rating": 5,
+      "RelatedURL": null,
+      "DateCreated": {
+        "$date": "2016-08-29T17:06:40.177Z"
+      },
+      "User": {
+        "ID": 4575,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "Simon Hewison",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 47477,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/b6797fc022c04bb79e21d4ff9ba07154?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "CheckinStatusTypeID": 10,
+      "CheckinStatusType": {
+        "ID": 10,
+        "Title": "Charged Successfully",
+        "IsPositive": true,
+        "IsAutomatedCheckin": false
+      },
+      "IsActionedByEditor": null
+    },
+    {
+      "ID": 10032,
+      "ChargePointID": 61503,
+      "CommentTypeID": 10,
+      "CommentType": {
+        "ID": 10,
+        "Title": "General Comment"
+      },
+      "UserName": "openchargemapnumpty",
+      "Comment": "This is an ELM machine. There are two located in the disabled first floor area. Requires Charge Your Car card, Electromtive or motion card. Telephone and app pay as you go both did not work for me. Failed to connect.",
+      "Rating": 3,
+      "RelatedURL": null,
+      "DateCreated": {
+        "$date": "2016-03-29T07:48:08.517Z"
+      },
+      "User": {
+        "ID": 9165,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "openchargemapnumpty",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 18,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/8d4ff15e6ec4d8cb79d4f1023cee318d?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "CheckinStatusTypeID": 40,
+      "CheckinStatusType": {
+        "ID": 40,
+        "Title": "Failed to Charge (Required Other Access Card/Fob etc.)",
+        "IsPositive": false,
+        "IsAutomatedCheckin": false
+      },
+      "IsActionedByEditor": null
+    }
+  ],
+  "PercentageSimilarity": null,
+  "MediaItems": [
+    {
+      "ID": 6121,
+      "ChargePointID": 61503,
+      "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM61503/OCM-61503.orig.2016032907582209.jpeg",
+      "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM61503/OCM-61503.thmb.2016032907582209.jpeg",
+      "Comment": "You also have to pay for parking! I'd say go to the two free rapid charging points at the Nissan Dealers instead.",
+      "IsEnabled": true,
+      "IsVideo": false,
+      "IsFeaturedItem": false,
+      "IsExternalResource": false,
+      "MetadataValue": null,
+      "User": {
+        "ID": 9165,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "openchargemapnumpty",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 18,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/8d4ff15e6ec4d8cb79d4f1023cee318d?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "DateCreated": {
+        "$date": "2016-03-29T07:59:00Z"
+      }
+    },
+    {
+      "ID": 6120,
+      "ChargePointID": 61503,
+      "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM61503/OCM-61503.orig.2016032907573136.jpeg",
+      "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM61503/OCM-61503.thmb.2016032907573136.jpeg",
+      "Comment": "You also have to pay for parking! I'd say go to the two free rapid charging points at the Nissan Dealers instead.",
+      "IsEnabled": true,
+      "IsVideo": false,
+      "IsFeaturedItem": false,
+      "IsExternalResource": false,
+      "MetadataValue": null,
+      "User": {
+        "ID": 9165,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "openchargemapnumpty",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 18,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/8d4ff15e6ec4d8cb79d4f1023cee318d?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "DateCreated": {
+        "$date": "2016-03-29T07:58:00Z"
+      }
+    }
+  ],
+  "LevelOfDetail": null,
+  "Chargers": null,
+  "MetadataTags": null,
+  "SpatialPosition": {
+    "type": "Point",
+    "coordinates": [
+      -2.97815749999995,
+      51.3452166
+    ]
+  }
+}

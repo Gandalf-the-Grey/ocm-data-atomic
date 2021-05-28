@@ -1,0 +1,166 @@
+{
+  "ID": 70235,
+  "UUID": "0FB04725-A61B-4790-BBF5-077AF3C1A8EE",
+  "ParentChargePointID": null,
+  "DataProviderID": 1,
+  "DataProvidersReference": null,
+  "OperatorID": null,
+  "OperatorsReference": null,
+  "UsageTypeID": 2,
+  "UsageCost": null,
+  "AddressInfo": {
+    "ID": 70581,
+    "Title": "LADWP - Joint Service Center",
+    "AddressLine1": "1230 W 3rd St",
+    "AddressLine2": null,
+    "Town": "Los Angeles",
+    "StateOrProvince": "CA",
+    "Postcode": "90017",
+    "CountryID": 2,
+    "Country": {
+      "ID": 2,
+      "Title": "United States",
+      "ISOCode": "US",
+      "ContinentCode": "NA"
+    },
+    "Latitude": 34.057008,
+    "Longitude": -118.259212,
+    "ContactTelephone1": "800-342-5397",
+    "ContactTelephone2": null,
+    "ContactEmail": null,
+    "AccessComments": "24 hours daily",
+    "RelatedURL": null,
+    "Distance": null,
+    "DistanceUnit": 0,
+    "GeneralComments": null
+  },
+  "Connections": [
+    {
+      "ID": 100276,
+      "ConnectionTypeID": 1,
+      "ConnectionType": {
+        "ID": 1,
+        "Title": "Type 1 (J1772)",
+        "FormalName": "SAE J1772-2009",
+        "IsDiscontinued": null,
+        "IsObsolete": null
+      },
+      "Reference": null,
+      "StatusTypeID": null,
+      "StatusType": null,
+      "LevelID": 2,
+      "Level": {
+        "ID": 2,
+        "Title": "Level 2 : Medium (Over 2kW)",
+        "Comments": "Over 2 kW, usually non-domestic socket type",
+        "IsFastChargeCapable": false
+      },
+      "Amps": 16,
+      "Voltage": 230,
+      "PowerKW": 3,
+      "CurrentTypeID": 10,
+      "CurrentType": {
+        "ID": 10,
+        "Title": "AC (Single-Phase)",
+        "Description": "Alternating Current - Single Phase"
+      },
+      "Quantity": 14,
+      "Comments": null
+    },
+    {
+      "ID": 157794,
+      "ConnectionTypeID": 2,
+      "ConnectionType": {
+        "ID": 2,
+        "Title": "CHAdeMO",
+        "FormalName": "IEC 62196-3 Configuration AA",
+        "IsDiscontinued": null,
+        "IsObsolete": null
+      },
+      "Reference": null,
+      "StatusTypeID": null,
+      "StatusType": null,
+      "LevelID": 2,
+      "Level": {
+        "ID": 2,
+        "Title": "Level 2 : Medium (Over 2kW)",
+        "Comments": "Over 2 kW, usually non-domestic socket type",
+        "IsFastChargeCapable": false
+      },
+      "Amps": 100,
+      "Voltage": 400,
+      "PowerKW": 40,
+      "CurrentTypeID": 10,
+      "CurrentType": {
+        "ID": 10,
+        "Title": "AC (Single-Phase)",
+        "Description": "Alternating Current - Single Phase"
+      },
+      "Quantity": 1,
+      "Comments": null
+    }
+  ],
+  "NumberOfPoints": null,
+  "GeneralComments": null,
+  "DatePlanned": null,
+  "DateLastConfirmed": null,
+  "StatusTypeID": 0,
+  "DateLastStatusUpdate": {
+    "$date": "2018-11-22T11:49:00Z"
+  },
+  "MetadataValues": null,
+  "DataQualityLevel": 3,
+  "DateCreated": {
+    "$date": "2016-07-14T00:53:00Z"
+  },
+  "SubmissionStatusTypeID": 100,
+  "AddressCleaningRequired": false,
+  "DataProvider": {
+    "ID": 1,
+    "Title": "Open Charge Map Contributors",
+    "WebsiteURL": "http://openchargemap.org",
+    "Comments": null,
+    "DataProviderStatusType": {
+      "ID": 1,
+      "Title": "Manual Data Entry",
+      "IsProviderEnabled": true
+    },
+    "IsRestrictedEdit": false,
+    "IsOpenDataLicensed": true,
+    "IsApprovedImport": true,
+    "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+    "DateLastImported": null
+  },
+  "OperatorInfo": null,
+  "UsageType": {
+    "ID": 2,
+    "Title": "Private - Restricted Access",
+    "IsPayAtLocation": null,
+    "IsMembershipRequired": true,
+    "IsAccessKeyRequired": null
+  },
+  "StatusType": {
+    "ID": 0,
+    "Title": "Unknown",
+    "IsOperational": null,
+    "IsUserSelectable": true
+  },
+  "SubmissionStatus": {
+    "ID": 100,
+    "Title": "Imported and Published",
+    "IsLive": true
+  },
+  "UserComments": null,
+  "PercentageSimilarity": null,
+  "MediaItems": null,
+  "LevelOfDetail": null,
+  "Chargers": null,
+  "MetadataTags": null,
+  "SpatialPosition": {
+    "type": "Point",
+    "coordinates": [
+      -118.259212,
+      34.057008
+    ]
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "ID": 113366,
+  "UUID": "2BB36FA5-57E7-4523-B20E-56D6CDE49862",
+  "ParentChargePointID": null,
+  "DataProviderID": 2,
+  "DataProvidersReference": "39852",
+  "OperatorID": null,
+  "OperatorsReference": null,
+  "UsageTypeID": 7,
+  "UsageCost": null,
+  "AddressInfo": {
+    "ID": 113712,
+    "Title": "Jack Ingram Motors",
+    "AddressLine1": "227 Eastern Bypass",
+    "AddressLine2": null,
+    "Town": "Montgomery",
+    "StateOrProvince": "AL",
+    "Postcode": "36117",
+    "CountryID": 2,
+    "Country": {
+      "ID": 2,
+      "Title": "United States",
+      "ISOCode": "US",
+      "ContinentCode": "NA"
+    },
+    "Latitude": 32.377023134253,
+    "Longitude": -86.2085353796234,
+    "ContactTelephone1": "334-277-5700",
+    "ContactTelephone2": null,
+    "ContactEmail": null,
+    "AccessComments": "Dealership business hours",
+    "RelatedURL": "",
+    "Distance": null,
+    "DistanceUnit": 0,
+    "GeneralComments": null
+  },
+  "Connections": [
+    {
+      "ID": 159667,
+      "ConnectionTypeID": 1,
+      "ConnectionType": {
+        "ID": 1,
+        "Title": "Type 1 (J1772)",
+        "FormalName": "SAE J1772-2009",
+        "IsDiscontinued": null,
+        "IsObsolete": null
+      },
+      "Reference": null,
+      "StatusTypeID": null,
+      "StatusType": null,
+      "LevelID": 2,
+      "Level": {
+        "ID": 2,
+        "Title": "Level 2 : Medium (Over 2kW)",
+        "Comments": "Over 2 kW, usually non-domestic socket type",
+        "IsFastChargeCapable": false
+      },
+      "Amps": 16,
+      "Voltage": 230,
+      "PowerKW": 3,
+      "CurrentTypeID": 10,
+      "CurrentType": {
+        "ID": 10,
+        "Title": "AC (Single-Phase)",
+        "Description": "Alternating Current - Single Phase"
+      },
+      "Quantity": 1,
+      "Comments": null
+    },
+    {
+      "ID": 159668,
+      "ConnectionTypeID": 2,
+      "ConnectionType": {
+        "ID": 2,
+        "Title": "CHAdeMO",
+        "FormalName": "IEC 62196-3 Configuration AA",
+        "IsDiscontinued": null,
+        "IsObsolete": null
+      },
+      "Reference": null,
+      "StatusTypeID": null,
+      "StatusType": null,
+      "LevelID": 2,
+      "Level": {
+        "ID": 2,
+        "Title": "Level 2 : Medium (Over 2kW)",
+        "Comments": "Over 2 kW, usually non-domestic socket type",
+        "IsFastChargeCapable": false
+      },
+      "Amps": 100,
+      "Voltage": 400,
+      "PowerKW": 40,
+      "CurrentTypeID": 10,
+      "CurrentType": {
+        "ID": 10,
+        "Title": "AC (Single-Phase)",
+        "Description": "Alternating Current - Single Phase"
+      },
+      "Quantity": 1,
+      "Comments": null
+    },
+    {
+      "ID": 159669,
+      "ConnectionTypeID": 32,
+      "ConnectionType": {
+        "ID": 32,
+        "Title": "CCS (Type 1)",
+        "FormalName": "IEC 62196-3 Configuration EE",
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": null,
+      "StatusTypeID": null,
+      "StatusType": null,
+      "LevelID": 2,
+      "Level": {
+        "ID": 2,
+        "Title": "Level 2 : Medium (Over 2kW)",
+        "Comments": "Over 2 kW, usually non-domestic socket type",
+        "IsFastChargeCapable": false
+      },
+      "Amps": 100,
+      "Voltage": 400,
+      "PowerKW": 40,
+      "CurrentTypeID": 10,
+      "CurrentType": {
+        "ID": 10,
+        "Title": "AC (Single-Phase)",
+        "Description": "Alternating Current - Single Phase"
+      },
+      "Quantity": 1,
+      "Comments": null
+    }
+  ],
+  "NumberOfPoints": null,
+  "GeneralComments": null,
+  "DatePlanned": null,
+  "DateLastConfirmed": null,
+  "StatusTypeID": 0,
+  "DateLastStatusUpdate": {
+    "$date": "2018-12-05T22:51:00Z"
+  },
+  "MetadataValues": null,
+  "DataQualityLevel": 1,
+  "DateCreated": {
+    "$date": "2011-07-04T18:02:00Z"
+  },
+  "SubmissionStatusTypeID": 1005,
+  "AddressCleaningRequired": false,
+  "DataProvider": {
+    "ID": 2,
+    "Title": "afdc.energy.gov",
+    "WebsiteURL": "http://www.afdc.energy.gov/",
+    "Comments": null,
+    "DataProviderStatusType": {
+      "ID": 20,
+      "Title": "Automated Import",
+      "IsProviderEnabled": true
+    },
+    "IsRestrictedEdit": false,
+    "IsOpenDataLicensed": true,
+    "IsApprovedImport": true,
+    "License": "This data is provided by the National Renewable Energy Laboratory (\"NREL\"), which is operated by the Alliance for Sustainable Energy, LLC (\"Alliance\"), for the U.S. Department of Energy (\"DOE\"), and may be used for any purpose whatsoever.",
+    "DateLastImported": {
+      "$date": "2021-03-27T13:40:33.127Z"
+    }
+  },
+  "OperatorInfo": null,
+  "UsageType": {
+    "ID": 7,
+    "Title": "Public - Notice Required",
+    "IsPayAtLocation": false,
+    "IsMembershipRequired": false,
+    "IsAccessKeyRequired": false
+  },
+  "StatusType": {
+    "ID": 0,
+    "Title": "Unknown",
+    "IsOperational": null,
+    "IsUserSelectable": true
+  },
+  "SubmissionStatus": {
+    "ID": 1005,
+    "Title": "Delisted - Superseded by Update",
+    "IsLive": false
+  },
+  "UserComments": null,
+  "PercentageSimilarity": null,
+  "MediaItems": null,
+  "LevelOfDetail": null,
+  "Chargers": null,
+  "MetadataTags": null,
+  "SpatialPosition": {
+    "type": "Point",
+    "coordinates": [
+      -86.2085353796234,
+      32.377023134253
+    ]
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "ID": 107850,
+  "UUID": "1E293AFB-34D3-41BA-90D5-10EA083CBC0F",
+  "ParentChargePointID": null,
+  "DataProviderID": 1,
+  "DataProvidersReference": null,
+  "OperatorID": 45,
+  "OperatorsReference": null,
+  "UsageTypeID": 1,
+  "UsageCost": "1990 HUF / 2990 HUF",
+  "AddressInfo": {
+    "ID": 108196,
+    "Title": "Debrecen, Segner tér (MOL)",
+    "AddressLine1": "Nyugati utca 6.",
+    "AddressLine2": null,
+    "Town": "Debrecen",
+    "StateOrProvince": "Hajdú-Bihar megye",
+    "Postcode": "4025",
+    "CountryID": 104,
+    "Country": {
+      "ID": 104,
+      "Title": "Hungary",
+      "ISOCode": "HU",
+      "ContinentCode": "EU"
+    },
+    "Latitude": 47.528225666434416,
+    "Longitude": 21.613762899613903,
+    "ContactTelephone1": "+36 1 881-8111",
+    "ContactTelephone2": null,
+    "ContactEmail": "info@molplugee.hu",
+    "AccessComments": null,
+    "RelatedURL": "https://plugee.hu",
+    "Distance": null,
+    "DistanceUnit": 0,
+    "GeneralComments": null
+  },
+  "Connections": [
+    {
+      "ID": 152291,
+      "ConnectionTypeID": 2,
+      "ConnectionType": {
+        "ID": 2,
+        "Title": "CHAdeMO",
+        "FormalName": "IEC 62196-3 Configuration AA",
+        "IsDiscontinued": null,
+        "IsObsolete": null
+      },
+      "Reference": null,
+      "StatusTypeID": 150,
+      "StatusType": {
+        "ID": 150,
+        "Title": "Planned For Future Date",
+        "IsOperational": false,
+        "IsUserSelectable": true
+      },
+      "LevelID": 3,
+      "Level": {
+        "ID": 3,
+        "Title": "Level 3:  High (Over 40kW)",
+        "Comments": "40KW and Higher",
+        "IsFastChargeCapable": true
+      },
+      "Amps": 125,
+      "Voltage": 500,
+      "PowerKW": 50,
+      "CurrentTypeID": 30,
+      "CurrentType": {
+        "ID": 30,
+        "Title": "DC",
+        "Description": "Direct Current"
+      },
+      "Quantity": 1,
+      "Comments": null
+    },
+    {
+      "ID": 152292,
+      "ConnectionTypeID": 33,
+      "ConnectionType": {
+        "ID": 33,
+        "Title": "CCS (Type 2)",
+        "FormalName": "IEC 62196-3 Configuration FF",
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": null,
+      "StatusTypeID": 150,
+      "StatusType": {
+        "ID": 150,
+        "Title": "Planned For Future Date",
+        "IsOperational": false,
+        "IsUserSelectable": true
+      },
+      "LevelID": 3,
+      "Level": {
+        "ID": 3,
+        "Title": "Level 3:  High (Over 40kW)",
+        "Comments": "40KW and Higher",
+        "IsFastChargeCapable": true
+      },
+      "Amps": 125,
+      "Voltage": 500,
+      "PowerKW": 50,
+      "CurrentTypeID": 30,
+      "CurrentType": {
+        "ID": 30,
+        "Title": "DC",
+        "Description": "Direct Current"
+      },
+      "Quantity": 1,
+      "Comments": null
+    },
+    {
+      "ID": 152293,
+      "ConnectionTypeID": 1036,
+      "ConnectionType": {
+        "ID": 1036,
+        "Title": "Type 2 (Tethered Connector) ",
+        "FormalName": "IEC 62196-2",
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": null,
+      "StatusTypeID": 150,
+      "StatusType": {
+        "ID": 150,
+        "Title": "Planned For Future Date",
+        "IsOperational": false,
+        "IsUserSelectable": true
+      },
+      "LevelID": 2,
+      "Level": {
+        "ID": 2,
+        "Title": "Level 2 : Medium (Over 2kW)",
+        "Comments": "Over 2 kW, usually non-domestic socket type",
+        "IsFastChargeCapable": false
+      },
+      "Amps": 32,
+      "Voltage": 400,
+      "PowerKW": 22,
+      "CurrentTypeID": 20,
+      "CurrentType": {
+        "ID": 20,
+        "Title": "AC (Three-Phase)",
+        "Description": "Alternating Current - Three Phase"
+      },
+      "Quantity": 1,
+      "Comments": null
+    }
+  ],
+  "NumberOfPoints": 2,
+  "GeneralComments": null,
+  "DatePlanned": null,
+  "DateLastConfirmed": null,
+  "StatusTypeID": 150,
+  "DateLastStatusUpdate": {
+    "$date": "2018-08-13T09:52:00Z"
+  },
+  "MetadataValues": null,
+  "DataQualityLevel": 1,
+  "DateCreated": {
+    "$date": "2018-08-13T09:52:00Z"
+  },
+  "SubmissionStatusTypeID": 200,
+  "AddressCleaningRequired": false,
+  "DataProvider": {
+    "ID": 1,
+    "Title": "Open Charge Map Contributors",
+    "WebsiteURL": "http://openchargemap.org",
+    "Comments": null,
+    "DataProviderStatusType": {
+      "ID": 1,
+      "Title": "Manual Data Entry",
+      "IsProviderEnabled": true
+    },
+    "IsRestrictedEdit": false,
+    "IsOpenDataLicensed": true,
+    "IsApprovedImport": true,
+    "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+    "DateLastImported": null
+  },
+  "OperatorInfo": {
+    "ID": 45,
+    "Title": "(Business Owner at Location)",
+    "WebsiteURL": null,
+    "Comments": "For use when the operator of the equipment is a single business owner connected to the location and equipment is not part of a larger network",
+    "PhonePrimaryContact": null,
+    "PhoneSecondaryContact": null,
+    "IsPrivateIndividual": false,
+    "AddressInfo": null,
+    "BookingURL": null,
+    "ContactEmail": null,
+    "FaultReportEmail": null,
+    "IsRestrictedEdit": null
+  },
+  "UsageType": {
+    "ID": 1,
+    "Title": "Public",
+    "IsPayAtLocation": null,
+    "IsMembershipRequired": null,
+    "IsAccessKeyRequired": null
+  },
+  "StatusType": {
+    "ID": 150,
+    "Title": "Planned For Future Date",
+    "IsOperational": false,
+    "IsUserSelectable": true
+  },
+  "SubmissionStatus": {
+    "ID": 200,
+    "Title": "Submission Published",
+    "IsLive": true
+  },
+  "UserComments": null,
+  "PercentageSimilarity": null,
+  "MediaItems": null,
+  "LevelOfDetail": null,
+  "Chargers": null,
+  "MetadataTags": null,
+  "SpatialPosition": {
+    "type": "Point",
+    "coordinates": [
+      21.613762899613903,
+      47.528225666434416
+    ]
+  }
+}

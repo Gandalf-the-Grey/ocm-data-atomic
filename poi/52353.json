@@ -1,0 +1,282 @@
+{
+  "ID": 52353,
+  "UUID": "C8A68A66-02FC-4758-AD0D-565304018ED7",
+  "ParentChargePointID": null,
+  "DataProviderID": 1,
+  "DataProvidersReference": null,
+  "OperatorID": 105,
+  "OperatorsReference": null,
+  "UsageTypeID": 1,
+  "UsageCost": "0",
+  "AddressInfo": {
+    "ID": 52699,
+    "Title": "Rathaus (mit E-Bike Station)",
+    "AddressLine1": "Brüner Str. 9",
+    "AddressLine2": null,
+    "Town": "Hamminkeln",
+    "StateOrProvince": null,
+    "Postcode": "46499",
+    "CountryID": 87,
+    "Country": {
+      "ID": 87,
+      "Title": "Germany",
+      "ISOCode": "DE",
+      "ContinentCode": "EU"
+    },
+    "Latitude": 51.7300829,
+    "Longitude": 6.59326110000006,
+    "ContactTelephone1": null,
+    "ContactTelephone2": null,
+    "ContactEmail": null,
+    "AccessComments": "E-Bike Station durchgehend nutzbar, Autoladestation mit RWE Vertrag.",
+    "RelatedURL": "http://www.rwe.com/web/cms/de/494436/e-bikes-on-tour/ladestationen/",
+    "Distance": null,
+    "DistanceUnit": 0,
+    "GeneralComments": null
+  },
+  "Connections": [
+    {
+      "ID": 65006,
+      "ConnectionTypeID": 28,
+      "ConnectionType": {
+        "ID": 28,
+        "Title": "CEE 7/4 - Schuko - Type F",
+        "FormalName": "CEE 7/4",
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
+        "IsUserSelectable": true
+      },
+      "LevelID": 1,
+      "Level": {
+        "ID": 1,
+        "Title": "Level 1 : Low (Under 2kW)",
+        "Comments": "Under 2 kW, usually domestic socket types",
+        "IsFastChargeCapable": false
+      },
+      "Amps": 10,
+      "Voltage": 230,
+      "PowerKW": 2.3,
+      "CurrentTypeID": 10,
+      "CurrentType": {
+        "ID": 10,
+        "Title": "AC (Single-Phase)",
+        "Description": "Alternating Current - Single Phase"
+      },
+      "Quantity": 3,
+      "Comments": null
+    },
+    {
+      "ID": 83767,
+      "ConnectionTypeID": 25,
+      "ConnectionType": {
+        "ID": 25,
+        "Title": "Type 2 (Socket Only)",
+        "FormalName": "IEC 62196-2 Type 2",
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
+        "IsUserSelectable": true
+      },
+      "LevelID": 2,
+      "Level": {
+        "ID": 2,
+        "Title": "Level 2 : Medium (Over 2kW)",
+        "Comments": "Over 2 kW, usually non-domestic socket type",
+        "IsFastChargeCapable": false
+      },
+      "Amps": 32,
+      "Voltage": 400,
+      "PowerKW": 22,
+      "CurrentTypeID": 20,
+      "CurrentType": {
+        "ID": 20,
+        "Title": "AC (Three-Phase)",
+        "Description": "Alternating Current - Three Phase"
+      },
+      "Quantity": 2,
+      "Comments": null
+    }
+  ],
+  "NumberOfPoints": 5,
+  "GeneralComments": null,
+  "DatePlanned": null,
+  "DateLastConfirmed": null,
+  "StatusTypeID": 50,
+  "DateLastStatusUpdate": {
+    "$date": "2017-01-07T20:01:00Z"
+  },
+  "MetadataValues": null,
+  "DataQualityLevel": 1,
+  "DateCreated": {
+    "$date": "2015-08-28T20:48:00Z"
+  },
+  "SubmissionStatusTypeID": 200,
+  "AddressCleaningRequired": false,
+  "DataProvider": {
+    "ID": 1,
+    "Title": "Open Charge Map Contributors",
+    "WebsiteURL": "http://openchargemap.org",
+    "Comments": null,
+    "DataProviderStatusType": {
+      "ID": 1,
+      "Title": "Manual Data Entry",
+      "IsProviderEnabled": true
+    },
+    "IsRestrictedEdit": false,
+    "IsOpenDataLicensed": true,
+    "IsApprovedImport": true,
+    "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+    "DateLastImported": null
+  },
+  "OperatorInfo": {
+    "ID": 105,
+    "Title": "Innogy SE (RWE eMobility)",
+    "WebsiteURL": "https://www.rwe-mobility.com/",
+    "Comments": null,
+    "PhonePrimaryContact": "+49(0) 800 88 88 862",
+    "PhoneSecondaryContact": null,
+    "IsPrivateIndividual": false,
+    "AddressInfo": null,
+    "BookingURL": null,
+    "ContactEmail": null,
+    "FaultReportEmail": null,
+    "IsRestrictedEdit": false
+  },
+  "UsageType": {
+    "ID": 1,
+    "Title": "Public",
+    "IsPayAtLocation": null,
+    "IsMembershipRequired": null,
+    "IsAccessKeyRequired": null
+  },
+  "StatusType": {
+    "ID": 50,
+    "Title": "Operational",
+    "IsOperational": true,
+    "IsUserSelectable": true
+  },
+  "SubmissionStatus": {
+    "ID": 200,
+    "Title": "Submission Published",
+    "IsLive": true
+  },
+  "UserComments": [
+    {
+      "ID": 14793,
+      "ChargePointID": 52353,
+      "CommentTypeID": 10,
+      "CommentType": {
+        "ID": 10,
+        "Title": "General Comment"
+      },
+      "UserName": "Sordone",
+      "Comment": "Charging was not working via E-charge app. Had to call helpdesk. ",
+      "Rating": 5,
+      "RelatedURL": null,
+      "DateCreated": {
+        "$date": "2017-01-07T20:01:27.72Z"
+      },
+      "User": {
+        "ID": 6216,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "Sordone",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 68,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/d3cd7b9009798b5b31638000961cfd0e?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "CheckinStatusTypeID": 10,
+      "CheckinStatusType": {
+        "ID": 10,
+        "Title": "Charged Successfully",
+        "IsPositive": true,
+        "IsAutomatedCheckin": false
+      },
+      "IsActionedByEditor": null
+    }
+  ],
+  "PercentageSimilarity": null,
+  "MediaItems": [
+    {
+      "ID": 8976,
+      "ChargePointID": 52353,
+      "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM52353/OCM-52353.orig.2017010720000015.jpg",
+      "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM52353/OCM-52353.thmb.2017010720000015.jpg",
+      "Comment": "",
+      "IsEnabled": true,
+      "IsVideo": false,
+      "IsFeaturedItem": false,
+      "IsExternalResource": false,
+      "MetadataValue": null,
+      "User": {
+        "ID": 6216,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "Sordone",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 68,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/d3cd7b9009798b5b31638000961cfd0e?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "DateCreated": {
+        "$date": "2017-01-07T20:00:00Z"
+      }
+    }
+  ],
+  "LevelOfDetail": null,
+  "Chargers": null,
+  "MetadataTags": null,
+  "SpatialPosition": {
+    "type": "Point",
+    "coordinates": [
+      6.59326110000006,
+      51.7300829
+    ]
+  }
+}

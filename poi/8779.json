@@ -1,0 +1,194 @@
+{
+  "ID": 8779,
+  "UUID": "7669A570-82DA-435C-91BA-CC17797F261E",
+  "ParentChargePointID": null,
+  "DataProviderID": 1,
+  "DataProvidersReference": null,
+  "OperatorID": null,
+  "OperatorsReference": null,
+  "UsageTypeID": 1,
+  "UsageCost": "Free",
+  "AddressInfo": {
+    "ID": 8676,
+    "Title": "Centre commercial Auchan Arras",
+    "AddressLine1": "225 avenue Winston Churchill",
+    "AddressLine2": null,
+    "Town": "Arras",
+    "StateOrProvince": null,
+    "Postcode": "62000",
+    "CountryID": 80,
+    "Country": {
+      "ID": 80,
+      "Title": "France",
+      "ISOCode": "FR",
+      "ContinentCode": "EU"
+    },
+    "Latitude": 50.30050264322309,
+    "Longitude": 2.7331436671508946,
+    "ContactTelephone1": "+33(0)3.21.51.98.98",
+    "ContactTelephone2": null,
+    "ContactEmail": null,
+    "AccessComments": "http://www.auchan.fr/magasin/services/retrait/serviceRetrait.jsp?idPageMagasin=-3&idMg=69          Du lundi au jeudi de 08h30 à 21h30. Du vendredi au samedi de 08h30 à 22h00.  ",
+    "RelatedURL": "http://www.auchan.fr/magasins/arras/69/informations-pratiques/",
+    "Distance": null,
+    "DistanceUnit": 0,
+    "GeneralComments": null
+  },
+  "Connections": [
+    {
+      "ID": 6257,
+      "ConnectionTypeID": 0,
+      "ConnectionType": {
+        "ID": 0,
+        "Title": "Unknown",
+        "FormalName": "Not Specified",
+        "IsDiscontinued": null,
+        "IsObsolete": null
+      },
+      "Reference": null,
+      "StatusTypeID": 0,
+      "StatusType": {
+        "ID": 0,
+        "Title": "Unknown",
+        "IsOperational": null,
+        "IsUserSelectable": true
+      },
+      "LevelID": null,
+      "Level": null,
+      "Amps": 16,
+      "Voltage": null,
+      "PowerKW": null,
+      "CurrentTypeID": null,
+      "CurrentType": null,
+      "Quantity": 12,
+      "Comments": null
+    },
+    {
+      "ID": 25130,
+      "ConnectionTypeID": 2,
+      "ConnectionType": {
+        "ID": 2,
+        "Title": "CHAdeMO",
+        "FormalName": "IEC 62196-3 Configuration AA",
+        "IsDiscontinued": null,
+        "IsObsolete": null
+      },
+      "Reference": null,
+      "StatusTypeID": null,
+      "StatusType": null,
+      "LevelID": 3,
+      "Level": {
+        "ID": 3,
+        "Title": "Level 3:  High (Over 40kW)",
+        "Comments": "40KW and Higher",
+        "IsFastChargeCapable": true
+      },
+      "Amps": null,
+      "Voltage": null,
+      "PowerKW": null,
+      "CurrentTypeID": 30,
+      "CurrentType": {
+        "ID": 30,
+        "Title": "DC",
+        "Description": "Direct Current"
+      },
+      "Quantity": 1,
+      "Comments": null
+    },
+    {
+      "ID": 25131,
+      "ConnectionTypeID": 25,
+      "ConnectionType": {
+        "ID": 25,
+        "Title": "Type 2 (Socket Only)",
+        "FormalName": "IEC 62196-2 Type 2",
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": null,
+      "StatusTypeID": null,
+      "StatusType": null,
+      "LevelID": 3,
+      "Level": {
+        "ID": 3,
+        "Title": "Level 3:  High (Over 40kW)",
+        "Comments": "40KW and Higher",
+        "IsFastChargeCapable": true
+      },
+      "Amps": null,
+      "Voltage": null,
+      "PowerKW": null,
+      "CurrentTypeID": 20,
+      "CurrentType": {
+        "ID": 20,
+        "Title": "AC (Three-Phase)",
+        "Description": "Alternating Current - Three Phase"
+      },
+      "Quantity": 1,
+      "Comments": null
+    }
+  ],
+  "NumberOfPoints": 12,
+  "GeneralComments": "six bornes avec chacune deux prises 16A",
+  "DatePlanned": null,
+  "DateLastConfirmed": null,
+  "StatusTypeID": 150,
+  "DateLastStatusUpdate": {
+    "$date": "2014-09-25T13:05:00Z"
+  },
+  "MetadataValues": null,
+  "DataQualityLevel": 1,
+  "DateCreated": {
+    "$date": "2011-11-22T14:59:00Z"
+  },
+  "SubmissionStatusTypeID": 200,
+  "AddressCleaningRequired": false,
+  "DataProvider": {
+    "ID": 1,
+    "Title": "Open Charge Map Contributors",
+    "WebsiteURL": "http://openchargemap.org",
+    "Comments": null,
+    "DataProviderStatusType": {
+      "ID": 1,
+      "Title": "Manual Data Entry",
+      "IsProviderEnabled": true
+    },
+    "IsRestrictedEdit": false,
+    "IsOpenDataLicensed": true,
+    "IsApprovedImport": true,
+    "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+    "DateLastImported": null
+  },
+  "OperatorInfo": null,
+  "UsageType": {
+    "ID": 1,
+    "Title": "Public",
+    "IsPayAtLocation": null,
+    "IsMembershipRequired": null,
+    "IsAccessKeyRequired": null
+  },
+  "StatusType": {
+    "ID": 150,
+    "Title": "Planned For Future Date",
+    "IsOperational": false,
+    "IsUserSelectable": true
+  },
+  "SubmissionStatus": {
+    "ID": 200,
+    "Title": "Submission Published",
+    "IsLive": true
+  },
+  "UserComments": null,
+  "PercentageSimilarity": null,
+  "MediaItems": null,
+  "LevelOfDetail": null,
+  "Chargers": null,
+  "MetadataTags": null,
+  "SpatialPosition": {
+    "type": "Point",
+    "coordinates": [
+      2.7331436671508946,
+      50.30050264322309
+    ]
+  }
+}

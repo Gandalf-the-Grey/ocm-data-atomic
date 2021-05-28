@@ -1,0 +1,405 @@
+{
+  "ID": 66307,
+  "UUID": "5827D8CA-2C47-4260-8570-81A50D32BF14",
+  "ParentChargePointID": null,
+  "DataProviderID": 1,
+  "DataProvidersReference": null,
+  "OperatorID": 45,
+  "OperatorsReference": null,
+  "UsageTypeID": 6,
+  "UsageCost": "Free for guests / $5-$15 for non-guests based on car/battery size",
+  "AddressInfo": {
+    "ID": 66653,
+    "Title": "Travelodge Santa Monica",
+    "AddressLine1": "3102 Pico Blvd",
+    "AddressLine2": "",
+    "Town": "Santa Monica",
+    "StateOrProvince": "CA",
+    "Postcode": "90405",
+    "CountryID": 2,
+    "Country": {
+      "ID": 2,
+      "Title": "United States",
+      "ISOCode": "US",
+      "ContinentCode": "NA"
+    },
+    "Latitude": 34.0257921,
+    "Longitude": -118.4571468,
+    "ContactTelephone1": "+13104505766",
+    "ContactTelephone2": "",
+    "ContactEmail": "",
+    "AccessComments": "Have to go to front office to unlock chargers. Free for guests $5-$15 charge for non-guests depending on car/battery size. ",
+    "RelatedURL": "",
+    "Distance": null,
+    "DistanceUnit": 0,
+    "GeneralComments": null
+  },
+  "Connections": [
+    {
+      "ID": 91670,
+      "ConnectionTypeID": 1,
+      "ConnectionType": {
+        "ID": 1,
+        "Title": "Type 1 (J1772)",
+        "FormalName": "SAE J1772-2009",
+        "IsDiscontinued": null,
+        "IsObsolete": null
+      },
+      "Reference": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
+        "IsUserSelectable": true
+      },
+      "LevelID": 2,
+      "Level": {
+        "ID": 2,
+        "Title": "Level 2 : Medium (Over 2kW)",
+        "Comments": "Over 2 kW, usually non-domestic socket type",
+        "IsFastChargeCapable": false
+      },
+      "Amps": 32,
+      "Voltage": 240,
+      "PowerKW": 7.68,
+      "CurrentTypeID": 10,
+      "CurrentType": {
+        "ID": 10,
+        "Title": "AC (Single-Phase)",
+        "Description": "Alternating Current - Single Phase"
+      },
+      "Quantity": 2,
+      "Comments": null
+    },
+    {
+      "ID": 91671,
+      "ConnectionTypeID": 30,
+      "ConnectionType": {
+        "ID": 30,
+        "Title": "Tesla (Model S/X)",
+        "FormalName": null,
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
+        "IsUserSelectable": true
+      },
+      "LevelID": 2,
+      "Level": {
+        "ID": 2,
+        "Title": "Level 2 : Medium (Over 2kW)",
+        "Comments": "Over 2 kW, usually non-domestic socket type",
+        "IsFastChargeCapable": false
+      },
+      "Amps": 32,
+      "Voltage": 240,
+      "PowerKW": 7.68,
+      "CurrentTypeID": 10,
+      "CurrentType": {
+        "ID": 10,
+        "Title": "AC (Single-Phase)",
+        "Description": "Alternating Current - Single Phase"
+      },
+      "Quantity": 2,
+      "Comments": null
+    }
+  ],
+  "NumberOfPoints": 4,
+  "GeneralComments": "Pay front office",
+  "DatePlanned": null,
+  "DateLastConfirmed": null,
+  "StatusTypeID": 50,
+  "DateLastStatusUpdate": {
+    "$date": "2016-05-17T20:42:00Z"
+  },
+  "MetadataValues": null,
+  "DataQualityLevel": 1,
+  "DateCreated": {
+    "$date": "2016-05-17T19:04:00Z"
+  },
+  "SubmissionStatusTypeID": 200,
+  "AddressCleaningRequired": false,
+  "DataProvider": {
+    "ID": 1,
+    "Title": "Open Charge Map Contributors",
+    "WebsiteURL": "http://openchargemap.org",
+    "Comments": null,
+    "DataProviderStatusType": {
+      "ID": 1,
+      "Title": "Manual Data Entry",
+      "IsProviderEnabled": true
+    },
+    "IsRestrictedEdit": false,
+    "IsOpenDataLicensed": true,
+    "IsApprovedImport": true,
+    "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+    "DateLastImported": null
+  },
+  "OperatorInfo": {
+    "ID": 45,
+    "Title": "(Business Owner at Location)",
+    "WebsiteURL": null,
+    "Comments": "For use when the operator of the equipment is a single business owner connected to the location and equipment is not part of a larger network",
+    "PhonePrimaryContact": null,
+    "PhoneSecondaryContact": null,
+    "IsPrivateIndividual": false,
+    "AddressInfo": null,
+    "BookingURL": null,
+    "ContactEmail": null,
+    "FaultReportEmail": null,
+    "IsRestrictedEdit": null
+  },
+  "UsageType": {
+    "ID": 6,
+    "Title": "Private - For Staff, Visitors or Customers",
+    "IsPayAtLocation": false,
+    "IsMembershipRequired": false,
+    "IsAccessKeyRequired": false
+  },
+  "StatusType": {
+    "ID": 50,
+    "Title": "Operational",
+    "IsOperational": true,
+    "IsUserSelectable": true
+  },
+  "SubmissionStatus": {
+    "ID": 200,
+    "Title": "Submission Published",
+    "IsLive": true
+  },
+  "UserComments": [
+    {
+      "ID": 10434,
+      "ChargePointID": 66307,
+      "CommentTypeID": 50,
+      "CommentType": {
+        "ID": 50,
+        "Title": "Important Notice (For Other Users)"
+      },
+      "UserName": "dennis_p",
+      "Comment": "At 32A, the equipment could go faster, but restricted by feed, additionally, rather pricey $5-$15 charge for non guests is a non-starter.  Tesla Roadsters are $10, Model S 60 is $11, and Modl S 85 is $15. ",
+      "Rating": 3,
+      "RelatedURL": null,
+      "DateCreated": {
+        "$date": "2016-05-17T20:42:00.15Z"
+      },
+      "User": {
+        "ID": 4648,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "dennis_p",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 136,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": null,
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "CheckinStatusTypeID": 10,
+      "CheckinStatusType": {
+        "ID": 10,
+        "Title": "Charged Successfully",
+        "IsPositive": true,
+        "IsAutomatedCheckin": false
+      },
+      "IsActionedByEditor": null
+    }
+  ],
+  "PercentageSimilarity": null,
+  "MediaItems": [
+    {
+      "ID": 6458,
+      "ChargePointID": 66307,
+      "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM66307/OCM-66307.orig.2016051720234883.jpeg",
+      "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM66307/OCM-66307.thmb.2016051720234883.jpeg",
+      "Comment": "All the chargers are locked. Must go to office to unlock and pay for non-guests. ",
+      "IsEnabled": true,
+      "IsVideo": false,
+      "IsFeaturedItem": false,
+      "IsExternalResource": false,
+      "MetadataValue": null,
+      "User": {
+        "ID": 4648,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "dennis_p",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 136,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": null,
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "DateCreated": {
+        "$date": "2016-05-17T20:24:00Z"
+      }
+    },
+    {
+      "ID": 6457,
+      "ChargePointID": 66307,
+      "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM66307/OCM-66307.orig.2016051720222785.jpeg",
+      "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM66307/OCM-66307.thmb.2016051720222785.jpeg",
+      "Comment": "With HCSharp's CAN SR, Roadsters can use Tesla Destination Chargers!",
+      "IsEnabled": true,
+      "IsVideo": false,
+      "IsFeaturedItem": false,
+      "IsExternalResource": false,
+      "MetadataValue": null,
+      "User": {
+        "ID": 4648,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "dennis_p",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 136,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": null,
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "DateCreated": {
+        "$date": "2016-05-17T20:23:00Z"
+      }
+    },
+    {
+      "ID": 6456,
+      "ChargePointID": 66307,
+      "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM66307/OCM-66307.orig.2016051720205697.jpeg",
+      "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM66307/OCM-66307.thmb.2016051720205697.jpeg",
+      "Comment": "Could be ICED. Check with office if staying overnight here. ",
+      "IsEnabled": true,
+      "IsVideo": false,
+      "IsFeaturedItem": false,
+      "IsExternalResource": false,
+      "MetadataValue": null,
+      "User": {
+        "ID": 4648,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "dennis_p",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 136,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": null,
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "DateCreated": {
+        "$date": "2016-05-17T20:21:00Z"
+      }
+    },
+    {
+      "ID": 6455,
+      "ChargePointID": 66307,
+      "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM66307/OCM-66307.orig.2016051720184206.jpeg",
+      "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM66307/OCM-66307.thmb.2016051720184206.jpeg",
+      "Comment": "Enter parking lot nearest to office",
+      "IsEnabled": true,
+      "IsVideo": false,
+      "IsFeaturedItem": false,
+      "IsExternalResource": false,
+      "MetadataValue": null,
+      "User": {
+        "ID": 4648,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "dennis_p",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 136,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": null,
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "DateCreated": {
+        "$date": "2016-05-17T20:19:00Z"
+      }
+    }
+  ],
+  "LevelOfDetail": null,
+  "Chargers": null,
+  "MetadataTags": null,
+  "SpatialPosition": {
+    "type": "Point",
+    "coordinates": [
+      -118.4571468,
+      34.0257921
+    ]
+  }
+}

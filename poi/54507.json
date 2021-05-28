@@ -1,0 +1,189 @@
+{
+  "ID": 54507,
+  "UUID": "084D6549-B9F9-4459-806F-C2DAD92EE7A5",
+  "ParentChargePointID": null,
+  "DataProviderID": 1,
+  "DataProvidersReference": null,
+  "OperatorID": 44,
+  "OperatorsReference": null,
+  "UsageTypeID": 1,
+  "UsageCost": "Spende",
+  "AddressInfo": {
+    "ID": 54853,
+    "Title": "Crowdfunding Ladepunkt Zarpen",
+    "AddressLine1": "Hauptstraße 52",
+    "AddressLine2": null,
+    "Town": "Zarpen",
+    "StateOrProvince": "Nordstormarn",
+    "Postcode": "23619",
+    "CountryID": 87,
+    "Country": {
+      "ID": 87,
+      "Title": "Germany",
+      "ISOCode": "DE",
+      "ContinentCode": "EU"
+    },
+    "Latitude": 53.8708870534741,
+    "Longitude": 10.5183325373649,
+    "ContactTelephone1": null,
+    "ContactTelephone2": null,
+    "ContactEmail": null,
+    "AccessComments": "An der Hauptstraße an der Ampel auf den Parkplatz mit Infotafel fahren. Die Ladebox ist auf der Rückseite dieser Tafel. 24/7 nutzbar ohne Ladekarte.\r\nUmgebung: Gasthof Eckkrug Mo-Sa ab 17:30 geöffnet, Döner Di-So 12-22Uhr.",
+    "RelatedURL": "http://www.goingelectric.de/forum/goingelectric-crowdfunding/ladepunkt-23619-zarpen-am-ak-luebeck-in-planung-t11747.html",
+    "Distance": null,
+    "DistanceUnit": 0,
+    "GeneralComments": null
+  },
+  "Connections": [
+    {
+      "ID": 68776,
+      "ConnectionTypeID": 25,
+      "ConnectionType": {
+        "ID": 25,
+        "Title": "Type 2 (Socket Only)",
+        "FormalName": "IEC 62196-2 Type 2",
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
+        "IsUserSelectable": true
+      },
+      "LevelID": 3,
+      "Level": {
+        "ID": 3,
+        "Title": "Level 3:  High (Over 40kW)",
+        "Comments": "40KW and Higher",
+        "IsFastChargeCapable": true
+      },
+      "Amps": 63,
+      "Voltage": 400,
+      "PowerKW": 43,
+      "CurrentTypeID": 20,
+      "CurrentType": {
+        "ID": 20,
+        "Title": "AC (Three-Phase)",
+        "Description": "Alternating Current - Three Phase"
+      },
+      "Quantity": 1,
+      "Comments": null
+    },
+    {
+      "ID": 68777,
+      "ConnectionTypeID": 17,
+      "ConnectionType": {
+        "ID": 17,
+        "Title": "CEE 5 Pin",
+        "FormalName": null,
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
+        "IsUserSelectable": true
+      },
+      "LevelID": 2,
+      "Level": {
+        "ID": 2,
+        "Title": "Level 2 : Medium (Over 2kW)",
+        "Comments": "Over 2 kW, usually non-domestic socket type",
+        "IsFastChargeCapable": false
+      },
+      "Amps": 32,
+      "Voltage": 400,
+      "PowerKW": 22,
+      "CurrentTypeID": 20,
+      "CurrentType": {
+        "ID": 20,
+        "Title": "AC (Three-Phase)",
+        "Description": "Alternating Current - Three Phase"
+      },
+      "Quantity": 1,
+      "Comments": null
+    }
+  ],
+  "NumberOfPoints": 2,
+  "GeneralComments": "Ladepunkt wurde als Crowdfunding von Mitgliedern des goingelectric.de Forums finanziert und gebaut, auf Basis von OpenEVSE. Spenden werden erbeten und sollen neben dem verbrauchten Strom auch neuen Ladepunkten zu Gute kommen. \r\n\r\nEinen Anteil daran haben auch an die Stadtwerke Lübeck, die mit der dilettantischen Planung ihrer einzigen Ladesäule in Lübeck auf ihrem abgesperrten Betriebsgelände viel Unmut auf sich gezogen haben und dafür sogar eine eigene Ladekarte herausgeben.",
+  "DatePlanned": null,
+  "DateLastConfirmed": null,
+  "StatusTypeID": 50,
+  "DateLastStatusUpdate": {
+    "$date": "2015-10-05T21:14:00Z"
+  },
+  "MetadataValues": null,
+  "DataQualityLevel": 1,
+  "DateCreated": {
+    "$date": "2015-10-05T11:51:00Z"
+  },
+  "SubmissionStatusTypeID": 200,
+  "AddressCleaningRequired": false,
+  "DataProvider": {
+    "ID": 1,
+    "Title": "Open Charge Map Contributors",
+    "WebsiteURL": "http://openchargemap.org",
+    "Comments": null,
+    "DataProviderStatusType": {
+      "ID": 1,
+      "Title": "Manual Data Entry",
+      "IsProviderEnabled": true
+    },
+    "IsRestrictedEdit": false,
+    "IsOpenDataLicensed": true,
+    "IsApprovedImport": true,
+    "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+    "DateLastImported": null
+  },
+  "OperatorInfo": {
+    "ID": 44,
+    "Title": "(Private Residence/Individual)",
+    "WebsiteURL": null,
+    "Comments": "For use when the operator is a home owner or private individual making their own facilities available to the public",
+    "PhonePrimaryContact": null,
+    "PhoneSecondaryContact": null,
+    "IsPrivateIndividual": true,
+    "AddressInfo": null,
+    "BookingURL": null,
+    "ContactEmail": null,
+    "FaultReportEmail": null,
+    "IsRestrictedEdit": null
+  },
+  "UsageType": {
+    "ID": 1,
+    "Title": "Public",
+    "IsPayAtLocation": null,
+    "IsMembershipRequired": null,
+    "IsAccessKeyRequired": null
+  },
+  "StatusType": {
+    "ID": 50,
+    "Title": "Operational",
+    "IsOperational": true,
+    "IsUserSelectable": true
+  },
+  "SubmissionStatus": {
+    "ID": 200,
+    "Title": "Submission Published",
+    "IsLive": true
+  },
+  "UserComments": null,
+  "PercentageSimilarity": null,
+  "MediaItems": null,
+  "LevelOfDetail": null,
+  "Chargers": null,
+  "MetadataTags": null,
+  "SpatialPosition": {
+    "type": "Point",
+    "coordinates": [
+      10.5183325373649,
+      53.8708870534741
+    ]
+  }
+}

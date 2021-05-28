@@ -1,0 +1,234 @@
+{
+  "ID": 158133,
+  "UUID": "E58B96BB-3C33-4A75-A57F-D1881D5A7C53",
+  "ParentChargePointID": null,
+  "DataProviderID": 1,
+  "DataProvidersReference": null,
+  "OperatorID": 150,
+  "OperatorsReference": null,
+  "UsageTypeID": 5,
+  "UsageCost": "Completely free to use until 29th October 2021.",
+  "AddressInfo": {
+    "ID": 158487,
+    "Title": "Airedale Hospital",
+    "AddressLine1": "Skipton Road",
+    "AddressLine2": "West Yorkshire",
+    "Town": "Steeton",
+    "StateOrProvince": "England",
+    "Postcode": "BD20 6TD",
+    "CountryID": 1,
+    "Country": {
+      "ID": 1,
+      "Title": "United Kingdom",
+      "ISOCode": "GB",
+      "ContinentCode": "EU"
+    },
+    "Latitude": 53.89579,
+    "Longitude": -1.96501,
+    "ContactTelephone1": "0333 666 0059",
+    "ContactTelephone2": null,
+    "ContactEmail": null,
+    "AccessComments": "Car parking charges  First 20 minutes Free Up to 2 hours £3 2 - 4 hours £5 Up to 24 hours £8",
+    "RelatedURL": "https://ev.engie.co.uk/",
+    "Distance": null,
+    "DistanceUnit": 0,
+    "GeneralComments": null
+  },
+  "Connections": [
+    {
+      "ID": 228020,
+      "ConnectionTypeID": 1036,
+      "ConnectionType": {
+        "ID": 1036,
+        "Title": "Type 2 (Tethered Connector) ",
+        "FormalName": "IEC 62196-2",
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": "1",
+      "StatusTypeID": 50,
+      "StatusType": {
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
+        "IsUserSelectable": true
+      },
+      "LevelID": 3,
+      "Level": {
+        "ID": 3,
+        "Title": "Level 3:  High (Over 40kW)",
+        "Comments": "40KW and Higher",
+        "IsFastChargeCapable": true
+      },
+      "Amps": 63,
+      "Voltage": 400,
+      "PowerKW": 43,
+      "CurrentTypeID": 20,
+      "CurrentType": {
+        "ID": 20,
+        "Title": "AC (Three-Phase)",
+        "Description": "Alternating Current - Three Phase"
+      },
+      "Quantity": 1,
+      "Comments": null
+    },
+    {
+      "ID": 228021,
+      "ConnectionTypeID": 2,
+      "ConnectionType": {
+        "ID": 2,
+        "Title": "CHAdeMO",
+        "FormalName": "IEC 62196-3 Configuration AA",
+        "IsDiscontinued": null,
+        "IsObsolete": null
+      },
+      "Reference": "2",
+      "StatusTypeID": 50,
+      "StatusType": {
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
+        "IsUserSelectable": true
+      },
+      "LevelID": 3,
+      "Level": {
+        "ID": 3,
+        "Title": "Level 3:  High (Over 40kW)",
+        "Comments": "40KW and Higher",
+        "IsFastChargeCapable": true
+      },
+      "Amps": 125,
+      "Voltage": 400,
+      "PowerKW": 50,
+      "CurrentTypeID": 30,
+      "CurrentType": {
+        "ID": 30,
+        "Title": "DC",
+        "Description": "Direct Current"
+      },
+      "Quantity": 1,
+      "Comments": null
+    },
+    {
+      "ID": 228022,
+      "ConnectionTypeID": 33,
+      "ConnectionType": {
+        "ID": 33,
+        "Title": "CCS (Type 2)",
+        "FormalName": "IEC 62196-3 Configuration FF",
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": "3",
+      "StatusTypeID": 50,
+      "StatusType": {
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
+        "IsUserSelectable": true
+      },
+      "LevelID": 3,
+      "Level": {
+        "ID": 3,
+        "Title": "Level 3:  High (Over 40kW)",
+        "Comments": "40KW and Higher",
+        "IsFastChargeCapable": true
+      },
+      "Amps": 125,
+      "Voltage": 400,
+      "PowerKW": 50,
+      "CurrentTypeID": 30,
+      "CurrentType": {
+        "ID": 30,
+        "Title": "DC",
+        "Description": "Direct Current"
+      },
+      "Quantity": 1,
+      "Comments": null
+    }
+  ],
+  "NumberOfPoints": null,
+  "GeneralComments": "Engie rapid charger, 50kW DC, AC is a 22 Kw Socket. One bay for general use, one bay for taxis. Both Free to charge. Please register at: ev.engie.co.uk. Small shop inside main entrance to Hospital.",
+  "DatePlanned": null,
+  "DateLastConfirmed": null,
+  "StatusTypeID": 50,
+  "DateLastStatusUpdate": {
+    "$date": "2020-12-27T16:42:00Z"
+  },
+  "MetadataValues": [
+    {
+      "ID": 7666,
+      "MetadataFieldID": 4,
+      "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+      "MetadataFieldOption": null,
+      "MetadataFieldOptionID": null
+    }
+  ],
+  "DataQualityLevel": 3,
+  "DateCreated": {
+    "$date": "2020-06-25T10:00:00Z"
+  },
+  "SubmissionStatusTypeID": 100,
+  "AddressCleaningRequired": false,
+  "DataProvider": {
+    "ID": 1,
+    "Title": "Open Charge Map Contributors",
+    "WebsiteURL": "http://openchargemap.org",
+    "Comments": null,
+    "DataProviderStatusType": {
+      "ID": 1,
+      "Title": "Manual Data Entry",
+      "IsProviderEnabled": true
+    },
+    "IsRestrictedEdit": false,
+    "IsOpenDataLicensed": true,
+    "IsApprovedImport": true,
+    "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+    "DateLastImported": null
+  },
+  "OperatorInfo": {
+    "ID": 150,
+    "Title": "The GeniePoint Network ( Engie EV Solutions )",
+    "WebsiteURL": "https://www.geniepoint.co.uk/",
+    "Comments": "also known as Revive, Engie, or Dragon Charging regional branding",
+    "PhonePrimaryContact": "+44(0)20 3598 4087",
+    "PhoneSecondaryContact": null,
+    "IsPrivateIndividual": false,
+    "AddressInfo": null,
+    "BookingURL": null,
+    "ContactEmail": "GenieSupport@chargepointservices.com",
+    "FaultReportEmail": null,
+    "IsRestrictedEdit": false
+  },
+  "UsageType": {
+    "ID": 5,
+    "Title": "Public - Pay At Location",
+    "IsPayAtLocation": true,
+    "IsMembershipRequired": false,
+    "IsAccessKeyRequired": false
+  },
+  "StatusType": {
+    "ID": 50,
+    "Title": "Operational",
+    "IsOperational": true,
+    "IsUserSelectable": true
+  },
+  "SubmissionStatus": {
+    "ID": 100,
+    "Title": "Imported and Published",
+    "IsLive": true
+  },
+  "UserComments": null,
+  "PercentageSimilarity": null,
+  "MediaItems": null,
+  "LevelOfDetail": null,
+  "Chargers": null,
+  "MetadataTags": null,
+  "SpatialPosition": {
+    "type": "Point",
+    "coordinates": [
+      -1.96501,
+      53.89579
+    ]
+  }
+}

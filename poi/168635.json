@@ -1,0 +1,228 @@
+{
+  "ID": 168635,
+  "UUID": "5FADA87A-81F4-4632-B14D-51C574C48AC7",
+  "ParentChargePointID": null,
+  "DataProviderID": 18,
+  "DataProvidersReference": "4d09c92bb56b36d9b08c69d63e175783",
+  "OperatorID": 150,
+  "OperatorsReference": null,
+  "UsageTypeID": 5,
+  "UsageCost": null,
+  "AddressInfo": {
+    "ID": 168994,
+    "Title": "Albion Street",
+    "AddressLine1": "Albion Street",
+    "AddressLine2": null,
+    "Town": "Heckmondwike",
+    "StateOrProvince": null,
+    "Postcode": "WF16 9LQ",
+    "CountryID": 1,
+    "Country": {
+      "ID": 1,
+      "Title": "United Kingdom",
+      "ISOCode": "GB",
+      "ContinentCode": "EU"
+    },
+    "Latitude": 53.708846,
+    "Longitude": -1.674816,
+    "ContactTelephone1": null,
+    "ContactTelephone2": null,
+    "ContactEmail": null,
+    "AccessComments": "",
+    "RelatedURL": "http://www.chargepointservices.com/",
+    "Distance": null,
+    "DistanceUnit": 0,
+    "GeneralComments": null
+  },
+  "Connections": [
+    {
+      "ID": 256188,
+      "ConnectionTypeID": 25,
+      "ConnectionType": {
+        "ID": 25,
+        "Title": "Type 2 (Socket Only)",
+        "FormalName": "IEC 62196-2 Type 2",
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": "1",
+      "StatusTypeID": 50,
+      "StatusType": {
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
+        "IsUserSelectable": true
+      },
+      "LevelID": 2,
+      "Level": {
+        "ID": 2,
+        "Title": "Level 2 : Medium (Over 2kW)",
+        "Comments": "Over 2 kW, usually non-domestic socket type",
+        "IsFastChargeCapable": false
+      },
+      "Amps": 32,
+      "Voltage": 400,
+      "PowerKW": 22,
+      "CurrentTypeID": 20,
+      "CurrentType": {
+        "ID": 20,
+        "Title": "AC (Three-Phase)",
+        "Description": "Alternating Current - Three Phase"
+      },
+      "Quantity": null,
+      "Comments": null
+    },
+    {
+      "ID": 256189,
+      "ConnectionTypeID": 2,
+      "ConnectionType": {
+        "ID": 2,
+        "Title": "CHAdeMO",
+        "FormalName": "IEC 62196-3 Configuration AA",
+        "IsDiscontinued": null,
+        "IsObsolete": null
+      },
+      "Reference": "2",
+      "StatusTypeID": 50,
+      "StatusType": {
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
+        "IsUserSelectable": true
+      },
+      "LevelID": 3,
+      "Level": {
+        "ID": 3,
+        "Title": "Level 3:  High (Over 40kW)",
+        "Comments": "40KW and Higher",
+        "IsFastChargeCapable": true
+      },
+      "Amps": 125,
+      "Voltage": 400,
+      "PowerKW": 50,
+      "CurrentTypeID": 30,
+      "CurrentType": {
+        "ID": 30,
+        "Title": "DC",
+        "Description": "Direct Current"
+      },
+      "Quantity": null,
+      "Comments": null
+    },
+    {
+      "ID": 256190,
+      "ConnectionTypeID": 33,
+      "ConnectionType": {
+        "ID": 33,
+        "Title": "CCS (Type 2)",
+        "FormalName": "IEC 62196-3 Configuration FF",
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": "3",
+      "StatusTypeID": 50,
+      "StatusType": {
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
+        "IsUserSelectable": true
+      },
+      "LevelID": 3,
+      "Level": {
+        "ID": 3,
+        "Title": "Level 3:  High (Over 40kW)",
+        "Comments": "40KW and Higher",
+        "IsFastChargeCapable": true
+      },
+      "Amps": 125,
+      "Voltage": 400,
+      "PowerKW": 50,
+      "CurrentTypeID": 30,
+      "CurrentType": {
+        "ID": 30,
+        "Title": "DC",
+        "Description": "Direct Current"
+      },
+      "Quantity": null,
+      "Comments": null
+    }
+  ],
+  "NumberOfPoints": null,
+  "GeneralComments": null,
+  "DatePlanned": null,
+  "DateLastConfirmed": null,
+  "StatusTypeID": 0,
+  "DateLastStatusUpdate": {
+    "$date": "2020-10-03T03:03:00Z"
+  },
+  "MetadataValues": null,
+  "DataQualityLevel": 3,
+  "DateCreated": {
+    "$date": "2020-08-27T08:10:00Z"
+  },
+  "SubmissionStatusTypeID": 1005,
+  "AddressCleaningRequired": false,
+  "DataProvider": {
+    "ID": 18,
+    "Title": "UK National Charge Point Registry",
+    "WebsiteURL": "http://chargepoints.dft.gov.uk",
+    "Comments": null,
+    "DataProviderStatusType": {
+      "ID": 20,
+      "Title": "Automated Import",
+      "IsProviderEnabled": true
+    },
+    "IsRestrictedEdit": false,
+    "IsOpenDataLicensed": true,
+    "IsApprovedImport": true,
+    "License": "Contains public sector information licensed under the Open Government Licence v2.0.",
+    "DateLastImported": {
+      "$date": "2021-03-27T15:40:05.563Z"
+    }
+  },
+  "OperatorInfo": {
+    "ID": 150,
+    "Title": "The GeniePoint Network ( Engie EV Solutions )",
+    "WebsiteURL": "https://www.geniepoint.co.uk/",
+    "Comments": "also known as Revive, Engie, or Dragon Charging regional branding",
+    "PhonePrimaryContact": "+44(0)20 3598 4087",
+    "PhoneSecondaryContact": null,
+    "IsPrivateIndividual": false,
+    "AddressInfo": null,
+    "BookingURL": null,
+    "ContactEmail": "GenieSupport@chargepointservices.com",
+    "FaultReportEmail": null,
+    "IsRestrictedEdit": false
+  },
+  "UsageType": {
+    "ID": 5,
+    "Title": "Public - Pay At Location",
+    "IsPayAtLocation": true,
+    "IsMembershipRequired": false,
+    "IsAccessKeyRequired": false
+  },
+  "StatusType": {
+    "ID": 0,
+    "Title": "Unknown",
+    "IsOperational": null,
+    "IsUserSelectable": true
+  },
+  "SubmissionStatus": {
+    "ID": 1005,
+    "Title": "Delisted - Superseded by Update",
+    "IsLive": false
+  },
+  "UserComments": null,
+  "PercentageSimilarity": null,
+  "MediaItems": null,
+  "LevelOfDetail": null,
+  "Chargers": null,
+  "MetadataTags": null,
+  "SpatialPosition": {
+    "type": "Point",
+    "coordinates": [
+      -1.674816,
+      53.708846
+    ]
+  }
+}

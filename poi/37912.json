@@ -1,0 +1,278 @@
+{
+  "ID": 37912,
+  "UUID": "7A6B2B3B-A0B9-4CE2-8118-1839CE71FB2B",
+  "ParentChargePointID": null,
+  "DataProviderID": 1,
+  "DataProvidersReference": null,
+  "OperatorID": 47,
+  "OperatorsReference": "IKEA",
+  "UsageTypeID": 4,
+  "UsageCost": "0.00 jaarabonnement",
+  "AddressInfo": {
+    "ID": 38258,
+    "Title": "Ikea Haarlem",
+    "AddressLine1": "Laan van Decima",
+    "AddressLine2": "",
+    "Town": "Haarlem",
+    "StateOrProvince": "",
+    "Postcode": "2031 CZ",
+    "CountryID": 159,
+    "Country": {
+      "ID": 159,
+      "Title": "Netherlands",
+      "ISOCode": "NL",
+      "ContinentCode": "EU"
+    },
+    "Latitude": 52.384335701431,
+    "Longitude": 4.6703749895096,
+    "ContactTelephone1": "",
+    "ContactTelephone2": "",
+    "ContactEmail": "",
+    "AccessComments": "",
+    "RelatedURL": "http://ikea.nl",
+    "Distance": null,
+    "DistanceUnit": 0,
+    "GeneralComments": null
+  },
+  "Connections": [
+    {
+      "ID": 41423,
+      "ConnectionTypeID": 25,
+      "ConnectionType": {
+        "ID": 25,
+        "Title": "Type 2 (Socket Only)",
+        "FormalName": "IEC 62196-2 Type 2",
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": null,
+      "StatusTypeID": 0,
+      "StatusType": {
+        "ID": 0,
+        "Title": "Unknown",
+        "IsOperational": null,
+        "IsUserSelectable": true
+      },
+      "LevelID": 2,
+      "Level": {
+        "ID": 2,
+        "Title": "Level 2 : Medium (Over 2kW)",
+        "Comments": "Over 2 kW, usually non-domestic socket type",
+        "IsFastChargeCapable": false
+      },
+      "Amps": null,
+      "Voltage": null,
+      "PowerKW": 37,
+      "CurrentTypeID": null,
+      "CurrentType": null,
+      "Quantity": null,
+      "Comments": null
+    },
+    {
+      "ID": 89766,
+      "ConnectionTypeID": 2,
+      "ConnectionType": {
+        "ID": 2,
+        "Title": "CHAdeMO",
+        "FormalName": "IEC 62196-3 Configuration AA",
+        "IsDiscontinued": null,
+        "IsObsolete": null
+      },
+      "Reference": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
+        "IsUserSelectable": true
+      },
+      "LevelID": 3,
+      "Level": {
+        "ID": 3,
+        "Title": "Level 3:  High (Over 40kW)",
+        "Comments": "40KW and Higher",
+        "IsFastChargeCapable": true
+      },
+      "Amps": 120,
+      "Voltage": 400,
+      "PowerKW": 48,
+      "CurrentTypeID": 30,
+      "CurrentType": {
+        "ID": 30,
+        "Title": "DC",
+        "Description": "Direct Current"
+      },
+      "Quantity": 1,
+      "Comments": null
+    }
+  ],
+  "NumberOfPoints": 1,
+  "GeneralComments": "",
+  "DatePlanned": null,
+  "DateLastConfirmed": null,
+  "StatusTypeID": 50,
+  "DateLastStatusUpdate": {
+    "$date": "2016-04-19T18:27:00Z"
+  },
+  "MetadataValues": null,
+  "DataQualityLevel": 3,
+  "DateCreated": {
+    "$date": "2015-01-09T06:07:00Z"
+  },
+  "SubmissionStatusTypeID": 100,
+  "AddressCleaningRequired": false,
+  "DataProvider": {
+    "ID": 1,
+    "Title": "Open Charge Map Contributors",
+    "WebsiteURL": "http://openchargemap.org",
+    "Comments": null,
+    "DataProviderStatusType": {
+      "ID": 1,
+      "Title": "Manual Data Entry",
+      "IsProviderEnabled": true
+    },
+    "IsRestrictedEdit": false,
+    "IsOpenDataLicensed": true,
+    "IsApprovedImport": true,
+    "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+    "DateLastImported": null
+  },
+  "OperatorInfo": {
+    "ID": 47,
+    "Title": "The New Motion (NL)",
+    "WebsiteURL": "http://www.thenewmotion.com/",
+    "Comments": null,
+    "PhonePrimaryContact": "088 01 09 500",
+    "PhoneSecondaryContact": null,
+    "IsPrivateIndividual": false,
+    "AddressInfo": null,
+    "BookingURL": null,
+    "ContactEmail": "info@thenewmotion.com",
+    "FaultReportEmail": "klantenservice@thenewmotion.com",
+    "IsRestrictedEdit": false
+  },
+  "UsageType": {
+    "ID": 4,
+    "Title": "Public - Membership Required",
+    "IsPayAtLocation": false,
+    "IsMembershipRequired": true,
+    "IsAccessKeyRequired": true
+  },
+  "StatusType": {
+    "ID": 50,
+    "Title": "Operational",
+    "IsOperational": true,
+    "IsUserSelectable": true
+  },
+  "SubmissionStatus": {
+    "ID": 100,
+    "Title": "Imported and Published",
+    "IsLive": true
+  },
+  "UserComments": [
+    {
+      "ID": 10221,
+      "ChargePointID": 37912,
+      "CommentTypeID": 10,
+      "CommentType": {
+        "ID": 10,
+        "Title": "General Comment"
+      },
+      "UserName": "stickybit",
+      "Comment": "Mennekes didn't work, ChaDeMo only for 10 minutes :-(",
+      "Rating": 3,
+      "RelatedURL": null,
+      "DateCreated": {
+        "$date": "2016-04-19T18:26:38.487Z"
+      },
+      "User": {
+        "ID": 6738,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "stickybit",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 118,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/6801d603ef26d8aee9aaefcb9c299f3b?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "CheckinStatusTypeID": 25,
+      "CheckinStatusType": {
+        "ID": 25,
+        "Title": "Failed to Charge (Equipment Problem)",
+        "IsPositive": false,
+        "IsAutomatedCheckin": false
+      },
+      "IsActionedByEditor": null
+    }
+  ],
+  "PercentageSimilarity": null,
+  "MediaItems": [
+    {
+      "ID": 6269,
+      "ChargePointID": 37912,
+      "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/NL/OCM37912/OCM-37912.orig.2016041918220055.jpeg",
+      "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/NL/OCM37912/OCM-37912.thmb.2016041918220055.jpeg",
+      "Comment": "",
+      "IsEnabled": true,
+      "IsVideo": false,
+      "IsFeaturedItem": false,
+      "IsExternalResource": false,
+      "MetadataValue": null,
+      "User": {
+        "ID": 6738,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "stickybit",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 118,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/6801d603ef26d8aee9aaefcb9c299f3b?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "DateCreated": {
+        "$date": "2016-04-19T18:22:00Z"
+      }
+    }
+  ],
+  "LevelOfDetail": null,
+  "Chargers": null,
+  "MetadataTags": null,
+  "SpatialPosition": {
+    "type": "Point",
+    "coordinates": [
+      4.6703749895096,
+      52.384335701431
+    ]
+  }
+}

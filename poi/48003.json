@@ -1,0 +1,227 @@
+{
+  "ID": 48003,
+  "UUID": "FCC1539F-0A83-4880-9939-13C070CB1B62",
+  "ParentChargePointID": null,
+  "DataProviderID": 1,
+  "DataProvidersReference": null,
+  "OperatorID": 192,
+  "OperatorsReference": null,
+  "UsageTypeID": 1,
+  "UsageCost": "0",
+  "AddressInfo": {
+    "ID": 48349,
+    "Title": "OC Mercury",
+    "AddressLine1": "Nádražní 1759",
+    "AddressLine2": null,
+    "Town": "České Budějovice",
+    "StateOrProvince": null,
+    "Postcode": "370 01",
+    "CountryID": 64,
+    "Country": {
+      "ID": 64,
+      "Title": "Czech Republic",
+      "ISOCode": "CZ",
+      "ContinentCode": "EU"
+    },
+    "Latitude": 48.9728832,
+    "Longitude": 14.4872518,
+    "ContactTelephone1": null,
+    "ContactTelephone2": null,
+    "ContactEmail": null,
+    "AccessComments": "CZ: V prvním podzemním patře garáží centra v blízkosti Automyčky Mercury. K otevření nabíjecí stanice je nutná E.ON Autorizační karta, kterou si může zájemce zapůjčit oproti vratné kauci ve výši 200 Kč u obsluhy parkoviště (u výjezdu z podzemních garáží). Při vrácení karty bude vystaven lístek pro volný výjezd z parkoviště. Pokud však doba parkování elektromobilu přesáhne 8 hodin, bude účtováno parkovné dle platného ceníku parkoviště.\r\nEN: In the first underground floor of the center's parking lot, close to the Mercury car wash. You can borrow the E.ON authorization card needed to open the charging point from parking lot's employees (at the exit from the underground parking) for a refundable deposit of 200 CZK. When you return the card you will be issued a ticket for a free exit from the car park. However, if the parking time exceeds eight hours, a normal price will be charged for parking.",
+    "RelatedURL": "http://www.eon.cz/o-nas/media/tiskove-zpravy/kde-muzete-natankovat-zdarma-",
+    "Distance": null,
+    "DistanceUnit": 0,
+    "GeneralComments": null
+  },
+  "Connections": [
+    {
+      "ID": 59239,
+      "ConnectionTypeID": 25,
+      "ConnectionType": {
+        "ID": 25,
+        "Title": "Type 2 (Socket Only)",
+        "FormalName": "IEC 62196-2 Type 2",
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": null,
+      "StatusTypeID": 100,
+      "StatusType": {
+        "ID": 100,
+        "Title": "Not Operational",
+        "IsOperational": false,
+        "IsUserSelectable": true
+      },
+      "LevelID": 2,
+      "Level": {
+        "ID": 2,
+        "Title": "Level 2 : Medium (Over 2kW)",
+        "Comments": "Over 2 kW, usually non-domestic socket type",
+        "IsFastChargeCapable": false
+      },
+      "Amps": 16,
+      "Voltage": 400,
+      "PowerKW": 11,
+      "CurrentTypeID": null,
+      "CurrentType": null,
+      "Quantity": 2,
+      "Comments": null
+    },
+    {
+      "ID": 59240,
+      "ConnectionTypeID": 23,
+      "ConnectionType": {
+        "ID": 23,
+        "Title": "CEE 7/5",
+        "FormalName": null,
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": null,
+      "StatusTypeID": 100,
+      "StatusType": {
+        "ID": 100,
+        "Title": "Not Operational",
+        "IsOperational": false,
+        "IsUserSelectable": true
+      },
+      "LevelID": 2,
+      "Level": {
+        "ID": 2,
+        "Title": "Level 2 : Medium (Over 2kW)",
+        "Comments": "Over 2 kW, usually non-domestic socket type",
+        "IsFastChargeCapable": false
+      },
+      "Amps": 16,
+      "Voltage": 230,
+      "PowerKW": 3.6,
+      "CurrentTypeID": 10,
+      "CurrentType": {
+        "ID": 10,
+        "Title": "AC (Single-Phase)",
+        "Description": "Alternating Current - Single Phase"
+      },
+      "Quantity": 2,
+      "Comments": null
+    }
+  ],
+  "NumberOfPoints": 1,
+  "GeneralComments": "Non-stop.",
+  "DatePlanned": null,
+  "DateLastConfirmed": null,
+  "StatusTypeID": 100,
+  "DateLastStatusUpdate": {
+    "$date": "2017-05-11T09:07:00Z"
+  },
+  "MetadataValues": null,
+  "DataQualityLevel": 1,
+  "DateCreated": {
+    "$date": "2015-06-21T13:10:00Z"
+  },
+  "SubmissionStatusTypeID": 1002,
+  "AddressCleaningRequired": false,
+  "DataProvider": {
+    "ID": 1,
+    "Title": "Open Charge Map Contributors",
+    "WebsiteURL": "http://openchargemap.org",
+    "Comments": null,
+    "DataProviderStatusType": {
+      "ID": 1,
+      "Title": "Manual Data Entry",
+      "IsProviderEnabled": true
+    },
+    "IsRestrictedEdit": false,
+    "IsOpenDataLicensed": true,
+    "IsApprovedImport": true,
+    "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+    "DateLastImported": null
+  },
+  "OperatorInfo": {
+    "ID": 192,
+    "Title": "E.ON (CZ)",
+    "WebsiteURL": "http://www.ekobonus.cz/ekologicka-doprava/elektromobilita",
+    "Comments": null,
+    "PhonePrimaryContact": null,
+    "PhoneSecondaryContact": null,
+    "IsPrivateIndividual": false,
+    "AddressInfo": null,
+    "BookingURL": null,
+    "ContactEmail": null,
+    "FaultReportEmail": null,
+    "IsRestrictedEdit": false
+  },
+  "UsageType": {
+    "ID": 1,
+    "Title": "Public",
+    "IsPayAtLocation": null,
+    "IsMembershipRequired": null,
+    "IsAccessKeyRequired": null
+  },
+  "StatusType": {
+    "ID": 100,
+    "Title": "Not Operational",
+    "IsOperational": false,
+    "IsUserSelectable": true
+  },
+  "SubmissionStatus": {
+    "ID": 1002,
+    "Title": "Delisted - No Longer Active/Decommissioned",
+    "IsLive": false
+  },
+  "UserComments": null,
+  "PercentageSimilarity": null,
+  "MediaItems": [
+    {
+      "ID": 8928,
+      "ChargePointID": 48003,
+      "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/CZ/OCM48003/OCM-48003.orig.2016123021062516.jpg",
+      "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/CZ/OCM48003/OCM-48003.thmb.2016123021062516.jpg",
+      "Comment": "",
+      "IsEnabled": true,
+      "IsVideo": false,
+      "IsFeaturedItem": false,
+      "IsExternalResource": false,
+      "MetadataValue": null,
+      "User": {
+        "ID": 6224,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "ozana",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 1695,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/8e79f5af82d5291e84f37c84655b15c6?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "DateCreated": {
+        "$date": "2016-12-30T21:07:00Z"
+      }
+    }
+  ],
+  "LevelOfDetail": null,
+  "Chargers": null,
+  "MetadataTags": null,
+  "SpatialPosition": {
+    "type": "Point",
+    "coordinates": [
+      14.4872518,
+      48.9728832
+    ]
+  }
+}

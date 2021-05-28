@@ -1,0 +1,340 @@
+{
+  "ID": 5499,
+  "UUID": "E374B831-E6EB-491E-B209-DC7295D6C49B",
+  "ParentChargePointID": null,
+  "DataProviderID": 1,
+  "DataProvidersReference": null,
+  "OperatorID": 25,
+  "OperatorsReference": "PP-12328",
+  "UsageTypeID": 4,
+  "UsageCost": "Free. Parking fees apply.",
+  "AddressInfo": {
+    "ID": 5437,
+    "Title": "Heathrow Airport T3 Short Stay Car Park",
+    "AddressLine1": "Canberra Road",
+    "AddressLine2": "London Heathrow Airport",
+    "Town": "Hillingdon",
+    "StateOrProvince": null,
+    "Postcode": "TW6 1AP",
+    "CountryID": 1,
+    "Country": {
+      "ID": 1,
+      "Title": "United Kingdom",
+      "ISOCode": "GB",
+      "ContinentCode": "EU"
+    },
+    "Latitude": 51.471398,
+    "Longitude": -0.455269,
+    "ContactTelephone1": "020 7247 4114",
+    "ContactTelephone2": null,
+    "ContactEmail": null,
+    "AccessComments": "Short Stay Car Park at T3. Located on level 3 Row G. ",
+    "RelatedURL": "http://www.Pod-Point.com",
+    "Distance": null,
+    "DistanceUnit": 0,
+    "GeneralComments": null
+  },
+  "Connections": [
+    {
+      "ID": 20052,
+      "ConnectionTypeID": 3,
+      "ConnectionType": {
+        "ID": 3,
+        "Title": "BS1363 3 Pin 13 Amp",
+        "FormalName": "BS1363 / Type G",
+        "IsDiscontinued": null,
+        "IsObsolete": null
+      },
+      "Reference": null,
+      "StatusTypeID": 100,
+      "StatusType": {
+        "ID": 100,
+        "Title": "Not Operational",
+        "IsOperational": false,
+        "IsUserSelectable": true
+      },
+      "LevelID": 2,
+      "Level": {
+        "ID": 2,
+        "Title": "Level 2 : Medium (Over 2kW)",
+        "Comments": "Over 2 kW, usually non-domestic socket type",
+        "IsFastChargeCapable": false
+      },
+      "Amps": 13,
+      "Voltage": 230,
+      "PowerKW": 3,
+      "CurrentTypeID": 10,
+      "CurrentType": {
+        "ID": 10,
+        "Title": "AC (Single-Phase)",
+        "Description": "Alternating Current - Single Phase"
+      },
+      "Quantity": 2,
+      "Comments": null
+    },
+    {
+      "ID": 109238,
+      "ConnectionTypeID": 25,
+      "ConnectionType": {
+        "ID": 25,
+        "Title": "Type 2 (Socket Only)",
+        "FormalName": "IEC 62196-2 Type 2",
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
+        "IsUserSelectable": true
+      },
+      "LevelID": 2,
+      "Level": {
+        "ID": 2,
+        "Title": "Level 2 : Medium (Over 2kW)",
+        "Comments": "Over 2 kW, usually non-domestic socket type",
+        "IsFastChargeCapable": false
+      },
+      "Amps": 32,
+      "Voltage": 230,
+      "PowerKW": 7,
+      "CurrentTypeID": 10,
+      "CurrentType": {
+        "ID": 10,
+        "Title": "AC (Single-Phase)",
+        "Description": "Alternating Current - Single Phase"
+      },
+      "Quantity": 4,
+      "Comments": null
+    }
+  ],
+  "NumberOfPoints": 4,
+  "GeneralComments": "Pod-Point PP_2151 charge points on Source London, also Pod-Point T7-S points authenticated via Pod-Point app.",
+  "DatePlanned": null,
+  "DateLastConfirmed": null,
+  "StatusTypeID": 0,
+  "DateLastStatusUpdate": {
+    "$date": "2017-11-24T14:57:00Z"
+  },
+  "MetadataValues": null,
+  "DataQualityLevel": 1,
+  "DateCreated": {
+    "$date": "2011-08-29T11:42:00Z"
+  },
+  "SubmissionStatusTypeID": 1005,
+  "AddressCleaningRequired": false,
+  "DataProvider": {
+    "ID": 1,
+    "Title": "Open Charge Map Contributors",
+    "WebsiteURL": "http://openchargemap.org",
+    "Comments": null,
+    "DataProviderStatusType": {
+      "ID": 1,
+      "Title": "Manual Data Entry",
+      "IsProviderEnabled": true
+    },
+    "IsRestrictedEdit": false,
+    "IsOpenDataLicensed": true,
+    "IsApprovedImport": true,
+    "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+    "DateLastImported": null
+  },
+  "OperatorInfo": {
+    "ID": 25,
+    "Title": "Source London",
+    "WebsiteURL": "http://www.sourcelondon.net/",
+    "Comments": "Monthly post-payment membership system, with per-minute billing and optional lower tariffs in return for monthly subscription payment.",
+    "PhonePrimaryContact": null,
+    "PhoneSecondaryContact": null,
+    "IsPrivateIndividual": false,
+    "AddressInfo": null,
+    "BookingURL": "https://www.sourcelondon.net/membership",
+    "ContactEmail": "membership@sourcelondon.net",
+    "FaultReportEmail": "membership@sourcelondon.net",
+    "IsRestrictedEdit": false
+  },
+  "UsageType": {
+    "ID": 4,
+    "Title": "Public - Membership Required",
+    "IsPayAtLocation": false,
+    "IsMembershipRequired": true,
+    "IsAccessKeyRequired": true
+  },
+  "StatusType": {
+    "ID": 0,
+    "Title": "Unknown",
+    "IsOperational": null,
+    "IsUserSelectable": true
+  },
+  "SubmissionStatus": {
+    "ID": 1005,
+    "Title": "Delisted - Superseded by Update",
+    "IsLive": false
+  },
+  "UserComments": [
+    {
+      "ID": 14094,
+      "ChargePointID": 5499,
+      "CommentTypeID": 1000,
+      "CommentType": {
+        "ID": 1000,
+        "Title": "Fault Report (Notice To Users And Operator)"
+      },
+      "UserName": "Alexey Yudichev",
+      "Comment": "Both pods dead. One powered off, the other one stick on \"Initialising\". That other one worked couple a months ago. ",
+      "Rating": 2,
+      "RelatedURL": null,
+      "DateCreated": {
+        "$date": "2016-08-18T07:42:11.213Z"
+      },
+      "User": {
+        "ID": 9211,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "Alexey Yudichev",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 6,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": null,
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "CheckinStatusTypeID": 20,
+      "CheckinStatusType": {
+        "ID": 20,
+        "Title": "Failed to Charge (Equipment Not Operational)",
+        "IsPositive": false,
+        "IsAutomatedCheckin": false
+      },
+      "IsActionedByEditor": null
+    },
+    {
+      "ID": 8416,
+      "ChargePointID": 5499,
+      "CommentTypeID": 10,
+      "CommentType": {
+        "ID": 10,
+        "Title": "General Comment"
+      },
+      "UserName": "Peter Galbavy",
+      "Comment": "Presented card and instant access. I guess no checking with home for ID.",
+      "Rating": 3,
+      "RelatedURL": null,
+      "DateCreated": {
+        "$date": "2016-01-03T19:35:26Z"
+      },
+      "User": {
+        "ID": 4899,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "Peter Galbavy",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 60,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/cfaa82be6212da1801acc4aa4d0b9889?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "CheckinStatusTypeID": 10,
+      "CheckinStatusType": {
+        "ID": 10,
+        "Title": "Charged Successfully",
+        "IsPositive": true,
+        "IsAutomatedCheckin": false
+      },
+      "IsActionedByEditor": null
+    },
+    {
+      "ID": 8078,
+      "ChargePointID": 5499,
+      "CommentTypeID": 10,
+      "CommentType": {
+        "ID": 10,
+        "Title": "General Comment"
+      },
+      "UserName": "Bss57",
+      "Comment": "FAILED the right hand unit was dead and the left hand unit was stuck in 'initialising' mode",
+      "Rating": 1,
+      "RelatedURL": null,
+      "DateCreated": {
+        "$date": "2015-11-25T03:28:13.417Z"
+      },
+      "User": {
+        "ID": 6295,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "Bss57",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 102,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/f4e3cb86838545b1fe495734eca475e0?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "CheckinStatusTypeID": 20,
+      "CheckinStatusType": {
+        "ID": 20,
+        "Title": "Failed to Charge (Equipment Not Operational)",
+        "IsPositive": false,
+        "IsAutomatedCheckin": false
+      },
+      "IsActionedByEditor": null
+    }
+  ],
+  "PercentageSimilarity": null,
+  "MediaItems": null,
+  "LevelOfDetail": null,
+  "Chargers": null,
+  "MetadataTags": null,
+  "SpatialPosition": {
+    "type": "Point",
+    "coordinates": [
+      -0.455269,
+      51.471398
+    ]
+  }
+}

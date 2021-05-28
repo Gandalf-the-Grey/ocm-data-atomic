@@ -1,0 +1,200 @@
+{
+  "ID": 137551,
+  "UUID": "29872BAD-B1DA-4018-A5C5-BC3A8276836A",
+  "ParentChargePointID": null,
+  "DataProviderID": 2,
+  "DataProvidersReference": "86792",
+  "OperatorID": 5,
+  "OperatorsReference": null,
+  "UsageTypeID": 1,
+  "UsageCost": null,
+  "AddressInfo": {
+    "ID": 137897,
+    "Title": "LCPM",
+    "AddressLine1": "3800 N. Lamar Blvd",
+    "AddressLine2": null,
+    "Town": "Austin",
+    "StateOrProvince": "TX",
+    "Postcode": "78756",
+    "CountryID": 2,
+    "Country": {
+      "ID": 2,
+      "Title": "United States",
+      "ISOCode": "US",
+      "ContinentCode": "NA"
+    },
+    "Latitude": 30.3061884,
+    "Longitude": -97.7434332,
+    "ContactTelephone1": "888-758-4389",
+    "ContactTelephone2": null,
+    "ContactEmail": null,
+    "AccessComments": "24 hours daily",
+    "RelatedURL": "http://www.chargepoint.com/",
+    "Distance": null,
+    "DistanceUnit": 0,
+    "GeneralComments": null
+  },
+  "Connections": [
+    {
+      "ID": 192484,
+      "ConnectionTypeID": 1,
+      "ConnectionType": {
+        "ID": 1,
+        "Title": "Type 1 (J1772)",
+        "FormalName": "SAE J1772-2009",
+        "IsDiscontinued": null,
+        "IsObsolete": null
+      },
+      "Reference": null,
+      "StatusTypeID": null,
+      "StatusType": null,
+      "LevelID": 2,
+      "Level": {
+        "ID": 2,
+        "Title": "Level 2 : Medium (Over 2kW)",
+        "Comments": "Over 2 kW, usually non-domestic socket type",
+        "IsFastChargeCapable": false
+      },
+      "Amps": 16,
+      "Voltage": 230,
+      "PowerKW": 3,
+      "CurrentTypeID": 10,
+      "CurrentType": {
+        "ID": 10,
+        "Title": "AC (Single-Phase)",
+        "Description": "Alternating Current - Single Phase"
+      },
+      "Quantity": 1,
+      "Comments": null
+    }
+  ],
+  "NumberOfPoints": null,
+  "GeneralComments": null,
+  "DatePlanned": null,
+  "DateLastConfirmed": null,
+  "StatusTypeID": 50,
+  "DateLastStatusUpdate": {
+    "$date": "2020-02-17T03:55:00Z"
+  },
+  "MetadataValues": null,
+  "DataQualityLevel": 3,
+  "DateCreated": {
+    "$date": "2019-12-24T09:05:00Z"
+  },
+  "SubmissionStatusTypeID": 100,
+  "AddressCleaningRequired": false,
+  "DataProvider": {
+    "ID": 2,
+    "Title": "afdc.energy.gov",
+    "WebsiteURL": "http://www.afdc.energy.gov/",
+    "Comments": null,
+    "DataProviderStatusType": {
+      "ID": 20,
+      "Title": "Automated Import",
+      "IsProviderEnabled": true
+    },
+    "IsRestrictedEdit": false,
+    "IsOpenDataLicensed": true,
+    "IsApprovedImport": true,
+    "License": "This data is provided by the National Renewable Energy Laboratory (\"NREL\"), which is operated by the Alliance for Sustainable Energy, LLC (\"Alliance\"), for the U.S. Department of Energy (\"DOE\"), and may be used for any purpose whatsoever.",
+    "DateLastImported": {
+      "$date": "2021-03-27T13:40:33.127Z"
+    }
+  },
+  "OperatorInfo": {
+    "ID": 5,
+    "Title": "ChargePoint (Coulomb Technologies)",
+    "WebsiteURL": "http://www.chargepoint.net/",
+    "Comments": null,
+    "PhonePrimaryContact": "1-888-758-4389",
+    "PhoneSecondaryContact": null,
+    "IsPrivateIndividual": false,
+    "AddressInfo": null,
+    "BookingURL": null,
+    "ContactEmail": "support@coulombtech.com",
+    "FaultReportEmail": "support@coulombtech.com",
+    "IsRestrictedEdit": null
+  },
+  "UsageType": {
+    "ID": 1,
+    "Title": "Public",
+    "IsPayAtLocation": null,
+    "IsMembershipRequired": null,
+    "IsAccessKeyRequired": null
+  },
+  "StatusType": {
+    "ID": 50,
+    "Title": "Operational",
+    "IsOperational": true,
+    "IsUserSelectable": true
+  },
+  "SubmissionStatus": {
+    "ID": 100,
+    "Title": "Imported and Published",
+    "IsLive": true
+  },
+  "UserComments": [
+    {
+      "ID": 22161,
+      "ChargePointID": 137551,
+      "CommentTypeID": 1000,
+      "CommentType": {
+        "ID": 1000,
+        "Title": "Fault Report (Notice To Users And Operator)"
+      },
+      "UserName": "EnviroTex",
+      "Comment": "Vandalism has shut this unit down",
+      "Rating": null,
+      "RelatedURL": null,
+      "DateCreated": {
+        "$date": "2020-02-17T03:54:30.733Z"
+      },
+      "User": {
+        "ID": 25065,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "EnviroTex",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 3,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/feaeac31b6448962b4ee6cf2830b67a7?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "CheckinStatusTypeID": 20,
+      "CheckinStatusType": {
+        "ID": 20,
+        "Title": "Failed to Charge (Equipment Not Operational)",
+        "IsPositive": false,
+        "IsAutomatedCheckin": false
+      },
+      "IsActionedByEditor": false
+    }
+  ],
+  "PercentageSimilarity": null,
+  "MediaItems": null,
+  "LevelOfDetail": null,
+  "Chargers": null,
+  "MetadataTags": null,
+  "SpatialPosition": {
+    "type": "Point",
+    "coordinates": [
+      -97.7434332,
+      30.3061884
+    ]
+  }
+}

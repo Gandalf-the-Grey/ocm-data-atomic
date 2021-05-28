@@ -1,0 +1,224 @@
+{
+  "ID": 8027,
+  "UUID": "96A2500B-68AA-4B3F-9AB5-22182342AC30",
+  "ParentChargePointID": null,
+  "DataProviderID": 15,
+  "DataProvidersReference": "7607",
+  "OperatorID": 94,
+  "OperatorsReference": null,
+  "UsageTypeID": 1,
+  "UsageCost": null,
+  "AddressInfo": {
+    "ID": 7924,
+    "Title": "1500 East Garrison Boulevard",
+    "AddressLine1": "1500 East Garrison Boulevard",
+    "AddressLine2": null,
+    "Town": "Gastonia",
+    "StateOrProvince": "NC",
+    "Postcode": "28054",
+    "CountryID": 2,
+    "Country": {
+      "ID": 2,
+      "Title": "United States",
+      "ISOCode": "US",
+      "ContinentCode": "NA"
+    },
+    "Latitude": 35.25408,
+    "Longitude": -81.15806,
+    "ContactTelephone1": "(704) 866-6924",
+    "ContactTelephone2": null,
+    "ContactEmail": null,
+    "AccessComments": null,
+    "RelatedURL": "http://carstations.com/7607",
+    "Distance": null,
+    "DistanceUnit": 0,
+    "GeneralComments": null
+  },
+  "Connections": [
+    {
+      "ID": 5456,
+      "ConnectionTypeID": 1,
+      "ConnectionType": {
+        "ID": 1,
+        "Title": "Type 1 (J1772)",
+        "FormalName": "SAE J1772-2009",
+        "IsDiscontinued": null,
+        "IsObsolete": null
+      },
+      "Reference": "J1772",
+      "StatusTypeID": null,
+      "StatusType": null,
+      "LevelID": 2,
+      "Level": {
+        "ID": 2,
+        "Title": "Level 2 : Medium (Over 2kW)",
+        "Comments": "Over 2 kW, usually non-domestic socket type",
+        "IsFastChargeCapable": false
+      },
+      "Amps": null,
+      "Voltage": null,
+      "PowerKW": null,
+      "CurrentTypeID": null,
+      "CurrentType": null,
+      "Quantity": null,
+      "Comments": null
+    },
+    {
+      "ID": 10770,
+      "ConnectionTypeID": 9,
+      "ConnectionType": {
+        "ID": 9,
+        "Title": "NEMA 5-20R",
+        "FormalName": null,
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": "NEMA5",
+      "StatusTypeID": null,
+      "StatusType": null,
+      "LevelID": 1,
+      "Level": {
+        "ID": 1,
+        "Title": "Level 1 : Low (Under 2kW)",
+        "Comments": "Under 2 kW, usually domestic socket types",
+        "IsFastChargeCapable": false
+      },
+      "Amps": null,
+      "Voltage": null,
+      "PowerKW": null,
+      "CurrentTypeID": null,
+      "CurrentType": null,
+      "Quantity": 1,
+      "Comments": null
+    }
+  ],
+  "NumberOfPoints": 2,
+  "GeneralComments": null,
+  "DatePlanned": null,
+  "DateLastConfirmed": null,
+  "StatusTypeID": 50,
+  "DateLastStatusUpdate": {
+    "$date": "2019-08-23T19:26:00Z"
+  },
+  "MetadataValues": null,
+  "DataQualityLevel": 1,
+  "DateCreated": {
+    "$date": "2011-11-11T12:05:00Z"
+  },
+  "SubmissionStatusTypeID": 100,
+  "AddressCleaningRequired": false,
+  "DataProvider": {
+    "ID": 15,
+    "Title": "CarStations.com",
+    "WebsiteURL": "http://www.carstations.com",
+    "Comments": null,
+    "DataProviderStatusType": {
+      "ID": 20,
+      "Title": "Automated Import",
+      "IsProviderEnabled": true
+    },
+    "IsRestrictedEdit": false,
+    "IsOpenDataLicensed": null,
+    "IsApprovedImport": null,
+    "License": null,
+    "DateLastImported": {
+      "$date": "2017-11-04T14:07:02.687Z"
+    }
+  },
+  "OperatorInfo": {
+    "ID": 94,
+    "Title": "BeCharged",
+    "WebsiteURL": "http://www.becharged.eu/",
+    "Comments": null,
+    "PhonePrimaryContact": "+32 (0)9 395.05.93",
+    "PhoneSecondaryContact": null,
+    "IsPrivateIndividual": null,
+    "AddressInfo": null,
+    "BookingURL": null,
+    "ContactEmail": "info@becharged.eu",
+    "FaultReportEmail": null,
+    "IsRestrictedEdit": null
+  },
+  "UsageType": {
+    "ID": 1,
+    "Title": "Public",
+    "IsPayAtLocation": null,
+    "IsMembershipRequired": null,
+    "IsAccessKeyRequired": null
+  },
+  "StatusType": {
+    "ID": 50,
+    "Title": "Operational",
+    "IsOperational": true,
+    "IsUserSelectable": true
+  },
+  "SubmissionStatus": {
+    "ID": 100,
+    "Title": "Imported and Published",
+    "IsLive": true
+  },
+  "UserComments": [
+    {
+      "ID": 21406,
+      "ChargePointID": 8027,
+      "CommentTypeID": 1000,
+      "CommentType": {
+        "ID": 1000,
+        "Title": "Fault Report (Notice To Users And Operator)"
+      },
+      "UserName": "BoltEV",
+      "Comment": "not working. Staff unaware, unconcerned.",
+      "Rating": null,
+      "RelatedURL": null,
+      "DateCreated": {
+        "$date": "2019-08-23T19:26:24.783Z"
+      },
+      "User": {
+        "ID": 22028,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "BoltEV",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 1,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/bd611a78103fc0ec1765f1e60e40fa91?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "CheckinStatusTypeID": 20,
+      "CheckinStatusType": {
+        "ID": 20,
+        "Title": "Failed to Charge (Equipment Not Operational)",
+        "IsPositive": false,
+        "IsAutomatedCheckin": false
+      },
+      "IsActionedByEditor": null
+    }
+  ],
+  "PercentageSimilarity": null,
+  "MediaItems": null,
+  "LevelOfDetail": null,
+  "Chargers": null,
+  "MetadataTags": null,
+  "SpatialPosition": {
+    "type": "Point",
+    "coordinates": [
+      -81.15806,
+      35.25408
+    ]
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "ID": 13495,
+  "UUID": "6EEE2E17-E076-47A9-8EFA-6A6BB84A2CB9",
+  "ParentChargePointID": null,
+  "DataProviderID": 1,
+  "DataProvidersReference": null,
+  "OperatorID": 1,
+  "OperatorsReference": null,
+  "UsageTypeID": 5,
+  "UsageCost": "on ne paye que le stationnement",
+  "AddressInfo": {
+    "ID": 13392,
+    "Title": "Parking Kléber",
+    "AddressLine1": "rue Kléber 1",
+    "AddressLine2": "",
+    "Town": "Rennes",
+    "StateOrProvince": "35 - Ille et Vilaine, Bretagne ",
+    "Postcode": "35000",
+    "CountryID": 80,
+    "Country": {
+      "ID": 80,
+      "Title": "France",
+      "ISOCode": "FR",
+      "ContinentCode": "EU"
+    },
+    "Latitude": 48.1106572,
+    "Longitude": -1.6741223999999875,
+    "ContactTelephone1": "02 99 38 79 72",
+    "ContactTelephone2": "",
+    "ContactEmail": "",
+    "AccessComments": "Ouvert de 7h à 20h30 sauf dim et jours fériés : niveau 1, emplacements 70 et 72",
+    "RelatedURL": "http://www.citedia.fr",
+    "Distance": null,
+    "DistanceUnit": 0,
+    "GeneralComments": null
+  },
+  "Connections": [
+    {
+      "ID": 10950,
+      "ConnectionTypeID": 13,
+      "ConnectionType": {
+        "ID": 13,
+        "Title": "Europlug 2-Pin (CEE 7/16)",
+        "FormalName": "Europlug 2-Pin (CEE 7/16)",
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": null,
+      "StatusTypeID": 10,
+      "StatusType": {
+        "ID": 10,
+        "Title": "Currently Available (Automated Status)",
+        "IsOperational": true,
+        "IsUserSelectable": false
+      },
+      "LevelID": 2,
+      "Level": {
+        "ID": 2,
+        "Title": "Level 2 : Medium (Over 2kW)",
+        "Comments": "Over 2 kW, usually non-domestic socket type",
+        "IsFastChargeCapable": false
+      },
+      "Amps": 16,
+      "Voltage": 230,
+      "PowerKW": 3.7,
+      "CurrentTypeID": null,
+      "CurrentType": null,
+      "Quantity": 1,
+      "Comments": null
+    },
+    {
+      "ID": 10951,
+      "ConnectionTypeID": 26,
+      "ConnectionType": {
+        "ID": 26,
+        "Title": "SCAME Type 3C (Schneider-Legrand)",
+        "FormalName": "IEC 62196-2 Type 3",
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": null,
+      "StatusTypeID": 10,
+      "StatusType": {
+        "ID": 10,
+        "Title": "Currently Available (Automated Status)",
+        "IsOperational": true,
+        "IsUserSelectable": false
+      },
+      "LevelID": 2,
+      "Level": {
+        "ID": 2,
+        "Title": "Level 2 : Medium (Over 2kW)",
+        "Comments": "Over 2 kW, usually non-domestic socket type",
+        "IsFastChargeCapable": false
+      },
+      "Amps": 16,
+      "Voltage": 230,
+      "PowerKW": 3.7,
+      "CurrentTypeID": null,
+      "CurrentType": null,
+      "Quantity": 1,
+      "Comments": null
+    }
+  ],
+  "NumberOfPoints": 2,
+  "GeneralComments": "Nécessite un badge RFID disponible auprès de Citedia ou à l'accueil du parking pour activer les bornes.",
+  "DatePlanned": null,
+  "DateLastConfirmed": null,
+  "StatusTypeID": 10,
+  "DateLastStatusUpdate": {
+    "$date": "2012-10-30T14:19:00Z"
+  },
+  "MetadataValues": null,
+  "DataQualityLevel": 1,
+  "DateCreated": {
+    "$date": "2012-10-25T17:15:00Z"
+  },
+  "SubmissionStatusTypeID": 200,
+  "AddressCleaningRequired": false,
+  "DataProvider": {
+    "ID": 1,
+    "Title": "Open Charge Map Contributors",
+    "WebsiteURL": "http://openchargemap.org",
+    "Comments": null,
+    "DataProviderStatusType": {
+      "ID": 1,
+      "Title": "Manual Data Entry",
+      "IsProviderEnabled": true
+    },
+    "IsRestrictedEdit": false,
+    "IsOpenDataLicensed": true,
+    "IsApprovedImport": true,
+    "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+    "DateLastImported": null
+  },
+  "OperatorInfo": {
+    "ID": 1,
+    "Title": "(Unknown Operator)",
+    "WebsiteURL": null,
+    "Comments": null,
+    "PhonePrimaryContact": null,
+    "PhoneSecondaryContact": null,
+    "IsPrivateIndividual": null,
+    "AddressInfo": null,
+    "BookingURL": null,
+    "ContactEmail": null,
+    "FaultReportEmail": null,
+    "IsRestrictedEdit": null
+  },
+  "UsageType": {
+    "ID": 5,
+    "Title": "Public - Pay At Location",
+    "IsPayAtLocation": true,
+    "IsMembershipRequired": false,
+    "IsAccessKeyRequired": false
+  },
+  "StatusType": {
+    "ID": 10,
+    "Title": "Currently Available (Automated Status)",
+    "IsOperational": true,
+    "IsUserSelectable": false
+  },
+  "SubmissionStatus": {
+    "ID": 200,
+    "Title": "Submission Published",
+    "IsLive": true
+  },
+  "UserComments": null,
+  "PercentageSimilarity": null,
+  "MediaItems": null,
+  "LevelOfDetail": null,
+  "Chargers": null,
+  "MetadataTags": null,
+  "SpatialPosition": {
+    "type": "Point",
+    "coordinates": [
+      -1.6741223999999875,
+      48.1106572
+    ]
+  }
+}

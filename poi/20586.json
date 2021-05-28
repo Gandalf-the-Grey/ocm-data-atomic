@@ -1,0 +1,189 @@
+{
+  "ID": 20586,
+  "UUID": "55487611-6076-49B1-93DC-BCABCB7EFCC3",
+  "ParentChargePointID": null,
+  "DataProviderID": 1,
+  "DataProvidersReference": null,
+  "OperatorID": 45,
+  "OperatorsReference": null,
+  "UsageTypeID": 5,
+  "UsageCost": "Free",
+  "AddressInfo": {
+    "ID": 20931,
+    "Title": "P+R Zuidpark",
+    "AddressLine1": "Spaklerweg 24",
+    "AddressLine2": "",
+    "Town": "Duivendrecht",
+    "StateOrProvince": "",
+    "Postcode": "1115 RH",
+    "CountryID": 159,
+    "Country": {
+      "ID": 159,
+      "Title": "Netherlands",
+      "ISOCode": "NL",
+      "ContinentCode": "EU"
+    },
+    "Latitude": 52.331996,
+    "Longitude": 4.923397,
+    "ContactTelephone1": "020-2400180",
+    "ContactTelephone2": "",
+    "ContactEmail": " contact@zuidpark.nl",
+    "AccessComments": "Routebeschrijving per AUTO : Vanuit richting Den Haag: • Neem vanaf de A10 (ringweg zuid) de afslag s111 (Amsterdam Amstel). • Ga aan het eind van de afrit linksaf met de weg mee, de Johannes Blookerweg op. • Volg de Johannes Blookerweg, bij de stoplichten met de bocht mee naar links. • Ga bij het kruispunt Johannes B lookerweg – Spaklerweg linksaf . • Na ongeveer 100 meter ziet u ons parkeerterrein P1 aan uw rechterhand . Vanuit richting Utrecht: • Volg vanaf de A2 de richting Zaanstad (A10 oost). • Neem direct de afslag s111 (Amsterdam Amstel). • Sla aan het eind van de afrit bij de stoplichten linksaf, de Johannes Blookerweg op. • Volg de Johannes Blookerweg, met de bocht mee naar links. • Ga bij het kruispunt Johannes Blookerweg – Spaklerweg linksaf. • Na ongeveer 100 meter ziet u ons parkeerterrein P1 aan uw rechterhand. Vanuit richting Zaanstad / Amersfoort: • Neem vanaf de A10 de afslag s111 (Amsterdam Amstel). • Sla aan het eind van de afrit bij de stoplichten linksaf, de Johannes Blookerweg op. • Volg de Johannes Blookerweg, met de bocht mee naar links. • Ga bij het kruispunt Johannes Blookerweg – Spaklerweg lin ksaf. • Na ongeveer 100 meter ziet u ons parkeerterrein P1 aan uw rechterhand. Vanuit Amsterdam Vertrekpunt Prins Bernardplein/Amstelstation: • Ga de ‘stad uit’ door weg langs het Amstelstation te nemen (station aan rechterhand – Julianaplein) • Ga op de Overzichtweg rechts onder het viaduct door. • Neem de rotonde na het viaduct voor 3/4. U rijdt nu op de Spaklerweg. • Volg de Spaklerweg ca. 1 km tot het grote kruispunt met stoplichten (kruispunt \u0002 \u0002 \u0002 \u0002 Spaklerweg met de Van Marwijk Kooystraat ) . Ga hier rechtdoor e n na 100 meter rechtsaf de parallelweg op, die u naar de entree van het parkeerterrein van Zuidpark leidt. ZUIDPARK INGANG P1 1 MET HET OPENBAAR VERVOER: Vanaf Amsterdam Centraal / Amstel: • Sneltram 51 richting Westwijk, uitstappen halte Overamstel. Vanaf Amsterdam Sloterdijk, Amsterdam RAI en Amsterdam Zuid/WTC: • Metro 50 richting Gein of sneltram 51 richting Centraal Station, uits tappen halte Overamstel. Vanaf Amsterdam Duivendrecht: • Metro 50 richting Isolatorweg, uitstappen halte Overamstel. Vanaf halte Overamstel: • Neem de uitgang Willem Fenengastraat, ga de trap af en rechtsaf door de poortjes. Volg de Willem Fenengastraat totdat u bij het parkeerterrein uitkomt. De hoofdingang bevindt zich aan de andere zijde van het pand . ZUIDPARK LINKS VAN DE KRUISING 1",
+    "RelatedURL": "http://zuidpark.nl/contact/",
+    "Distance": null,
+    "DistanceUnit": 0,
+    "GeneralComments": null
+  },
+  "Connections": [
+    {
+      "ID": 22401,
+      "ConnectionTypeID": 2,
+      "ConnectionType": {
+        "ID": 2,
+        "Title": "CHAdeMO",
+        "FormalName": "IEC 62196-3 Configuration AA",
+        "IsDiscontinued": null,
+        "IsObsolete": null
+      },
+      "Reference": null,
+      "StatusTypeID": 0,
+      "StatusType": {
+        "ID": 0,
+        "Title": "Unknown",
+        "IsOperational": null,
+        "IsUserSelectable": true
+      },
+      "LevelID": 3,
+      "Level": {
+        "ID": 3,
+        "Title": "Level 3:  High (Over 40kW)",
+        "Comments": "40KW and Higher",
+        "IsFastChargeCapable": true
+      },
+      "Amps": null,
+      "Voltage": null,
+      "PowerKW": 50,
+      "CurrentTypeID": 30,
+      "CurrentType": {
+        "ID": 30,
+        "Title": "DC",
+        "Description": "Direct Current"
+      },
+      "Quantity": 4,
+      "Comments": null
+    },
+    {
+      "ID": 22402,
+      "ConnectionTypeID": 25,
+      "ConnectionType": {
+        "ID": 25,
+        "Title": "Type 2 (Socket Only)",
+        "FormalName": "IEC 62196-2 Type 2",
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": null,
+      "StatusTypeID": 0,
+      "StatusType": {
+        "ID": 0,
+        "Title": "Unknown",
+        "IsOperational": null,
+        "IsUserSelectable": true
+      },
+      "LevelID": 2,
+      "Level": {
+        "ID": 2,
+        "Title": "Level 2 : Medium (Over 2kW)",
+        "Comments": "Over 2 kW, usually non-domestic socket type",
+        "IsFastChargeCapable": false
+      },
+      "Amps": 32,
+      "Voltage": 230,
+      "PowerKW": 22,
+      "CurrentTypeID": 20,
+      "CurrentType": {
+        "ID": 20,
+        "Title": "AC (Three-Phase)",
+        "Description": "Alternating Current - Three Phase"
+      },
+      "Quantity": 40,
+      "Comments": null
+    }
+  ],
+  "NumberOfPoints": 44,
+  "GeneralComments": "Parkingcharges apply - no smartcards",
+  "DatePlanned": null,
+  "DateLastConfirmed": null,
+  "StatusTypeID": 50,
+  "DateLastStatusUpdate": {
+    "$date": "2013-11-27T20:12:00Z"
+  },
+  "MetadataValues": null,
+  "DataQualityLevel": 1,
+  "DateCreated": {
+    "$date": "2013-11-27T19:27:00Z"
+  },
+  "SubmissionStatusTypeID": 200,
+  "AddressCleaningRequired": false,
+  "DataProvider": {
+    "ID": 1,
+    "Title": "Open Charge Map Contributors",
+    "WebsiteURL": "http://openchargemap.org",
+    "Comments": null,
+    "DataProviderStatusType": {
+      "ID": 1,
+      "Title": "Manual Data Entry",
+      "IsProviderEnabled": true
+    },
+    "IsRestrictedEdit": false,
+    "IsOpenDataLicensed": true,
+    "IsApprovedImport": true,
+    "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+    "DateLastImported": null
+  },
+  "OperatorInfo": {
+    "ID": 45,
+    "Title": "(Business Owner at Location)",
+    "WebsiteURL": null,
+    "Comments": "For use when the operator of the equipment is a single business owner connected to the location and equipment is not part of a larger network",
+    "PhonePrimaryContact": null,
+    "PhoneSecondaryContact": null,
+    "IsPrivateIndividual": false,
+    "AddressInfo": null,
+    "BookingURL": null,
+    "ContactEmail": null,
+    "FaultReportEmail": null,
+    "IsRestrictedEdit": null
+  },
+  "UsageType": {
+    "ID": 5,
+    "Title": "Public - Pay At Location",
+    "IsPayAtLocation": true,
+    "IsMembershipRequired": false,
+    "IsAccessKeyRequired": false
+  },
+  "StatusType": {
+    "ID": 50,
+    "Title": "Operational",
+    "IsOperational": true,
+    "IsUserSelectable": true
+  },
+  "SubmissionStatus": {
+    "ID": 200,
+    "Title": "Submission Published",
+    "IsLive": true
+  },
+  "UserComments": null,
+  "PercentageSimilarity": null,
+  "MediaItems": null,
+  "LevelOfDetail": null,
+  "Chargers": null,
+  "MetadataTags": null,
+  "SpatialPosition": {
+    "type": "Point",
+    "coordinates": [
+      4.923397,
+      52.331996
+    ]
+  }
+}

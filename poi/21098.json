@@ -1,0 +1,297 @@
+{
+  "ID": 21098,
+  "UUID": "5292A905-DFBE-4BD7-8126-3D34A4C4E660",
+  "ParentChargePointID": null,
+  "DataProviderID": 1,
+  "DataProvidersReference": null,
+  "OperatorID": 79,
+  "OperatorsReference": null,
+  "UsageTypeID": 4,
+  "UsageCost": "free",
+  "AddressInfo": {
+    "ID": 21443,
+    "Title": "Parking Gare de Namur (P1)",
+    "AddressLine1": "Boulevard du Nord",
+    "AddressLine2": null,
+    "Town": "Namen",
+    "StateOrProvince": null,
+    "Postcode": "5000",
+    "CountryID": 26,
+    "Country": {
+      "ID": 26,
+      "Title": "Belgium",
+      "ISOCode": "BE",
+      "ContinentCode": "EU"
+    },
+    "Latitude": 50.469831002925304,
+    "Longitude": 4.864386040822639,
+    "ContactTelephone1": "02 528 28 28",
+    "ContactTelephone2": null,
+    "ContactEmail": null,
+    "AccessComments": "Facilités\r\n\r\nL'accès au service e-chargement est gratuit et réservé aux utilisateurs du parking.\r\n\r\n \r\n\r\nPour activer le chargement, il est nécessaire de s'identifier à la borne principale pour les voitures et à la borne de chargement pour les 2 roues.\r\n\r\n \r\n\r\nL'identification est possible via\r\n\r\n    une carte MOBIB ou\r\n    une carte d'abonnement B-Parking (code-barres, uniquement pour les voitures)\r\n\r\n \r\n\r\nLes clients détenteurs d'une carte 5/10 accès ou\r\n\r\nqui ont pris un ticket à l'entrée doivent d'abord se rendre aux guichets de la gare lié au parking,\r\n\r\navant de pouvoir utiliser les bornes de chargement.\r\n\r\nAux guichets de la gare, il leur sera possible d'acheter une carte MOBIB (€ 5,-) et d'activer le service e-chargement (€ 0,-).",
+    "RelatedURL": "http://www.b-parking.be/info/fr/mycarpark/79-namur?start=1",
+    "Distance": null,
+    "DistanceUnit": 0,
+    "GeneralComments": null
+  },
+  "Connections": [
+    {
+      "ID": 22967,
+      "ConnectionTypeID": 25,
+      "ConnectionType": {
+        "ID": 25,
+        "Title": "Type 2 (Socket Only)",
+        "FormalName": "IEC 62196-2 Type 2",
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": null,
+      "StatusTypeID": null,
+      "StatusType": null,
+      "LevelID": 2,
+      "Level": {
+        "ID": 2,
+        "Title": "Level 2 : Medium (Over 2kW)",
+        "Comments": "Over 2 kW, usually non-domestic socket type",
+        "IsFastChargeCapable": false
+      },
+      "Amps": null,
+      "Voltage": null,
+      "PowerKW": 22,
+      "CurrentTypeID": 20,
+      "CurrentType": {
+        "ID": 20,
+        "Title": "AC (Three-Phase)",
+        "Description": "Alternating Current - Three Phase"
+      },
+      "Quantity": 6,
+      "Comments": null
+    },
+    {
+      "ID": 22968,
+      "ConnectionTypeID": 23,
+      "ConnectionType": {
+        "ID": 23,
+        "Title": "CEE 7/5",
+        "FormalName": null,
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": null,
+      "StatusTypeID": null,
+      "StatusType": null,
+      "LevelID": 1,
+      "Level": {
+        "ID": 1,
+        "Title": "Level 1 : Low (Under 2kW)",
+        "Comments": "Under 2 kW, usually domestic socket types",
+        "IsFastChargeCapable": false
+      },
+      "Amps": null,
+      "Voltage": null,
+      "PowerKW": null,
+      "CurrentTypeID": 10,
+      "CurrentType": {
+        "ID": 10,
+        "Title": "AC (Single-Phase)",
+        "Description": "Alternating Current - Single Phase"
+      },
+      "Quantity": 12,
+      "Comments": null
+    }
+  ],
+  "NumberOfPoints": 1,
+  "GeneralComments": "Parking charges apply",
+  "DatePlanned": null,
+  "DateLastConfirmed": null,
+  "StatusTypeID": 50,
+  "DateLastStatusUpdate": {
+    "$date": "2017-06-10T08:02:00Z"
+  },
+  "MetadataValues": null,
+  "DataQualityLevel": 1,
+  "DateCreated": {
+    "$date": "2014-02-19T21:26:00Z"
+  },
+  "SubmissionStatusTypeID": 200,
+  "AddressCleaningRequired": false,
+  "DataProvider": {
+    "ID": 1,
+    "Title": "Open Charge Map Contributors",
+    "WebsiteURL": "http://openchargemap.org",
+    "Comments": null,
+    "DataProviderStatusType": {
+      "ID": 1,
+      "Title": "Manual Data Entry",
+      "IsProviderEnabled": true
+    },
+    "IsRestrictedEdit": false,
+    "IsOpenDataLicensed": true,
+    "IsApprovedImport": true,
+    "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+    "DateLastImported": null
+  },
+  "OperatorInfo": {
+    "ID": 79,
+    "Title": "Mobib (Belgium)",
+    "WebsiteURL": "http://www.mobib.be/index.htm",
+    "Comments": null,
+    "PhonePrimaryContact": null,
+    "PhoneSecondaryContact": null,
+    "IsPrivateIndividual": null,
+    "AddressInfo": null,
+    "BookingURL": null,
+    "ContactEmail": null,
+    "FaultReportEmail": null,
+    "IsRestrictedEdit": null
+  },
+  "UsageType": {
+    "ID": 4,
+    "Title": "Public - Membership Required",
+    "IsPayAtLocation": false,
+    "IsMembershipRequired": true,
+    "IsAccessKeyRequired": true
+  },
+  "StatusType": {
+    "ID": 50,
+    "Title": "Operational",
+    "IsOperational": true,
+    "IsUserSelectable": true
+  },
+  "SubmissionStatus": {
+    "ID": 200,
+    "Title": "Submission Published",
+    "IsLive": true
+  },
+  "UserComments": [
+    {
+      "ID": 17394,
+      "ChargePointID": 21098,
+      "CommentTypeID": 10,
+      "CommentType": {
+        "ID": 10,
+        "Title": "General Comment"
+      },
+      "UserName": "Bert van Sas",
+      "Comment": "Charged successfully 9 June 2017. Operated central terminal using PlugSurfing pass..! My belgian BlueCorner pass did not activate the required terminal screens to start loading...",
+      "Rating": 4,
+      "RelatedURL": null,
+      "DateCreated": {
+        "$date": "2017-06-10T08:00:21.86Z"
+      },
+      "User": {
+        "ID": 11617,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "Bert van Sas",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 850,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/68259f8d2cd13198e6d2c98795bd4ac4?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "CheckinStatusTypeID": 10,
+      "CheckinStatusType": {
+        "ID": 10,
+        "Title": "Charged Successfully",
+        "IsPositive": true,
+        "IsAutomatedCheckin": false
+      },
+      "IsActionedByEditor": null
+    },
+    {
+      "ID": 1185,
+      "ChargePointID": 21098,
+      "CommentTypeID": 50,
+      "CommentType": {
+        "ID": 50,
+        "Title": "Important Notice (For Other Users)"
+      },
+      "UserName": "",
+      "Comment": "Charging not possible, equipment failed while starting to charge. ",
+      "Rating": 1,
+      "RelatedURL": null,
+      "DateCreated": {
+        "$date": "2014-09-06T09:18:19.843Z"
+      },
+      "User": null,
+      "CheckinStatusTypeID": 25,
+      "CheckinStatusType": {
+        "ID": 25,
+        "Title": "Failed to Charge (Equipment Problem)",
+        "IsPositive": false,
+        "IsAutomatedCheckin": false
+      },
+      "IsActionedByEditor": null
+    }
+  ],
+  "PercentageSimilarity": null,
+  "MediaItems": [
+    {
+      "ID": 12823,
+      "ChargePointID": 21098,
+      "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/BE/OCM21098/OCM-21098.orig.2017061008014976.jpg",
+      "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/BE/OCM21098/OCM-21098.thmb.2017061008014976.jpg",
+      "Comment": "9 June 2017 charged. I succeeded activating the central 'charging' control terminal via a PlugSurfing pass.",
+      "IsEnabled": true,
+      "IsVideo": false,
+      "IsFeaturedItem": false,
+      "IsExternalResource": false,
+      "MetadataValue": null,
+      "User": {
+        "ID": 11617,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "Bert van Sas",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 850,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/68259f8d2cd13198e6d2c98795bd4ac4?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "DateCreated": {
+        "$date": "2017-06-10T08:02:00Z"
+      }
+    }
+  ],
+  "LevelOfDetail": null,
+  "Chargers": null,
+  "MetadataTags": null,
+  "SpatialPosition": {
+    "type": "Point",
+    "coordinates": [
+      4.864386040822639,
+      50.469831002925304
+    ]
+  }
+}

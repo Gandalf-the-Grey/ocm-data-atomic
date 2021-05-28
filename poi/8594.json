@@ -1,0 +1,171 @@
+{
+  "ID": 8594,
+  "UUID": "37A1F1CB-EE23-4A94-9F7F-DFB6356C14B6",
+  "ParentChargePointID": null,
+  "DataProviderID": 15,
+  "DataProvidersReference": "3086",
+  "OperatorID": 31,
+  "OperatorsReference": null,
+  "UsageTypeID": null,
+  "UsageCost": null,
+  "AddressInfo": {
+    "ID": 8491,
+    "Title": "86714 McVay Highway",
+    "AddressLine1": "86714 McVay Highway",
+    "AddressLine2": null,
+    "Town": "Eugene",
+    "StateOrProvince": "OR",
+    "Postcode": "86714",
+    "CountryID": 2,
+    "Country": {
+      "ID": 2,
+      "Title": "United States",
+      "ISOCode": "US",
+      "ContinentCode": "NA"
+    },
+    "Latitude": 44.01828,
+    "Longitude": -123.02608,
+    "ContactTelephone1": " (541) 736-5864 ",
+    "ContactTelephone2": null,
+    "ContactEmail": null,
+    "AccessComments": null,
+    "RelatedURL": "http://carstations.com/3086",
+    "Distance": null,
+    "DistanceUnit": 0,
+    "GeneralComments": null
+  },
+  "Connections": [
+    {
+      "ID": 6018,
+      "ConnectionTypeID": 9,
+      "ConnectionType": {
+        "ID": 9,
+        "Title": "NEMA 5-20R",
+        "FormalName": null,
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": "NEMA5",
+      "StatusTypeID": null,
+      "StatusType": null,
+      "LevelID": 1,
+      "Level": {
+        "ID": 1,
+        "Title": "Level 1 : Low (Under 2kW)",
+        "Comments": "Under 2 kW, usually domestic socket types",
+        "IsFastChargeCapable": false
+      },
+      "Amps": null,
+      "Voltage": null,
+      "PowerKW": null,
+      "CurrentTypeID": null,
+      "CurrentType": null,
+      "Quantity": null,
+      "Comments": null
+    },
+    {
+      "ID": 6224,
+      "ConnectionTypeID": 8,
+      "ConnectionType": {
+        "ID": 8,
+        "Title": "Tesla (Roadster)",
+        "FormalName": "Tesla Connector",
+        "IsDiscontinued": true,
+        "IsObsolete": false
+      },
+      "Reference": "TESLA",
+      "StatusTypeID": null,
+      "StatusType": null,
+      "LevelID": 2,
+      "Level": {
+        "ID": 2,
+        "Title": "Level 2 : Medium (Over 2kW)",
+        "Comments": "Over 2 kW, usually non-domestic socket type",
+        "IsFastChargeCapable": false
+      },
+      "Amps": 70,
+      "Voltage": 230,
+      "PowerKW": 16.8,
+      "CurrentTypeID": 10,
+      "CurrentType": {
+        "ID": 10,
+        "Title": "AC (Single-Phase)",
+        "Description": "Alternating Current - Single Phase"
+      },
+      "Quantity": 1,
+      "Comments": null
+    }
+  ],
+  "NumberOfPoints": null,
+  "GeneralComments": null,
+  "DatePlanned": null,
+  "DateLastConfirmed": null,
+  "StatusTypeID": 0,
+  "DateLastStatusUpdate": {
+    "$date": "2017-11-04T14:04:00Z"
+  },
+  "MetadataValues": null,
+  "DataQualityLevel": 1,
+  "DateCreated": {
+    "$date": "2011-11-11T12:07:00Z"
+  },
+  "SubmissionStatusTypeID": 100,
+  "AddressCleaningRequired": false,
+  "DataProvider": {
+    "ID": 15,
+    "Title": "CarStations.com",
+    "WebsiteURL": "http://www.carstations.com",
+    "Comments": null,
+    "DataProviderStatusType": {
+      "ID": 20,
+      "Title": "Automated Import",
+      "IsProviderEnabled": true
+    },
+    "IsRestrictedEdit": false,
+    "IsOpenDataLicensed": null,
+    "IsApprovedImport": null,
+    "License": null,
+    "DateLastImported": {
+      "$date": "2017-11-04T14:07:02.687Z"
+    }
+  },
+  "OperatorInfo": {
+    "ID": 31,
+    "Title": "Clipper Creek",
+    "WebsiteURL": null,
+    "Comments": null,
+    "PhonePrimaryContact": null,
+    "PhoneSecondaryContact": null,
+    "IsPrivateIndividual": false,
+    "AddressInfo": null,
+    "BookingURL": null,
+    "ContactEmail": null,
+    "FaultReportEmail": null,
+    "IsRestrictedEdit": null
+  },
+  "UsageType": null,
+  "StatusType": {
+    "ID": 0,
+    "Title": "Unknown",
+    "IsOperational": null,
+    "IsUserSelectable": true
+  },
+  "SubmissionStatus": {
+    "ID": 100,
+    "Title": "Imported and Published",
+    "IsLive": true
+  },
+  "UserComments": null,
+  "PercentageSimilarity": null,
+  "MediaItems": null,
+  "LevelOfDetail": null,
+  "Chargers": null,
+  "MetadataTags": null,
+  "SpatialPosition": {
+    "type": "Point",
+    "coordinates": [
+      -123.02608,
+      44.01828
+    ]
+  }
+}

@@ -1,0 +1,309 @@
+{
+  "ID": 155277,
+  "UUID": "B8B0D993-8BFB-45D4-BF92-5A1D08CEF676",
+  "ParentChargePointID": null,
+  "DataProviderID": 1,
+  "DataProvidersReference": null,
+  "OperatorID": 1,
+  "OperatorsReference": null,
+  "UsageTypeID": 5,
+  "UsageCost": "90,- HUF/kWh + 10,- HUF/min",
+  "AddressInfo": {
+    "ID": 155631,
+    "Title": "Nova Futura Zrt. 003 50 kW DC + 22 kW AC Free WiFi ",
+    "AddressLine1": "Gém utca 1.",
+    "AddressLine2": null,
+    "Town": "Tolna ",
+    "StateOrProvince": null,
+    "Postcode": "7130",
+    "CountryID": 104,
+    "Country": {
+      "ID": 104,
+      "Title": "Hungary",
+      "ISOCode": "HU",
+      "ContinentCode": "EU"
+    },
+    "Latitude": 46.42078837423756,
+    "Longitude": 18.75913609928682,
+    "ContactTelephone1": "+36 30 555 8892",
+    "ContactTelephone2": null,
+    "ContactEmail": null,
+    "AccessComments": "In the Fastrons parking platz",
+    "RelatedURL": "http://www.novafuturazrt.hu ",
+    "Distance": null,
+    "DistanceUnit": 0,
+    "GeneralComments": null
+  },
+  "Connections": [
+    {
+      "ID": 218598,
+      "ConnectionTypeID": 33,
+      "ConnectionType": {
+        "ID": 33,
+        "Title": "CCS (Type 2)",
+        "FormalName": "IEC 62196-3 Configuration FF",
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": "Nova Futura Zrt. ",
+      "StatusTypeID": 50,
+      "StatusType": {
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
+        "IsUserSelectable": true
+      },
+      "LevelID": 3,
+      "Level": {
+        "ID": 3,
+        "Title": "Level 3:  High (Over 40kW)",
+        "Comments": "40KW and Higher",
+        "IsFastChargeCapable": true
+      },
+      "Amps": 120,
+      "Voltage": 450,
+      "PowerKW": 50,
+      "CurrentTypeID": 30,
+      "CurrentType": {
+        "ID": 30,
+        "Title": "DC",
+        "Description": "Direct Current"
+      },
+      "Quantity": 1,
+      "Comments": null
+    },
+    {
+      "ID": 218599,
+      "ConnectionTypeID": 2,
+      "ConnectionType": {
+        "ID": 2,
+        "Title": "CHAdeMO",
+        "FormalName": "IEC 62196-3 Configuration AA",
+        "IsDiscontinued": null,
+        "IsObsolete": null
+      },
+      "Reference": "Nova Futura Zrt. ",
+      "StatusTypeID": 50,
+      "StatusType": {
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
+        "IsUserSelectable": true
+      },
+      "LevelID": 3,
+      "Level": {
+        "ID": 3,
+        "Title": "Level 3:  High (Over 40kW)",
+        "Comments": "40KW and Higher",
+        "IsFastChargeCapable": true
+      },
+      "Amps": 120,
+      "Voltage": 450,
+      "PowerKW": 50,
+      "CurrentTypeID": 30,
+      "CurrentType": {
+        "ID": 30,
+        "Title": "DC",
+        "Description": "Direct Current"
+      },
+      "Quantity": 1,
+      "Comments": null
+    },
+    {
+      "ID": 218600,
+      "ConnectionTypeID": 25,
+      "ConnectionType": {
+        "ID": 25,
+        "Title": "Type 2 (Socket Only)",
+        "FormalName": "IEC 62196-2 Type 2",
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": "Nova Futura Zrt. ",
+      "StatusTypeID": 50,
+      "StatusType": {
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
+        "IsUserSelectable": true
+      },
+      "LevelID": 2,
+      "Level": {
+        "ID": 2,
+        "Title": "Level 2 : Medium (Over 2kW)",
+        "Comments": "Over 2 kW, usually non-domestic socket type",
+        "IsFastChargeCapable": false
+      },
+      "Amps": 32,
+      "Voltage": 400,
+      "PowerKW": 22,
+      "CurrentTypeID": 20,
+      "CurrentType": {
+        "ID": 20,
+        "Title": "AC (Three-Phase)",
+        "Description": "Alternating Current - Three Phase"
+      },
+      "Quantity": 1,
+      "Comments": null
+    }
+  ],
+  "NumberOfPoints": 1,
+  "GeneralComments": "Banking Card and internet needid: Ingyenes WiFi hálózat neve / Free Wifi network name: Nova Futura Tolna  Jelszó/Password: Futura003  www.novafuturazrt.hu Okostelefon és bankártya is kell hozzá. AC és DC csatlakozók párhuzamosan is működnek.   A töltés menete:  1. Kérjük parkolja le biztonságosan és kapcsolja ki autóját. Bekapcsolva felejtett autó nem veszi fel a töltést.   2. Válassza ki a bal oldali nyomógombok segítségével autója töltőcsatlakozóját. (Pl.: CHAdeMO)  3. Győződjön meg arról, hogy a töltőfej belseje tiszta, nem költözött bele rovar, nem tömődött-e el valamivel.  4. Csatlakoztassa a kiválasztott töltőfejet autójához. Nyomja egy határozott mozdulattal ütközésig a töltöpisztolyt autója aljzatába. Egy esetleges helytelen csatlakozás okozhatja a töltés indításának meghiúsulását.   5. Nyomja meg a \"Start\" gombot.   6. Olvassa le okostelefonja segítségével a képernyőn megjelenő QR kódot. iPhone készülékek a kamerájuk segítségével felismerik a QR kódot, Androidos készülék esetén le kell tölteni a Google Play áruházból egy tetszőleges QR kód olvasó alkalmazást.   7. Nyissa meg a QR kód által felkínált weboldalt.  8. Erősítse meg, hogy a kiválasztott töltőfej helyesen csatlakoztatva van autójához.   9. Adja meg számlázási adatait. (Mentse el az adatokat az űrlap alján egy jelszó megadásával és a jövőben nem kell újra begépelnie őket.   10. Válassza ki a maximális összeget, amennyiért tölteni szeretne. (Az Ön által kiválasztott összeget zároljuk számláján. Ha ennél kevesebbért tölt, a különbözetet felszabadítjuk és csak a pontos összeget vonjuk le, amelyről számlát állítunk ki. A számlát az Ön által megadott e-mail címre elektronikusan küldjük meg a töltés befejezését követően. Ha töltés közben eléri az előre beállított keretösszeget, a töltés automatikusan leáll.  Ha a számláján nem áll rendelkezésre a kiválasztott keretösszeg, a töltés indítása elutasításra kerül. Ez esetben használjon másik bankkártyát, vagy hívja ügyfélszolgálatunkat.)  11. Az \"Árak\" képernyő megtekintését követően kattintson a \"Tovább\" gombra.  12. Adja meg bankkártya adatait. Elmentésük esetén az adatokat a Barion tárolja.   13. Ismerje meg és fogadja el Általános Szerződési feltételeinket, majd kattintson a \"Fizetek\" gombra.   14. A töltés elindul. Telefonja képernyőjén figyelemmel kísérheti a töltéssel kapcsolatos legfontosabb adatokat.   A töltés leállítása:  A töltés befejezéséhez nyomja meg a \"Stop\" gombot. A töltés véget ér és rendszerünk számlát küld Önnek a korábban megadott e-mail címére. Az indításkor zárolt, de fel nem használt összeget felszabadítjuk, néhány órán belül ismét megjelenik bankszámláján.   Kérdés vagy hiba esetén hívja ügyfélszolgálatunkat a +36305558892 - es normál díjas telefonszámon!  Köszönjük, hogy nálunk töltötte autóját! További kellemes utazást kívánunk!   Nova Futura Zrt.  Free Wi-fi  Account: Nova Futura Tolna Password: Futura003",
+  "DatePlanned": null,
+  "DateLastConfirmed": null,
+  "StatusTypeID": 50,
+  "DateLastStatusUpdate": {
+    "$date": "2020-04-07T17:43:00Z"
+  },
+  "MetadataValues": null,
+  "DataQualityLevel": 1,
+  "DateCreated": {
+    "$date": "2020-04-04T21:27:00Z"
+  },
+  "SubmissionStatusTypeID": 200,
+  "AddressCleaningRequired": false,
+  "DataProvider": {
+    "ID": 1,
+    "Title": "Open Charge Map Contributors",
+    "WebsiteURL": "http://openchargemap.org",
+    "Comments": null,
+    "DataProviderStatusType": {
+      "ID": 1,
+      "Title": "Manual Data Entry",
+      "IsProviderEnabled": true
+    },
+    "IsRestrictedEdit": false,
+    "IsOpenDataLicensed": true,
+    "IsApprovedImport": true,
+    "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+    "DateLastImported": null
+  },
+  "OperatorInfo": {
+    "ID": 1,
+    "Title": "(Unknown Operator)",
+    "WebsiteURL": null,
+    "Comments": null,
+    "PhonePrimaryContact": null,
+    "PhoneSecondaryContact": null,
+    "IsPrivateIndividual": null,
+    "AddressInfo": null,
+    "BookingURL": null,
+    "ContactEmail": null,
+    "FaultReportEmail": null,
+    "IsRestrictedEdit": null
+  },
+  "UsageType": {
+    "ID": 5,
+    "Title": "Public - Pay At Location",
+    "IsPayAtLocation": true,
+    "IsMembershipRequired": false,
+    "IsAccessKeyRequired": false
+  },
+  "StatusType": {
+    "ID": 50,
+    "Title": "Operational",
+    "IsOperational": true,
+    "IsUserSelectable": true
+  },
+  "SubmissionStatus": {
+    "ID": 200,
+    "Title": "Submission Published",
+    "IsLive": true
+  },
+  "UserComments": null,
+  "PercentageSimilarity": null,
+  "MediaItems": [
+    {
+      "ID": 21867,
+      "ChargePointID": 155277,
+      "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM155277/OCM-155277.orig.2020040717424197.jpg",
+      "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM155277/OCM-155277.thmb.2020040717424197.jpg",
+      "Comment": "",
+      "IsEnabled": true,
+      "IsVideo": false,
+      "IsFeaturedItem": false,
+      "IsExternalResource": false,
+      "MetadataValue": null,
+      "User": {
+        "ID": 22874,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "Jegesjeles",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 12,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/3eebfa6bb428a2f73fa2aa4360d6ad3e?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "DateCreated": {
+        "$date": "2020-04-07T17:43:00Z"
+      }
+    },
+    {
+      "ID": 21856,
+      "ChargePointID": 155277,
+      "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM155277/OCM-155277.orig.2020040617483688.jpg",
+      "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM155277/OCM-155277.thmb.2020040617483688.jpg",
+      "Comment": "",
+      "IsEnabled": true,
+      "IsVideo": false,
+      "IsFeaturedItem": false,
+      "IsExternalResource": false,
+      "MetadataValue": null,
+      "User": {
+        "ID": 22874,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "Jegesjeles",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 12,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/3eebfa6bb428a2f73fa2aa4360d6ad3e?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "DateCreated": {
+        "$date": "2020-04-06T17:49:00Z"
+      }
+    }
+  ],
+  "LevelOfDetail": null,
+  "Chargers": null,
+  "MetadataTags": null,
+  "SpatialPosition": {
+    "type": "Point",
+    "coordinates": [
+      18.75913609928682,
+      46.42078837423756
+    ]
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "ID": 132450,
+  "UUID": "9EE3219D-0DD1-44FE-8243-9DED4A1B91F8",
+  "ParentChargePointID": null,
+  "DataProviderID": 26,
+  "DataProvidersReference": "75532",
+  "OperatorID": 74,
+  "OperatorsReference": "Fastned Bospoort",
+  "UsageTypeID": null,
+  "UsageCost": "0.00 per kWh",
+  "AddressInfo": {
+    "ID": 132796,
+    "Title": "Bospoort",
+    "AddressLine1": "Bospoort",
+    "AddressLine2": null,
+    "Town": "Leiderdorp",
+    "StateOrProvince": null,
+    "Postcode": "2374 BX",
+    "CountryID": 159,
+    "Country": {
+      "ID": 159,
+      "Title": "Netherlands",
+      "ISOCode": "NL",
+      "ContinentCode": "EU"
+    },
+    "Latitude": 52.16278,
+    "Longitude": 4.55405,
+    "ContactTelephone1": "020-7055300",
+    "ContactTelephone2": null,
+    "ContactEmail": "support@fastned.nl",
+    "AccessComments": null,
+    "RelatedURL": "http://fastned.nl",
+    "Distance": null,
+    "DistanceUnit": 0,
+    "GeneralComments": null
+  },
+  "Connections": [
+    {
+      "ID": 185442,
+      "ConnectionTypeID": 2,
+      "ConnectionType": {
+        "ID": 2,
+        "Title": "CHAdeMO",
+        "FormalName": "IEC 62196-3 Configuration AA",
+        "IsDiscontinued": null,
+        "IsObsolete": null
+      },
+      "Reference": null,
+      "StatusTypeID": null,
+      "StatusType": null,
+      "LevelID": 3,
+      "Level": {
+        "ID": 3,
+        "Title": "Level 3:  High (Over 40kW)",
+        "Comments": "40KW and Higher",
+        "IsFastChargeCapable": true
+      },
+      "Amps": null,
+      "Voltage": null,
+      "PowerKW": 50,
+      "CurrentTypeID": 30,
+      "CurrentType": {
+        "ID": 30,
+        "Title": "DC",
+        "Description": "Direct Current"
+      },
+      "Quantity": null,
+      "Comments": null
+    },
+    {
+      "ID": 185443,
+      "ConnectionTypeID": 25,
+      "ConnectionType": {
+        "ID": 25,
+        "Title": "Type 2 (Socket Only)",
+        "FormalName": "IEC 62196-2 Type 2",
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": null,
+      "StatusTypeID": null,
+      "StatusType": null,
+      "LevelID": 2,
+      "Level": {
+        "ID": 2,
+        "Title": "Level 2 : Medium (Over 2kW)",
+        "Comments": "Over 2 kW, usually non-domestic socket type",
+        "IsFastChargeCapable": false
+      },
+      "Amps": null,
+      "Voltage": null,
+      "PowerKW": 22,
+      "CurrentTypeID": 10,
+      "CurrentType": {
+        "ID": 10,
+        "Title": "AC (Single-Phase)",
+        "Description": "Alternating Current - Single Phase"
+      },
+      "Quantity": null,
+      "Comments": null
+    }
+  ],
+  "NumberOfPoints": 2,
+  "GeneralComments": null,
+  "DatePlanned": null,
+  "DateLastConfirmed": null,
+  "StatusTypeID": 50,
+  "DateLastStatusUpdate": {
+    "$date": "2019-09-30T15:44:00Z"
+  },
+  "MetadataValues": null,
+  "DataQualityLevel": 3,
+  "DateCreated": {
+    "$date": "2016-03-03T12:31:00Z"
+  },
+  "SubmissionStatusTypeID": 1005,
+  "AddressCleaningRequired": false,
+  "DataProvider": {
+    "ID": 26,
+    "Title": "Oplaadpalen.nl",
+    "WebsiteURL": "http://www.oplaadpalen.nl/",
+    "Comments": null,
+    "DataProviderStatusType": {
+      "ID": 20,
+      "Title": "Automated Import",
+      "IsProviderEnabled": true
+    },
+    "IsRestrictedEdit": false,
+    "IsOpenDataLicensed": true,
+    "IsApprovedImport": true,
+    "License": "Licensed under Attribution-NonCommercial-ShareAlike 3.0 : http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "DateLastImported": {
+      "$date": "2016-06-04T03:04:53.05Z"
+    }
+  },
+  "OperatorInfo": {
+    "ID": 74,
+    "Title": "FastNed",
+    "WebsiteURL": "http://www.fastned.nl/",
+    "Comments": null,
+    "PhonePrimaryContact": "+31 (0)20-7155316",
+    "PhoneSecondaryContact": null,
+    "IsPrivateIndividual": null,
+    "AddressInfo": null,
+    "BookingURL": null,
+    "ContactEmail": "contact@fastned.nl",
+    "FaultReportEmail": "contact@fastned.nl",
+    "IsRestrictedEdit": null
+  },
+  "UsageType": null,
+  "StatusType": {
+    "ID": 50,
+    "Title": "Operational",
+    "IsOperational": true,
+    "IsUserSelectable": true
+  },
+  "SubmissionStatus": {
+    "ID": 1005,
+    "Title": "Delisted - Superseded by Update",
+    "IsLive": false
+  },
+  "UserComments": null,
+  "PercentageSimilarity": null,
+  "MediaItems": null,
+  "LevelOfDetail": null,
+  "Chargers": null,
+  "MetadataTags": null,
+  "SpatialPosition": {
+    "type": "Point",
+    "coordinates": [
+      4.55405,
+      52.16278
+    ]
+  }
+}

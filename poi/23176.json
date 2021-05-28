@@ -1,0 +1,313 @@
+{
+  "ID": 23176,
+  "UUID": "C051465A-9BFD-4C6B-8B5C-E4A2EB173FA3",
+  "ParentChargePointID": null,
+  "DataProviderID": 1,
+  "DataProvidersReference": null,
+  "OperatorID": 76,
+  "OperatorsReference": null,
+  "UsageTypeID": 1,
+  "UsageCost": "5€ /up to 60min of loading",
+  "AddressInfo": {
+    "ID": 23521,
+    "Title": "Kilingi-Nõmme",
+    "AddressLine1": "Turu street",
+    "AddressLine2": "Kiriku street",
+    "Town": "Kilingi-Nõmme",
+    "StateOrProvince": "Pärnumaa",
+    "Postcode": "86303",
+    "CountryID": 74,
+    "Country": {
+      "ID": 74,
+      "Title": "Estonia",
+      "ISOCode": "EE",
+      "ContinentCode": "EU"
+    },
+    "Latitude": 58.1476849502455,
+    "Longitude": 24.9506455193878,
+    "ContactTelephone1": "+372 6511911",
+    "ContactTelephone2": null,
+    "ContactEmail": "tugi@elmo.ee",
+    "AccessComments": "Turu street parking area.",
+    "RelatedURL": "http://www.elmo.ee/en",
+    "Distance": null,
+    "DistanceUnit": 0,
+    "GeneralComments": null
+  },
+  "Connections": [
+    {
+      "ID": 24946,
+      "ConnectionTypeID": 2,
+      "ConnectionType": {
+        "ID": 2,
+        "Title": "CHAdeMO",
+        "FormalName": "IEC 62196-3 Configuration AA",
+        "IsDiscontinued": null,
+        "IsObsolete": null
+      },
+      "Reference": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
+        "IsUserSelectable": true
+      },
+      "LevelID": 3,
+      "Level": {
+        "ID": 3,
+        "Title": "Level 3:  High (Over 40kW)",
+        "Comments": "40KW and Higher",
+        "IsFastChargeCapable": true
+      },
+      "Amps": 120,
+      "Voltage": 500,
+      "PowerKW": 50,
+      "CurrentTypeID": 30,
+      "CurrentType": {
+        "ID": 30,
+        "Title": "DC",
+        "Description": "Direct Current"
+      },
+      "Quantity": 1,
+      "Comments": null
+    },
+    {
+      "ID": 24947,
+      "ConnectionTypeID": 25,
+      "ConnectionType": {
+        "ID": 25,
+        "Title": "Type 2 (Socket Only)",
+        "FormalName": "IEC 62196-2 Type 2",
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
+        "IsUserSelectable": true
+      },
+      "LevelID": 2,
+      "Level": {
+        "ID": 2,
+        "Title": "Level 2 : Medium (Over 2kW)",
+        "Comments": "Over 2 kW, usually non-domestic socket type",
+        "IsFastChargeCapable": false
+      },
+      "Amps": 32,
+      "Voltage": 400,
+      "PowerKW": 22,
+      "CurrentTypeID": 20,
+      "CurrentType": {
+        "ID": 20,
+        "Title": "AC (Three-Phase)",
+        "Description": "Alternating Current - Three Phase"
+      },
+      "Quantity": 1,
+      "Comments": null
+    }
+  ],
+  "NumberOfPoints": 1,
+  "GeneralComments": "Opened 24h (automatic). \r\nReal-time condition information (operational/not operational/free) - www.elmo.ee \r\nCan pay with client card, SMS or mobile application. \r\nCharger number 67109",
+  "DatePlanned": null,
+  "DateLastConfirmed": null,
+  "StatusTypeID": 50,
+  "DateLastStatusUpdate": {
+    "$date": "2014-04-20T20:08:00Z"
+  },
+  "MetadataValues": null,
+  "DataQualityLevel": 1,
+  "DateCreated": {
+    "$date": "2014-04-20T05:29:00Z"
+  },
+  "SubmissionStatusTypeID": 200,
+  "AddressCleaningRequired": false,
+  "DataProvider": {
+    "ID": 1,
+    "Title": "Open Charge Map Contributors",
+    "WebsiteURL": "http://openchargemap.org",
+    "Comments": null,
+    "DataProviderStatusType": {
+      "ID": 1,
+      "Title": "Manual Data Entry",
+      "IsProviderEnabled": true
+    },
+    "IsRestrictedEdit": false,
+    "IsOpenDataLicensed": true,
+    "IsApprovedImport": true,
+    "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+    "DateLastImported": null
+  },
+  "OperatorInfo": {
+    "ID": 76,
+    "Title": "ELMO",
+    "WebsiteURL": "http://www.elmo.ee/",
+    "Comments": "When calling 651 1911 the price of the call depends on the selected service package. When calling 1911, the price of the call is 0.23 euros (including VAT). The price of content service of calls to call service numbers does not depend on the service package of a customer; it is the same for all callers.",
+    "PhonePrimaryContact": "6 511 911",
+    "PhoneSecondaryContact": "1911",
+    "IsPrivateIndividual": null,
+    "AddressInfo": null,
+    "BookingURL": null,
+    "ContactEmail": "elmo@kredex.ee",
+    "FaultReportEmail": "tugi@elmo.ee",
+    "IsRestrictedEdit": null
+  },
+  "UsageType": {
+    "ID": 1,
+    "Title": "Public",
+    "IsPayAtLocation": null,
+    "IsMembershipRequired": null,
+    "IsAccessKeyRequired": null
+  },
+  "StatusType": {
+    "ID": 50,
+    "Title": "Operational",
+    "IsOperational": true,
+    "IsUserSelectable": true
+  },
+  "SubmissionStatus": {
+    "ID": 200,
+    "Title": "Submission Published",
+    "IsLive": true
+  },
+  "UserComments": null,
+  "PercentageSimilarity": null,
+  "MediaItems": [
+    {
+      "ID": 337,
+      "ChargePointID": 23176,
+      "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/EE/OCM23176/OCM-23176.orig.2014042217523759.jpg",
+      "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/EE/OCM23176/OCM-23176.thmb.2014042217523759.jpg",
+      "Comment": "20-04-2014 @ Kilingi-Nõmme",
+      "IsEnabled": true,
+      "IsVideo": false,
+      "IsFeaturedItem": false,
+      "IsExternalResource": false,
+      "MetadataValue": null,
+      "User": {
+        "ID": 1778,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "seidelberg",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 175,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/c11a9dc50c6e61c57ba7097778fb462e?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "DateCreated": {
+        "$date": "2014-04-22T17:53:00Z"
+      }
+    },
+    {
+      "ID": 336,
+      "ChargePointID": 23176,
+      "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/EE/OCM23176/OCM-23176.orig.2014042217515045.jpg",
+      "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/EE/OCM23176/OCM-23176.thmb.2014042217515045.jpg",
+      "Comment": "20-04-2014 @ Kilingi-Nõmme, Pärnu county, Estonia",
+      "IsEnabled": true,
+      "IsVideo": false,
+      "IsFeaturedItem": false,
+      "IsExternalResource": false,
+      "MetadataValue": null,
+      "User": {
+        "ID": 1778,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "seidelberg",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 175,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/c11a9dc50c6e61c57ba7097778fb462e?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "DateCreated": {
+        "$date": "2014-04-22T17:52:00Z"
+      }
+    },
+    {
+      "ID": 335,
+      "ChargePointID": 23176,
+      "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/EE/OCM23176/OCM-23176.orig.2014042217502701.jpg",
+      "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/EE/OCM23176/OCM-23176.thmb.2014042217502701.jpg",
+      "Comment": "20-04-2014 @ Kilingi-Nõmme, Pärnu county, Estonia\r\nAdded 13KWh to battery with 25 min. Can fill battery only up to 90% in case of Leaf.\r\nRental car.",
+      "IsEnabled": true,
+      "IsVideo": false,
+      "IsFeaturedItem": false,
+      "IsExternalResource": false,
+      "MetadataValue": null,
+      "User": {
+        "ID": 1778,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "seidelberg",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 175,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/c11a9dc50c6e61c57ba7097778fb462e?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "DateCreated": {
+        "$date": "2014-04-22T17:51:00Z"
+      }
+    }
+  ],
+  "LevelOfDetail": null,
+  "Chargers": null,
+  "MetadataTags": null,
+  "SpatialPosition": {
+    "type": "Point",
+    "coordinates": [
+      24.9506455193878,
+      58.1476849502455
+    ]
+  }
+}

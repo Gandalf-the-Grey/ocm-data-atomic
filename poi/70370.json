@@ -1,0 +1,157 @@
+{
+  "ID": 70370,
+  "UUID": "2B93FA21-C9D9-4FB6-8397-B82E784D62A8",
+  "ParentChargePointID": null,
+  "DataProviderID": 19,
+  "DataProvidersReference": "1705",
+  "OperatorID": null,
+  "OperatorsReference": null,
+  "UsageTypeID": null,
+  "UsageCost": null,
+  "AddressInfo": {
+    "ID": 70716,
+    "Title": "Vesterålen Bil, Fortum Hurtigladestasjon, Sortland",
+    "AddressLine1": "Vesterålsgata 41",
+    "AddressLine2": null,
+    "Town": "SORTLAND",
+    "StateOrProvince": "Nordland",
+    "Postcode": "8400",
+    "CountryID": 168,
+    "Country": {
+      "ID": 168,
+      "Title": "Norway",
+      "ISOCode": "NO",
+      "ContinentCode": "EU"
+    },
+    "Latitude": 68.70472,
+    "Longitude": 15.41195,
+    "ContactTelephone1": null,
+    "ContactTelephone2": null,
+    "ContactEmail": null,
+    "AccessComments": "Utenfor Vesterålen bil",
+    "RelatedURL": null,
+    "Distance": null,
+    "DistanceUnit": 0,
+    "GeneralComments": null
+  },
+  "Connections": [
+    {
+      "ID": 100548,
+      "ConnectionTypeID": 2,
+      "ConnectionType": {
+        "ID": 2,
+        "Title": "CHAdeMO",
+        "FormalName": "IEC 62196-3 Configuration AA",
+        "IsDiscontinued": null,
+        "IsObsolete": null
+      },
+      "Reference": "1",
+      "StatusTypeID": null,
+      "StatusType": null,
+      "LevelID": 3,
+      "Level": {
+        "ID": 3,
+        "Title": "Level 3:  High (Over 40kW)",
+        "Comments": "40KW and Higher",
+        "IsFastChargeCapable": true
+      },
+      "Amps": 100,
+      "Voltage": 500,
+      "PowerKW": 50,
+      "CurrentTypeID": 30,
+      "CurrentType": {
+        "ID": 30,
+        "Title": "DC",
+        "Description": "Direct Current"
+      },
+      "Quantity": null,
+      "Comments": "Mode 4"
+    },
+    {
+      "ID": 100549,
+      "ConnectionTypeID": 25,
+      "ConnectionType": {
+        "ID": 25,
+        "Title": "Type 2 (Socket Only)",
+        "FormalName": "IEC 62196-2 Type 2",
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": "2",
+      "StatusTypeID": null,
+      "StatusType": null,
+      "LevelID": 2,
+      "Level": {
+        "ID": 2,
+        "Title": "Level 2 : Medium (Over 2kW)",
+        "Comments": "Over 2 kW, usually non-domestic socket type",
+        "IsFastChargeCapable": false
+      },
+      "Amps": 63,
+      "Voltage": 400,
+      "PowerKW": 25,
+      "CurrentTypeID": 20,
+      "CurrentType": {
+        "ID": 20,
+        "Title": "AC (Three-Phase)",
+        "Description": "Alternating Current - Three Phase"
+      },
+      "Quantity": null,
+      "Comments": "Mode 3"
+    }
+  ],
+  "NumberOfPoints": 2,
+  "GeneralComments": null,
+  "DatePlanned": null,
+  "DateLastConfirmed": null,
+  "StatusTypeID": null,
+  "DateLastStatusUpdate": {
+    "$date": "2016-07-14T17:17:00Z"
+  },
+  "MetadataValues": null,
+  "DataQualityLevel": 2,
+  "DateCreated": {
+    "$date": "2014-12-09T09:01:00Z"
+  },
+  "SubmissionStatusTypeID": 1005,
+  "AddressCleaningRequired": false,
+  "DataProvider": {
+    "ID": 19,
+    "Title": "NOBIL",
+    "WebsiteURL": "https://nobil.no/",
+    "Comments": "NOBIL is an open, publicly owned charging point database for the Nordic countries.",
+    "DataProviderStatusType": {
+      "ID": 30,
+      "Title": "Partially Automated (Ad-Hoc Import)",
+      "IsProviderEnabled": true
+    },
+    "IsRestrictedEdit": false,
+    "IsOpenDataLicensed": true,
+    "IsApprovedImport": true,
+    "License": "NOBIL by Enova is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) License.",
+    "DateLastImported": {
+      "$date": "2021-03-27T14:52:43.187Z"
+    }
+  },
+  "OperatorInfo": null,
+  "UsageType": null,
+  "StatusType": null,
+  "SubmissionStatus": {
+    "ID": 1005,
+    "Title": "Delisted - Superseded by Update",
+    "IsLive": false
+  },
+  "UserComments": null,
+  "PercentageSimilarity": null,
+  "MediaItems": null,
+  "LevelOfDetail": null,
+  "Chargers": null,
+  "MetadataTags": null,
+  "SpatialPosition": {
+    "type": "Point",
+    "coordinates": [
+      15.41195,
+      68.70472
+    ]
+  }
+}

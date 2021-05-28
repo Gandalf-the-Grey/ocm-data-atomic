@@ -1,0 +1,231 @@
+{
+  "ID": 24607,
+  "UUID": "8562C7B4-630E-4C2D-BAFC-28A137250F58",
+  "ParentChargePointID": null,
+  "DataProviderID": 1,
+  "DataProvidersReference": null,
+  "OperatorID": 23,
+  "OperatorsReference": "6409",
+  "UsageTypeID": 5,
+  "UsageCost": "HKD 2.90/kWh; /other tariffs for older cars",
+  "AddressInfo": {
+    "ID": 24953,
+    "Title": "Kai Tak Cruise Terminal",
+    "AddressLine1": "Shing Fung Road, Kowloon Bay",
+    "AddressLine2": null,
+    "Town": "Kowloon",
+    "StateOrProvince": "Kowloon",
+    "Postcode": null,
+    "CountryID": 4,
+    "Country": {
+      "ID": 4,
+      "Title": "Hong Kong",
+      "ISOCode": "HK",
+      "ContinentCode": "AS"
+    },
+    "Latitude": 22.3070523,
+    "Longitude": 114.212128564558,
+    "ContactTelephone1": null,
+    "ContactTelephone2": null,
+    "ContactEmail": null,
+    "AccessComments": "Arrive before 11pm! After 11pm, no access, but one can leave any time. From the roundabout, drive to the end of the terminal (ground level), then at the 180 degree turn at the end, go up the ramp, keep to the right side (past the bus area) until there is a parking lot entry on the left side. After the gate (use Octopus or Visa only), go to the end for 13A chargers, continue clockwise around to find 4 Supercharger stalls (Tesla Motors)",
+    "RelatedURL": "http://www.kaitakcruiseterminal.com.hk",
+    "Distance": null,
+    "DistanceUnit": 0,
+    "GeneralComments": null
+  },
+  "Connections": [
+    {
+      "ID": 26889,
+      "ConnectionTypeID": 27,
+      "ConnectionType": {
+        "ID": 27,
+        "Title": "Tesla Supercharger",
+        "FormalName": "Tesla Supercharger",
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
+        "IsUserSelectable": true
+      },
+      "LevelID": 3,
+      "Level": {
+        "ID": 3,
+        "Title": "Level 3:  High (Over 40kW)",
+        "Comments": "40KW and Higher",
+        "IsFastChargeCapable": true
+      },
+      "Amps": null,
+      "Voltage": 400,
+      "PowerKW": 120,
+      "CurrentTypeID": 30,
+      "CurrentType": {
+        "ID": 30,
+        "Title": "DC",
+        "Description": "Direct Current"
+      },
+      "Quantity": 6,
+      "Comments": null
+    },
+    {
+      "ID": 26890,
+      "ConnectionTypeID": 3,
+      "ConnectionType": {
+        "ID": 3,
+        "Title": "BS1363 3 Pin 13 Amp",
+        "FormalName": "BS1363 / Type G",
+        "IsDiscontinued": null,
+        "IsObsolete": null
+      },
+      "Reference": null,
+      "StatusTypeID": 0,
+      "StatusType": {
+        "ID": 0,
+        "Title": "Unknown",
+        "IsOperational": null,
+        "IsUserSelectable": true
+      },
+      "LevelID": 2,
+      "Level": {
+        "ID": 2,
+        "Title": "Level 2 : Medium (Over 2kW)",
+        "Comments": "Over 2 kW, usually non-domestic socket type",
+        "IsFastChargeCapable": false
+      },
+      "Amps": 13,
+      "Voltage": 230,
+      "PowerKW": 3,
+      "CurrentTypeID": 10,
+      "CurrentType": {
+        "ID": 10,
+        "Title": "AC (Single-Phase)",
+        "Description": "Alternating Current - Single Phase"
+      },
+      "Quantity": 32,
+      "Comments": null
+    }
+  ],
+  "NumberOfPoints": 36,
+  "GeneralComments": "Enter parking BEFORE 11pm, after that you can leave any time. These Tesla supercharger bays are NOT currently reserved for Tesla cars (according to management, October 1st, 2014), and are NOT marked in any way to prevent any car to park there. Hopefully this will change any time soon. Spot 2B seems to be the fastest one at the moment, some have clocked over 600 km/hr initial charging (100+ kW).",
+  "DatePlanned": null,
+  "DateLastConfirmed": null,
+  "StatusTypeID": 50,
+  "DateLastStatusUpdate": {
+    "$date": "2019-03-22T20:55:00Z"
+  },
+  "MetadataValues": null,
+  "DataQualityLevel": 1,
+  "DateCreated": {
+    "$date": "2014-10-22T03:58:00Z"
+  },
+  "SubmissionStatusTypeID": 200,
+  "AddressCleaningRequired": false,
+  "DataProvider": {
+    "ID": 1,
+    "Title": "Open Charge Map Contributors",
+    "WebsiteURL": "http://openchargemap.org",
+    "Comments": null,
+    "DataProviderStatusType": {
+      "ID": 1,
+      "Title": "Manual Data Entry",
+      "IsProviderEnabled": true
+    },
+    "IsRestrictedEdit": false,
+    "IsOpenDataLicensed": true,
+    "IsApprovedImport": true,
+    "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+    "DateLastImported": null
+  },
+  "OperatorInfo": {
+    "ID": 23,
+    "Title": "Tesla Motors (Worldwide)",
+    "WebsiteURL": "http://www.teslamotors.com",
+    "Comments": null,
+    "PhonePrimaryContact": null,
+    "PhoneSecondaryContact": null,
+    "IsPrivateIndividual": null,
+    "AddressInfo": null,
+    "BookingURL": null,
+    "ContactEmail": null,
+    "FaultReportEmail": null,
+    "IsRestrictedEdit": null
+  },
+  "UsageType": {
+    "ID": 5,
+    "Title": "Public - Pay At Location",
+    "IsPayAtLocation": true,
+    "IsMembershipRequired": false,
+    "IsAccessKeyRequired": false
+  },
+  "StatusType": {
+    "ID": 50,
+    "Title": "Operational",
+    "IsOperational": true,
+    "IsUserSelectable": true
+  },
+  "SubmissionStatus": {
+    "ID": 200,
+    "Title": "Submission Published",
+    "IsLive": true
+  },
+  "UserComments": null,
+  "PercentageSimilarity": null,
+  "MediaItems": [
+    {
+      "ID": 682,
+      "ChargePointID": 24607,
+      "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/CN/OCM24607/OCM-24607.orig.2014102301543675.jpg",
+      "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/CN/OCM24607/OCM-24607.thmb.2014102301543675.jpg",
+      "Comment": "There are no signs to say this is for Tesla Motors cars only, or even EVs. This was October 1st 2014, national holiday, and all 13A spots (which ARE marked), and all supercharger spots, were ICEd. This is me waiting, eventually I did get to charge.",
+      "IsEnabled": true,
+      "IsVideo": false,
+      "IsFeaturedItem": false,
+      "IsExternalResource": false,
+      "MetadataValue": null,
+      "User": {
+        "ID": 2304,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "kclohse",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 33,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/bd557d198089310a8972e5b666526b3d?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "DateCreated": {
+        "$date": "2014-10-23T01:55:00Z"
+      }
+    }
+  ],
+  "LevelOfDetail": null,
+  "Chargers": null,
+  "MetadataTags": null,
+  "SpatialPosition": {
+    "type": "Point",
+    "coordinates": [
+      114.212128564558,
+      22.3070523
+    ]
+  }
+}

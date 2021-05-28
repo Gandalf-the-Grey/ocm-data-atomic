@@ -1,0 +1,321 @@
+{
+  "ID": 15550,
+  "UUID": "D801BFE0-188F-458E-BB31-DCBE574365ED",
+  "ParentChargePointID": null,
+  "DataProviderID": 1,
+  "DataProvidersReference": null,
+  "OperatorID": 111,
+  "OperatorsReference": null,
+  "UsageTypeID": 1,
+  "UsageCost": "Needs membership PLUS the parking fee",
+  "AddressInfo": {
+    "ID": 15895,
+    "Title": "Maritime Square",
+    "AddressLine1": "33 Tsing King Rd",
+    "AddressLine2": "",
+    "Town": "Tsing Yi",
+    "StateOrProvince": "New Territories",
+    "Postcode": "",
+    "CountryID": 4,
+    "Country": {
+      "ID": 4,
+      "Title": "Hong Kong",
+      "ISOCode": "HK",
+      "ContinentCode": "AS"
+    },
+    "Latitude": 22.35927391052246,
+    "Longitude": 114.10783386230469,
+    "ContactTelephone1": "81132334",
+    "ContactTelephone2": "",
+    "ContactEmail": "",
+    "AccessComments": "Do NOT enter from the expressway, enter from Tsing King Road. When inside, keep in the RIGHT lane, as the left lane is blocked from entering carpark (entrance/exit is on the right). If you enter from the expressway anyway, it's OK, but you have to drive for a while until you get to the parking. Do NOT follow \"station parking\", follow \"Maritime Square Parking\" (some of the way it is the same direction)",
+    "RelatedURL": "http://www.hkevpower.com",
+    "Distance": null,
+    "DistanceUnit": 0,
+    "GeneralComments": null
+  },
+  "Connections": [
+    {
+      "ID": 13867,
+      "ConnectionTypeID": 3,
+      "ConnectionType": {
+        "ID": 3,
+        "Title": "BS1363 3 Pin 13 Amp",
+        "FormalName": "BS1363 / Type G",
+        "IsDiscontinued": null,
+        "IsObsolete": null
+      },
+      "Reference": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
+        "IsUserSelectable": true
+      },
+      "LevelID": 1,
+      "Level": {
+        "ID": 1,
+        "Title": "Level 1 : Low (Under 2kW)",
+        "Comments": "Under 2 kW, usually domestic socket types",
+        "IsFastChargeCapable": false
+      },
+      "Amps": null,
+      "Voltage": null,
+      "PowerKW": 2.2,
+      "CurrentTypeID": 10,
+      "CurrentType": {
+        "ID": 10,
+        "Title": "AC (Single-Phase)",
+        "Description": "Alternating Current - Single Phase"
+      },
+      "Quantity": 3,
+      "Comments": null
+    },
+    {
+      "ID": 33402,
+      "ConnectionTypeID": 1,
+      "ConnectionType": {
+        "ID": 1,
+        "Title": "Type 1 (J1772)",
+        "FormalName": "SAE J1772-2009",
+        "IsDiscontinued": null,
+        "IsObsolete": null
+      },
+      "Reference": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
+        "IsUserSelectable": true
+      },
+      "LevelID": 2,
+      "Level": {
+        "ID": 2,
+        "Title": "Level 2 : Medium (Over 2kW)",
+        "Comments": "Over 2 kW, usually non-domestic socket type",
+        "IsFastChargeCapable": false
+      },
+      "Amps": null,
+      "Voltage": null,
+      "PowerKW": null,
+      "CurrentTypeID": null,
+      "CurrentType": null,
+      "Quantity": 1,
+      "Comments": null
+    }
+  ],
+  "NumberOfPoints": 3,
+  "GeneralComments": "Unusable without HK EVPower membership. 3 spots with 13A BS1363 each, plus one J1772 with tethered cable (can reach all three spots). J1772 no good for Tesla Model S (without special adapter)",
+  "DatePlanned": null,
+  "DateLastConfirmed": {
+    "$date": "2011-05-21T00:00:00Z"
+  },
+  "StatusTypeID": 50,
+  "DateLastStatusUpdate": {
+    "$date": "2014-11-30T11:05:00Z"
+  },
+  "MetadataValues": null,
+  "DataQualityLevel": 1,
+  "DateCreated": {
+    "$date": "2013-01-11T21:53:00Z"
+  },
+  "SubmissionStatusTypeID": 200,
+  "AddressCleaningRequired": false,
+  "DataProvider": {
+    "ID": 1,
+    "Title": "Open Charge Map Contributors",
+    "WebsiteURL": "http://openchargemap.org",
+    "Comments": null,
+    "DataProviderStatusType": {
+      "ID": 1,
+      "Title": "Manual Data Entry",
+      "IsProviderEnabled": true
+    },
+    "IsRestrictedEdit": false,
+    "IsOpenDataLicensed": true,
+    "IsApprovedImport": true,
+    "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+    "DateLastImported": null
+  },
+  "OperatorInfo": {
+    "ID": 111,
+    "Title": "Hong Kong EV Power",
+    "WebsiteURL": "http://www.hkevpower.com/",
+    "Comments": null,
+    "PhonePrimaryContact": "+852 2210 7122",
+    "PhoneSecondaryContact": null,
+    "IsPrivateIndividual": false,
+    "AddressInfo": null,
+    "BookingURL": null,
+    "ContactEmail": "contact@hkevpower.com",
+    "FaultReportEmail": null,
+    "IsRestrictedEdit": false
+  },
+  "UsageType": {
+    "ID": 1,
+    "Title": "Public",
+    "IsPayAtLocation": null,
+    "IsMembershipRequired": null,
+    "IsAccessKeyRequired": null
+  },
+  "StatusType": {
+    "ID": 50,
+    "Title": "Operational",
+    "IsOperational": true,
+    "IsUserSelectable": true
+  },
+  "SubmissionStatus": {
+    "ID": 200,
+    "Title": "Submission Published",
+    "IsLive": true
+  },
+  "UserComments": [
+    {
+      "ID": 2405,
+      "ChargePointID": 15550,
+      "CommentTypeID": 10,
+      "CommentType": {
+        "ID": 10,
+        "Title": "General Comment"
+      },
+      "UserName": "kclohse",
+      "Comment": "Three spots, just after entering the car park. All three have 13A / 230V (2 kW) but also one station of J1772 with a cable that seems long enough to reach all three spots. NOTE: Requires membership of EVPower. There is an app E-charge for iOS (don't know about Android). We got management to activate a 13A spot for us (Tesla Model S cannot take J1772 without an adapter, which I don't know when will be available).",
+      "Rating": 5,
+      "RelatedURL": null,
+      "DateCreated": {
+        "$date": "2014-11-27T13:32:05.463Z"
+      },
+      "User": {
+        "ID": 2304,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "kclohse",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 33,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/bd557d198089310a8972e5b666526b3d?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "CheckinStatusTypeID": 10,
+      "CheckinStatusType": {
+        "ID": 10,
+        "Title": "Charged Successfully",
+        "IsPositive": true,
+        "IsAutomatedCheckin": false
+      },
+      "IsActionedByEditor": null
+    }
+  ],
+  "PercentageSimilarity": null,
+  "MediaItems": [
+    {
+      "ID": 732,
+      "ChargePointID": 15550,
+      "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HK/OCM15550/OCM-15550.orig.2014113011045469.jpg",
+      "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HK/OCM15550/OCM-15550.thmb.2014113011045469.jpg",
+      "Comment": "Here you can see how close the EV charging spots are to the entrance. You can also see how the car just entering the parking lot is in the right lane. From the left lane, the fence shows so you HAVE to align right or you will have to exit again (signs above can be misleading)",
+      "IsEnabled": true,
+      "IsVideo": false,
+      "IsFeaturedItem": false,
+      "IsExternalResource": false,
+      "MetadataValue": null,
+      "User": {
+        "ID": 2304,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "kclohse",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 33,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/bd557d198089310a8972e5b666526b3d?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "DateCreated": {
+        "$date": "2014-11-30T11:05:00Z"
+      }
+    },
+    {
+      "ID": 725,
+      "ChargePointID": 15550,
+      "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HK/OCM15550/OCM-15550.orig.2014112713385252.jpg",
+      "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HK/OCM15550/OCM-15550.thmb.2014112713385252.jpg",
+      "Comment": "Signs can be misleading: Be sure to keep the RIGHT lane. The turn after the boom is tight, and right after the turn, the three charging spots will be on the right side.",
+      "IsEnabled": true,
+      "IsVideo": false,
+      "IsFeaturedItem": false,
+      "IsExternalResource": false,
+      "MetadataValue": null,
+      "User": {
+        "ID": 2304,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "kclohse",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 33,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/bd557d198089310a8972e5b666526b3d?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "DateCreated": {
+        "$date": "2014-11-27T13:39:00Z"
+      }
+    }
+  ],
+  "LevelOfDetail": null,
+  "Chargers": null,
+  "MetadataTags": null,
+  "SpatialPosition": {
+    "type": "Point",
+    "coordinates": [
+      114.10783386230469,
+      22.35927391052246
+    ]
+  }
+}
