@@ -5,9 +5,9 @@
   "DataProviderID": 1,
   "DataProvidersReference": null,
   "OperatorID": 24,
-  "OperatorsReference": "1097,1098",
-  "UsageTypeID": 4,
-  "UsageCost": "£0.30/kWh; £0.15/kWh for Ecotricity energy customers; refunded in store",
+  "OperatorsReference": null,
+  "UsageTypeID": 5,
+  "UsageCost": "£0.30/kWh",
   "AddressInfo": {
     "ID": 24474,
     "Title": "IKEA Leeds",
@@ -45,11 +45,11 @@
         "IsDiscontinued": null,
         "IsObsolete": null
       },
-      "Reference": null,
-      "StatusTypeID": 75,
+      "Reference": "0066",
+      "StatusTypeID": 50,
       "StatusType": {
-        "ID": 75,
-        "Title": "Partly Operational (Mixed)",
+        "ID": 50,
+        "Title": "Operational",
         "IsOperational": true,
         "IsUserSelectable": true
       },
@@ -60,33 +60,33 @@
         "Comments": "40KW and Higher",
         "IsFastChargeCapable": true
       },
-      "Amps": 125,
-      "Voltage": 400,
-      "PowerKW": 50,
+      "Amps": null,
+      "Voltage": null,
+      "PowerKW": 100,
       "CurrentTypeID": 30,
       "CurrentType": {
         "ID": 30,
         "Title": "DC",
         "Description": "Direct Current"
       },
-      "Quantity": 2,
+      "Quantity": 1,
       "Comments": null
     },
     {
       "ID": 33542,
-      "ConnectionTypeID": 1036,
+      "ConnectionTypeID": 33,
       "ConnectionType": {
-        "ID": 1036,
-        "Title": "Type 2 (Tethered Connector) ",
-        "FormalName": "IEC 62196-2",
+        "ID": 33,
+        "Title": "CCS (Type 2)",
+        "FormalName": "IEC 62196-3 Configuration FF",
         "IsDiscontinued": false,
         "IsObsolete": false
       },
-      "Reference": null,
-      "StatusTypeID": 75,
+      "Reference": "0066",
+      "StatusTypeID": 50,
       "StatusType": {
-        "ID": 75,
-        "Title": "Partly Operational (Mixed)",
+        "ID": 50,
+        "Title": "Operational",
         "IsOperational": true,
         "IsUserSelectable": true
       },
@@ -99,14 +99,14 @@
       },
       "Amps": 63,
       "Voltage": 400,
-      "PowerKW": 43,
-      "CurrentTypeID": 20,
+      "PowerKW": 120,
+      "CurrentTypeID": 30,
       "CurrentType": {
-        "ID": 20,
-        "Title": "AC (Three-Phase)",
-        "Description": "Alternating Current - Three Phase"
+        "ID": 30,
+        "Title": "DC",
+        "Description": "Direct Current"
       },
-      "Quantity": 2,
+      "Quantity": 1,
       "Comments": null
     },
     {
@@ -119,12 +119,12 @@
         "IsDiscontinued": false,
         "IsObsolete": false
       },
-      "Reference": null,
-      "StatusTypeID": 100,
+      "Reference": "0068",
+      "StatusTypeID": 50,
       "StatusType": {
-        "ID": 100,
-        "Title": "Not Operational",
-        "IsOperational": false,
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
         "IsUserSelectable": true
       },
       "LevelID": 3,
@@ -134,16 +134,16 @@
         "Comments": "40KW and Higher",
         "IsFastChargeCapable": true
       },
-      "Amps": 125,
-      "Voltage": 400,
-      "PowerKW": 50,
+      "Amps": null,
+      "Voltage": null,
+      "PowerKW": 120,
       "CurrentTypeID": 30,
       "CurrentType": {
         "ID": 30,
         "Title": "DC",
         "Description": "Direct Current"
       },
-      "Quantity": 1,
+      "Quantity": 2,
       "Comments": null
     }
   ],
@@ -151,9 +151,9 @@
   "GeneralComments": "Access 8.30am Mon-Fri and locked 30 minutes after store closes.",
   "DatePlanned": null,
   "DateLastConfirmed": null,
-  "StatusTypeID": 75,
+  "StatusTypeID": 50,
   "DateLastStatusUpdate": {
-    "$date": "2021-03-28T05:13:00Z"
+    "$date": "2021-05-28T09:20:00Z"
   },
   "MetadataValues": null,
   "DataQualityLevel": 1,
@@ -193,15 +193,15 @@
     "IsRestrictedEdit": false
   },
   "UsageType": {
-    "ID": 4,
-    "Title": "Public - Membership Required",
-    "IsPayAtLocation": false,
-    "IsMembershipRequired": true,
-    "IsAccessKeyRequired": true
+    "ID": 5,
+    "Title": "Public - Pay At Location",
+    "IsPayAtLocation": true,
+    "IsMembershipRequired": false,
+    "IsAccessKeyRequired": false
   },
   "StatusType": {
-    "ID": 75,
-    "Title": "Partly Operational (Mixed)",
+    "ID": 50,
+    "Title": "Operational",
     "IsOperational": true,
     "IsUserSelectable": true
   },
@@ -212,30 +212,30 @@
   },
   "UserComments": [
     {
-      "ID": 20717,
+      "ID": 24402,
       "ChargePointID": 24129,
       "CommentTypeID": 10,
       "CommentType": {
         "ID": 10,
         "Title": "General Comment"
       },
-      "UserName": "Nero",
-      "Comment": "both on FV, using LHS",
-      "Rating": 5,
+      "UserName": "dparr59",
+      "Comment": "Ikea Leeds both live Contactless payment only",
+      "Rating": null,
       "RelatedURL": null,
       "DateCreated": {
-        "$date": "2019-02-13T16:27:46.37Z"
+        "$date": "2021-05-28T09:20:26.297Z"
       },
       "User": {
-        "ID": 11655,
+        "ID": 27693,
         "IdentityProvider": null,
         "Identifier": null,
         "CurrentSessionToken": null,
-        "Username": "Nero",
+        "Username": "dparr59",
         "Profile": null,
         "Location": null,
         "WebsiteURL": null,
-        "ReputationPoints": 40,
+        "ReputationPoints": 1205,
         "Permissions": null,
         "PermissionsRequested": null,
         "DateCreated": null,
@@ -247,90 +247,45 @@
         "Longitude": null,
         "EmailAddress": null,
         "EmailHash": null,
-        "ProfileImageURL": "https://www.gravatar.com/avatar/6fa53353d26d1a83bc98ea4d0efb558d?s=80&d=robohash",
+        "ProfileImageURL": "https://www.gravatar.com/avatar/5de95a632ec7875bf72783c8d3a091d3?s=80&d=robohash",
         "IsCurrentSessionTokenValid": null,
         "APIKey": null,
         "SyncedSettings": null
       },
-      "CheckinStatusTypeID": null,
-      "CheckinStatusType": null,
-      "IsActionedByEditor": null
-    },
-    {
-      "ID": 19733,
-      "ChargePointID": 24129,
-      "CommentTypeID": 10,
-      "CommentType": {
-        "ID": 10,
-        "Title": "General Comment"
-      },
-      "UserName": "amd mad",
-      "Comment": "Leaf driver 1 unit works other unit does not",
-      "Rating": 3,
-      "RelatedURL": null,
-      "DateCreated": {
-        "$date": "2018-06-27T08:31:56.637Z"
-      },
-      "User": {
-        "ID": 18212,
-        "IdentityProvider": null,
-        "Identifier": null,
-        "CurrentSessionToken": null,
-        "Username": "amd mad",
-        "Profile": null,
-        "Location": null,
-        "WebsiteURL": null,
-        "ReputationPoints": 2,
-        "Permissions": null,
-        "PermissionsRequested": null,
-        "DateCreated": null,
-        "DateLastLogin": null,
-        "IsProfilePublic": null,
-        "IsEmergencyChargingProvider": null,
-        "IsPublicChargingProvider": null,
-        "Latitude": null,
-        "Longitude": null,
-        "EmailAddress": null,
-        "EmailHash": null,
-        "ProfileImageURL": "https://www.gravatar.com/avatar/4020eedab7e09ce4d39cee9510edddb8?s=80&d=robohash",
-        "IsCurrentSessionTokenValid": null,
-        "APIKey": null,
-        "SyncedSettings": null
-      },
-      "CheckinStatusTypeID": 10,
+      "CheckinStatusTypeID": 0,
       "CheckinStatusType": {
-        "ID": 10,
-        "Title": "Charged Successfully",
-        "IsPositive": true,
+        "ID": 0,
+        "Title": "Did Not Visit Location",
+        "IsPositive": null,
         "IsAutomatedCheckin": false
       },
-      "IsActionedByEditor": null
+      "IsActionedByEditor": false
     },
     {
-      "ID": 2421,
+      "ID": 24397,
       "ChargePointID": 24129,
       "CommentTypeID": 10,
       "CommentType": {
         "ID": 10,
         "Title": "General Comment"
       },
-      "UserName": "Burfdl",
-      "Comment": "2x Mennekes chargers here. The Mennekes on the left charges faster. 1h for 30% to 100% on Renault Zoe.",
-      "Rating": 5,
+      "UserName": "Simon Hewison",
+      "Comment": "Both units now replaced with new Gridserve / Ecotricity contactless payment DC-only charging",
+      "Rating": null,
       "RelatedURL": null,
       "DateCreated": {
-        "$date": "2014-12-04T22:48:24.907Z"
+        "$date": "2021-05-26T15:40:46.147Z"
       },
       "User": {
-        "ID": 3423,
+        "ID": 4575,
         "IdentityProvider": null,
         "Identifier": null,
         "CurrentSessionToken": null,
-        "Username": "Burfdl",
+        "Username": "Simon Hewison",
         "Profile": null,
         "Location": null,
         "WebsiteURL": null,
-        "ReputationPoints": 2,
+        "ReputationPoints": 47902,
         "Permissions": null,
         "PermissionsRequested": null,
         "DateCreated": null,
@@ -342,73 +297,106 @@
         "Longitude": null,
         "EmailAddress": null,
         "EmailHash": null,
-        "ProfileImageURL": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/b6797fc022c04bb79e21d4ff9ba07154?s=80&d=robohash",
         "IsCurrentSessionTokenValid": null,
         "APIKey": null,
         "SyncedSettings": null
       },
-      "CheckinStatusTypeID": 10,
+      "CheckinStatusTypeID": 0,
       "CheckinStatusType": {
-        "ID": 10,
-        "Title": "Charged Successfully",
-        "IsPositive": true,
+        "ID": 0,
+        "Title": "Did Not Visit Location",
+        "IsPositive": null,
         "IsAutomatedCheckin": false
       },
-      "IsActionedByEditor": null
-    },
-    {
-      "ID": 2402,
-      "ChargePointID": 24129,
-      "CommentTypeID": 10,
-      "CommentType": {
-        "ID": 10,
-        "Title": "General Comment"
-      },
-      "UserName": "Mark Johnson",
-      "Comment": "Excellent",
-      "Rating": 5,
-      "RelatedURL": null,
-      "DateCreated": {
-        "$date": "2014-11-25T16:39:26.963Z"
-      },
-      "User": {
-        "ID": 2277,
-        "IdentityProvider": null,
-        "Identifier": null,
-        "CurrentSessionToken": null,
-        "Username": "Mark Johnson",
-        "Profile": null,
-        "Location": null,
-        "WebsiteURL": null,
-        "ReputationPoints": 12,
-        "Permissions": null,
-        "PermissionsRequested": null,
-        "DateCreated": null,
-        "DateLastLogin": null,
-        "IsProfilePublic": null,
-        "IsEmergencyChargingProvider": null,
-        "IsPublicChargingProvider": null,
-        "Latitude": null,
-        "Longitude": null,
-        "EmailAddress": null,
-        "EmailHash": null,
-        "ProfileImageURL": null,
-        "IsCurrentSessionTokenValid": null,
-        "APIKey": null,
-        "SyncedSettings": null
-      },
-      "CheckinStatusTypeID": 10,
-      "CheckinStatusType": {
-        "ID": 10,
-        "Title": "Charged Successfully",
-        "IsPositive": true,
-        "IsAutomatedCheckin": false
-      },
-      "IsActionedByEditor": null
+      "IsActionedByEditor": false
     }
   ],
   "PercentageSimilarity": null,
-  "MediaItems": null,
+  "MediaItems": [
+    {
+      "ID": 27896,
+      "ChargePointID": 24129,
+      "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM24129/OCM-24129.orig.2021052809180794.jpg",
+      "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM24129/OCM-24129.thmb.2021052809180794.jpg",
+      "Comment": "Ikea Leeds both chargers Live Contactless Payment Only",
+      "IsEnabled": true,
+      "IsVideo": false,
+      "IsFeaturedItem": false,
+      "IsExternalResource": false,
+      "MetadataValue": null,
+      "User": {
+        "ID": 27693,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "dparr59",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 1205,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/5de95a632ec7875bf72783c8d3a091d3?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "DateCreated": {
+        "$date": "2021-05-28T09:18:00Z"
+      }
+    },
+    {
+      "ID": 27895,
+      "ChargePointID": 24129,
+      "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM24129/OCM-24129.orig.2021052809153483.jpg",
+      "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM24129/OCM-24129.thmb.2021052809153483.jpg",
+      "Comment": "",
+      "IsEnabled": true,
+      "IsVideo": false,
+      "IsFeaturedItem": false,
+      "IsExternalResource": false,
+      "MetadataValue": null,
+      "User": {
+        "ID": 27693,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "dparr59",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 1205,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/5de95a632ec7875bf72783c8d3a091d3?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "DateCreated": {
+        "$date": "2021-05-28T09:16:00Z"
+      }
+    }
+  ],
   "LevelOfDetail": null,
   "Chargers": null,
   "MetadataTags": null,

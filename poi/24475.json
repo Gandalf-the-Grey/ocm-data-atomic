@@ -6,8 +6,8 @@
   "DataProvidersReference": null,
   "OperatorID": 24,
   "OperatorsReference": "1244,1245,1243",
-  "UsageTypeID": 4,
-  "UsageCost": "£0.30/kWh; £0.15/kWh for Ecotricity energy customers",
+  "UsageTypeID": 5,
+  "UsageCost": "£0.30/kWh",
   "AddressInfo": {
     "ID": 24821,
     "Title": "Cobham Extra M25 Services",
@@ -46,10 +46,10 @@
         "IsObsolete": null
       },
       "Reference": null,
-      "StatusTypeID": 50,
+      "StatusTypeID": 30,
       "StatusType": {
-        "ID": 50,
-        "Title": "Operational",
+        "ID": 30,
+        "Title": "Temporarily Unavailable",
         "IsOperational": true,
         "IsUserSelectable": true
       },
@@ -60,16 +60,16 @@
         "Comments": "40KW and Higher",
         "IsFastChargeCapable": true
       },
-      "Amps": 125,
-      "Voltage": 400,
-      "PowerKW": 50,
+      "Amps": null,
+      "Voltage": null,
+      "PowerKW": 100,
       "CurrentTypeID": 30,
       "CurrentType": {
         "ID": 30,
         "Title": "DC",
         "Description": "Direct Current"
       },
-      "Quantity": 3,
+      "Quantity": 1,
       "Comments": null
     },
     {
@@ -83,10 +83,10 @@
         "IsObsolete": false
       },
       "Reference": null,
-      "StatusTypeID": 50,
+      "StatusTypeID": 30,
       "StatusType": {
-        "ID": 50,
-        "Title": "Operational",
+        "ID": 30,
+        "Title": "Temporarily Unavailable",
         "IsOperational": true,
         "IsUserSelectable": true
       },
@@ -97,63 +97,26 @@
         "Comments": "40KW and Higher",
         "IsFastChargeCapable": true
       },
-      "Amps": 125,
-      "Voltage": 400,
-      "PowerKW": 50,
+      "Amps": null,
+      "Voltage": null,
+      "PowerKW": 100,
       "CurrentTypeID": 30,
       "CurrentType": {
         "ID": 30,
         "Title": "DC",
         "Description": "Direct Current"
       },
-      "Quantity": 1,
-      "Comments": null
-    },
-    {
-      "ID": 28147,
-      "ConnectionTypeID": 1036,
-      "ConnectionType": {
-        "ID": 1036,
-        "Title": "Type 2 (Tethered Connector) ",
-        "FormalName": "IEC 62196-2",
-        "IsDiscontinued": false,
-        "IsObsolete": false
-      },
-      "Reference": null,
-      "StatusTypeID": 50,
-      "StatusType": {
-        "ID": 50,
-        "Title": "Operational",
-        "IsOperational": true,
-        "IsUserSelectable": true
-      },
-      "LevelID": 3,
-      "Level": {
-        "ID": 3,
-        "Title": "Level 3:  High (Over 40kW)",
-        "Comments": "40KW and Higher",
-        "IsFastChargeCapable": true
-      },
-      "Amps": 63,
-      "Voltage": 400,
-      "PowerKW": 43,
-      "CurrentTypeID": 20,
-      "CurrentType": {
-        "ID": 20,
-        "Title": "AC (Three-Phase)",
-        "Description": "Alternating Current - Three Phase"
-      },
-      "Quantity": 2,
+      "Quantity": 5,
       "Comments": null
     }
   ],
   "NumberOfPoints": 3,
-  "GeneralComments": "Access to rapid chargers via Ecotricity Electric Highway app only.",
+  "GeneralComments": null,
   "DatePlanned": null,
   "DateLastConfirmed": null,
-  "StatusTypeID": 50,
+  "StatusTypeID": 30,
   "DateLastStatusUpdate": {
-    "$date": "2021-03-11T06:15:00Z"
+    "$date": "2021-05-27T16:23:00Z"
   },
   "MetadataValues": [
     {
@@ -201,15 +164,15 @@
     "IsRestrictedEdit": false
   },
   "UsageType": {
-    "ID": 4,
-    "Title": "Public - Membership Required",
-    "IsPayAtLocation": false,
-    "IsMembershipRequired": true,
-    "IsAccessKeyRequired": true
+    "ID": 5,
+    "Title": "Public - Pay At Location",
+    "IsPayAtLocation": true,
+    "IsMembershipRequired": false,
+    "IsAccessKeyRequired": false
   },
   "StatusType": {
-    "ID": 50,
-    "Title": "Operational",
+    "ID": 30,
+    "Title": "Temporarily Unavailable",
     "IsOperational": true,
     "IsUserSelectable": true
   },
@@ -219,6 +182,56 @@
     "IsLive": true
   },
   "UserComments": [
+    {
+      "ID": 24399,
+      "ChargePointID": 24475,
+      "CommentTypeID": 10,
+      "CommentType": {
+        "ID": 10,
+        "Title": "General Comment"
+      },
+      "UserName": "Simon Hewison",
+      "Comment": "Site is in the process of being upgraded. All off at the moment. CCS available on nearby ionity",
+      "Rating": null,
+      "RelatedURL": null,
+      "DateCreated": {
+        "$date": "2021-05-27T16:21:58.84Z"
+      },
+      "User": {
+        "ID": 4575,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "Simon Hewison",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 47892,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/b6797fc022c04bb79e21d4ff9ba07154?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "CheckinStatusTypeID": 0,
+      "CheckinStatusType": {
+        "ID": 0,
+        "Title": "Did Not Visit Location",
+        "IsPositive": null,
+        "IsAutomatedCheckin": false
+      },
+      "IsActionedByEditor": false
+    },
     {
       "ID": 21576,
       "ChargePointID": 24475,
@@ -243,7 +256,7 @@
         "Profile": null,
         "Location": null,
         "WebsiteURL": null,
-        "ReputationPoints": 47477,
+        "ReputationPoints": 47892,
         "Permissions": null,
         "PermissionsRequested": null,
         "DateCreated": null,
@@ -293,7 +306,7 @@
         "Profile": null,
         "Location": null,
         "WebsiteURL": null,
-        "ReputationPoints": 47477,
+        "ReputationPoints": 47892,
         "Permissions": null,
         "PermissionsRequested": null,
         "DateCreated": null,
@@ -338,7 +351,7 @@
         "Profile": null,
         "Location": null,
         "WebsiteURL": null,
-        "ReputationPoints": 47477,
+        "ReputationPoints": 47892,
         "Permissions": null,
         "PermissionsRequested": null,
         "DateCreated": null,
@@ -438,7 +451,7 @@
         "Profile": null,
         "Location": null,
         "WebsiteURL": null,
-        "ReputationPoints": 79,
+        "ReputationPoints": 80,
         "Permissions": null,
         "PermissionsRequested": null,
         "DateCreated": null,
@@ -488,7 +501,7 @@
         "Profile": null,
         "Location": null,
         "WebsiteURL": null,
-        "ReputationPoints": 47477,
+        "ReputationPoints": 47892,
         "Permissions": null,
         "PermissionsRequested": null,
         "DateCreated": null,
@@ -588,7 +601,7 @@
         "Profile": null,
         "Location": null,
         "WebsiteURL": null,
-        "ReputationPoints": 47477,
+        "ReputationPoints": 47892,
         "Permissions": null,
         "PermissionsRequested": null,
         "DateCreated": null,
@@ -838,7 +851,7 @@
         "Profile": null,
         "Location": null,
         "WebsiteURL": null,
-        "ReputationPoints": 47477,
+        "ReputationPoints": 47892,
         "Permissions": null,
         "PermissionsRequested": null,
         "DateCreated": null,
@@ -988,7 +1001,7 @@
         "Profile": null,
         "Location": null,
         "WebsiteURL": null,
-        "ReputationPoints": 47477,
+        "ReputationPoints": 47892,
         "Permissions": null,
         "PermissionsRequested": null,
         "DateCreated": null,
@@ -1038,7 +1051,7 @@
         "Profile": null,
         "Location": null,
         "WebsiteURL": null,
-        "ReputationPoints": 47477,
+        "ReputationPoints": 47892,
         "Permissions": null,
         "PermissionsRequested": null,
         "DateCreated": null,
@@ -1088,7 +1101,7 @@
         "Profile": null,
         "Location": null,
         "WebsiteURL": null,
-        "ReputationPoints": 47477,
+        "ReputationPoints": 47892,
         "Permissions": null,
         "PermissionsRequested": null,
         "DateCreated": null,
@@ -1138,7 +1151,7 @@
         "Profile": null,
         "Location": null,
         "WebsiteURL": null,
-        "ReputationPoints": 47477,
+        "ReputationPoints": 47892,
         "Permissions": null,
         "PermissionsRequested": null,
         "DateCreated": null,
@@ -1238,7 +1251,7 @@
         "Profile": null,
         "Location": null,
         "WebsiteURL": null,
-        "ReputationPoints": 47477,
+        "ReputationPoints": 47892,
         "Permissions": null,
         "PermissionsRequested": null,
         "DateCreated": null,
@@ -1363,7 +1376,7 @@
         "Profile": null,
         "Location": null,
         "WebsiteURL": null,
-        "ReputationPoints": 47477,
+        "ReputationPoints": 47892,
         "Permissions": null,
         "PermissionsRequested": null,
         "DateCreated": null,
@@ -1563,7 +1576,7 @@
         "Profile": null,
         "Location": null,
         "WebsiteURL": null,
-        "ReputationPoints": 47477,
+        "ReputationPoints": 47892,
         "Permissions": null,
         "PermissionsRequested": null,
         "DateCreated": null,
@@ -1687,7 +1700,7 @@
         "Profile": null,
         "Location": null,
         "WebsiteURL": null,
-        "ReputationPoints": 47477,
+        "ReputationPoints": 47892,
         "Permissions": null,
         "PermissionsRequested": null,
         "DateCreated": null,

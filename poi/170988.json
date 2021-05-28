@@ -10,7 +10,7 @@
   "UsageCost": "AC 85 Ft/kWh;  DC 125 Ft/kWh",
   "AddressInfo": {
     "ID": 171347,
-    "Title": "PEPCO Balatonalmádi",
+    "Title": "ALDI Balatonalmádi",
     "AddressLine1": "Szabolcs u. 2.",
     "AddressLine2": null,
     "Town": "Balatonalmádi",
@@ -108,6 +108,43 @@
       },
       "Quantity": 1,
       "Comments": "One charging column can serve 1 car at a time!"
+    },
+    {
+      "ID": 272442,
+      "ConnectionTypeID": 25,
+      "ConnectionType": {
+        "ID": 25,
+        "Title": "Type 2 (Socket Only)",
+        "FormalName": "IEC 62196-2 Type 2",
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
+        "IsUserSelectable": true
+      },
+      "LevelID": 2,
+      "Level": {
+        "ID": 2,
+        "Title": "Level 2 : Medium (Over 2kW)",
+        "Comments": "Over 2 kW, usually non-domestic socket type",
+        "IsFastChargeCapable": false
+      },
+      "Amps": 32,
+      "Voltage": 230,
+      "PowerKW": 22,
+      "CurrentTypeID": 20,
+      "CurrentType": {
+        "ID": 20,
+        "Title": "AC (Three-Phase)",
+        "Description": "Alternating Current - Three Phase"
+      },
+      "Quantity": 1,
+      "Comments": null
     }
   ],
   "NumberOfPoints": 2,
@@ -116,7 +153,7 @@
   "DateLastConfirmed": null,
   "StatusTypeID": 50,
   "DateLastStatusUpdate": {
-    "$date": "2020-12-15T19:18:00Z"
+    "$date": "2021-05-25T22:45:00Z"
   },
   "MetadataValues": null,
   "DataQualityLevel": 1,
@@ -175,7 +212,49 @@
   },
   "UserComments": null,
   "PercentageSimilarity": null,
-  "MediaItems": null,
+  "MediaItems": [
+    {
+      "ID": 27870,
+      "ChargePointID": 170988,
+      "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM170988/OCM-170988.orig.2021052509064935.jpg",
+      "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM170988/OCM-170988.thmb.2021052509064935.jpg",
+      "Comment": "",
+      "IsEnabled": true,
+      "IsVideo": false,
+      "IsFeaturedItem": false,
+      "IsExternalResource": false,
+      "MetadataValue": null,
+      "User": {
+        "ID": 25347,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "SZALONTAI Kft.",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 8,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/a747dc70cb92db076ec32d6b951832cb?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "DateCreated": {
+        "$date": "2021-05-25T09:07:00Z"
+      }
+    }
+  ],
   "LevelOfDetail": null,
   "Chargers": null,
   "MetadataTags": null,

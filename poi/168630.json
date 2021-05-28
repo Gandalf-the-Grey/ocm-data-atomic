@@ -6,7 +6,7 @@
   "DataProvidersReference": null,
   "OperatorID": 32,
   "OperatorsReference": null,
-  "UsageTypeID": 5,
+  "UsageTypeID": 3,
   "UsageCost": "£0.30/kWh (Contactless Payment); £0.15/kWh (Polar Plus subscription); £0.25/kWh (Polar Instant app)",
   "AddressInfo": {
     "ID": 168989,
@@ -36,7 +36,7 @@
   },
   "Connections": [
     {
-      "ID": 256166,
+      "ID": 272517,
       "ConnectionTypeID": 33,
       "ConnectionType": {
         "ID": 33,
@@ -46,11 +46,11 @@
         "IsObsolete": false
       },
       "Reference": null,
-      "StatusTypeID": 50,
+      "StatusTypeID": 100,
       "StatusType": {
-        "ID": 50,
-        "Title": "Operational",
-        "IsOperational": true,
+        "ID": 100,
+        "Title": "Not Operational",
+        "IsOperational": false,
         "IsUserSelectable": true
       },
       "LevelID": 3,
@@ -73,7 +73,7 @@
       "Comments": null
     },
     {
-      "ID": 256167,
+      "ID": 272518,
       "ConnectionTypeID": 2,
       "ConnectionType": {
         "ID": 2,
@@ -83,11 +83,11 @@
         "IsObsolete": null
       },
       "Reference": null,
-      "StatusTypeID": 50,
+      "StatusTypeID": 100,
       "StatusType": {
-        "ID": 50,
-        "Title": "Operational",
-        "IsOperational": true,
+        "ID": 100,
+        "Title": "Not Operational",
+        "IsOperational": false,
         "IsUserSelectable": true
       },
       "LevelID": 3,
@@ -110,7 +110,7 @@
       "Comments": null
     },
     {
-      "ID": 256168,
+      "ID": 272519,
       "ConnectionTypeID": 1036,
       "ConnectionType": {
         "ID": 1036,
@@ -120,11 +120,11 @@
         "IsObsolete": false
       },
       "Reference": null,
-      "StatusTypeID": 50,
+      "StatusTypeID": 100,
       "StatusType": {
-        "ID": 50,
-        "Title": "Operational",
-        "IsOperational": true,
+        "ID": 100,
+        "Title": "Not Operational",
+        "IsOperational": false,
         "IsUserSelectable": true
       },
       "LevelID": 3,
@@ -151,9 +151,9 @@
   "GeneralComments": null,
   "DatePlanned": null,
   "DateLastConfirmed": null,
-  "StatusTypeID": 50,
+  "StatusTypeID": 100,
   "DateLastStatusUpdate": {
-    "$date": "2020-10-03T02:32:00Z"
+    "$date": "2021-05-28T09:36:00Z"
   },
   "MetadataValues": null,
   "DataQualityLevel": 1,
@@ -193,16 +193,16 @@
     "IsRestrictedEdit": false
   },
   "UsageType": {
-    "ID": 5,
-    "Title": "Public - Pay At Location",
-    "IsPayAtLocation": true,
-    "IsMembershipRequired": false,
-    "IsAccessKeyRequired": false
+    "ID": 3,
+    "Title": "Privately Owned - Notice Required",
+    "IsPayAtLocation": null,
+    "IsMembershipRequired": null,
+    "IsAccessKeyRequired": null
   },
   "StatusType": {
-    "ID": 50,
-    "Title": "Operational",
-    "IsOperational": true,
+    "ID": 100,
+    "Title": "Not Operational",
+    "IsOperational": false,
     "IsUserSelectable": true
   },
   "SubmissionStatus": {

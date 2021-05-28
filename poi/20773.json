@@ -6,8 +6,8 @@
   "DataProvidersReference": null,
   "OperatorID": 24,
   "OperatorsReference": "1108",
-  "UsageTypeID": 4,
-  "UsageCost": "£0.30/kWh; £0.15/kWh for Ecotricity energy customers",
+  "UsageTypeID": 5,
+  "UsageCost": "£0.30/kWh",
   "AddressInfo": {
     "ID": 21118,
     "Title": "Bridgwater Moto M5 Services",
@@ -74,11 +74,11 @@
     },
     {
       "ID": 22580,
-      "ConnectionTypeID": 1036,
+      "ConnectionTypeID": 33,
       "ConnectionType": {
-        "ID": 1036,
-        "Title": "Type 2 (Tethered Connector) ",
-        "FormalName": "IEC 62196-2",
+        "ID": 33,
+        "Title": "CCS (Type 2)",
+        "FormalName": "IEC 62196-3 Configuration FF",
         "IsDiscontinued": false,
         "IsObsolete": false
       },
@@ -97,26 +97,26 @@
         "Comments": "40KW and Higher",
         "IsFastChargeCapable": true
       },
-      "Amps": 63,
-      "Voltage": 400,
-      "PowerKW": 43,
-      "CurrentTypeID": 20,
+      "Amps": null,
+      "Voltage": null,
+      "PowerKW": 50,
+      "CurrentTypeID": 30,
       "CurrentType": {
-        "ID": 20,
-        "Title": "AC (Three-Phase)",
-        "Description": "Alternating Current - Three Phase"
+        "ID": 30,
+        "Title": "DC",
+        "Description": "Direct Current"
       },
       "Quantity": 1,
       "Comments": null
     }
   ],
   "NumberOfPoints": 2,
-  "GeneralComments": "Access via Ecotricity Electric Highway App only",
+  "GeneralComments": "",
   "DatePlanned": null,
   "DateLastConfirmed": null,
   "StatusTypeID": 50,
   "DateLastStatusUpdate": {
-    "$date": "2020-08-23T05:14:00Z"
+    "$date": "2021-05-27T22:03:00Z"
   },
   "MetadataValues": null,
   "DataQualityLevel": 1,
@@ -156,11 +156,11 @@
     "IsRestrictedEdit": false
   },
   "UsageType": {
-    "ID": 4,
-    "Title": "Public - Membership Required",
-    "IsPayAtLocation": false,
-    "IsMembershipRequired": true,
-    "IsAccessKeyRequired": true
+    "ID": 5,
+    "Title": "Public - Pay At Location",
+    "IsPayAtLocation": true,
+    "IsMembershipRequired": false,
+    "IsAccessKeyRequired": false
   },
   "StatusType": {
     "ID": 50,
@@ -198,7 +198,7 @@
         "Profile": null,
         "Location": null,
         "WebsiteURL": null,
-        "ReputationPoints": 47477,
+        "ReputationPoints": 47902,
         "Permissions": null,
         "PermissionsRequested": null,
         "DateCreated": null,
@@ -273,184 +273,10 @@
         "IsAutomatedCheckin": false
       },
       "IsActionedByEditor": null
-    },
-    {
-      "ID": 636,
-      "ChargePointID": 20773,
-      "CommentTypeID": 10,
-      "CommentType": {
-        "ID": 10,
-        "Title": "General Comment"
-      },
-      "UserName": "Martin Winlow",
-      "Comment": "Appeared to be operational but on commencing ChaDeMo charge with my Peugeot Ion (i-Miev) charger unit reported a CAN bus error trying to talk to car (see photo).  Helpful ecotricity support directed me to next charger which worked fine (Sedgemoor S/Bound).",
-      "Rating": 3,
-      "RelatedURL": null,
-      "DateCreated": {
-        "$date": "2014-01-18T13:35:29.22Z"
-      },
-      "User": {
-        "ID": 1308,
-        "IdentityProvider": null,
-        "Identifier": null,
-        "CurrentSessionToken": null,
-        "Username": "Martin Winlow",
-        "Profile": null,
-        "Location": null,
-        "WebsiteURL": null,
-        "ReputationPoints": 23,
-        "Permissions": null,
-        "PermissionsRequested": null,
-        "DateCreated": null,
-        "DateLastLogin": null,
-        "IsProfilePublic": null,
-        "IsEmergencyChargingProvider": null,
-        "IsPublicChargingProvider": null,
-        "Latitude": null,
-        "Longitude": null,
-        "EmailAddress": null,
-        "EmailHash": null,
-        "ProfileImageURL": "https://www.gravatar.com/avatar/32f3b0666716c74fc39efc8d4649b1b2?s=80&d=robohash",
-        "IsCurrentSessionTokenValid": null,
-        "APIKey": null,
-        "SyncedSettings": null
-      },
-      "CheckinStatusTypeID": 25,
-      "CheckinStatusType": {
-        "ID": 25,
-        "Title": "Failed to Charge (Equipment Problem)",
-        "IsPositive": false,
-        "IsAutomatedCheckin": false
-      },
-      "IsActionedByEditor": null
     }
   ],
   "PercentageSimilarity": null,
-  "MediaItems": [
-    {
-      "ID": 15068,
-      "ChargePointID": 20773,
-      "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM20773/OCM-20773.orig.2018021412134476.jpg",
-      "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM20773/OCM-20773.thmb.2018021412134476.jpg",
-      "Comment": "Only one unit, no CCS",
-      "IsEnabled": true,
-      "IsVideo": false,
-      "IsFeaturedItem": false,
-      "IsExternalResource": false,
-      "MetadataValue": null,
-      "User": {
-        "ID": 4575,
-        "IdentityProvider": null,
-        "Identifier": null,
-        "CurrentSessionToken": null,
-        "Username": "Simon Hewison",
-        "Profile": null,
-        "Location": null,
-        "WebsiteURL": null,
-        "ReputationPoints": 47477,
-        "Permissions": null,
-        "PermissionsRequested": null,
-        "DateCreated": null,
-        "DateLastLogin": null,
-        "IsProfilePublic": null,
-        "IsEmergencyChargingProvider": null,
-        "IsPublicChargingProvider": null,
-        "Latitude": null,
-        "Longitude": null,
-        "EmailAddress": null,
-        "EmailHash": null,
-        "ProfileImageURL": "https://www.gravatar.com/avatar/b6797fc022c04bb79e21d4ff9ba07154?s=80&d=robohash",
-        "IsCurrentSessionTokenValid": null,
-        "APIKey": null,
-        "SyncedSettings": null
-      },
-      "DateCreated": {
-        "$date": "2018-02-14T12:14:00Z"
-      }
-    },
-    {
-      "ID": 192,
-      "ChargePointID": 20773,
-      "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM20773/OCM-20773.orig.2014011813405282.jpg",
-      "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM20773/OCM-20773.thmb.2014011813405282.jpg",
-      "Comment": "",
-      "IsEnabled": true,
-      "IsVideo": false,
-      "IsFeaturedItem": false,
-      "IsExternalResource": false,
-      "MetadataValue": null,
-      "User": {
-        "ID": 1308,
-        "IdentityProvider": null,
-        "Identifier": null,
-        "CurrentSessionToken": null,
-        "Username": "Martin Winlow",
-        "Profile": null,
-        "Location": null,
-        "WebsiteURL": null,
-        "ReputationPoints": 23,
-        "Permissions": null,
-        "PermissionsRequested": null,
-        "DateCreated": null,
-        "DateLastLogin": null,
-        "IsProfilePublic": null,
-        "IsEmergencyChargingProvider": null,
-        "IsPublicChargingProvider": null,
-        "Latitude": null,
-        "Longitude": null,
-        "EmailAddress": null,
-        "EmailHash": null,
-        "ProfileImageURL": "https://www.gravatar.com/avatar/32f3b0666716c74fc39efc8d4649b1b2?s=80&d=robohash",
-        "IsCurrentSessionTokenValid": null,
-        "APIKey": null,
-        "SyncedSettings": null
-      },
-      "DateCreated": {
-        "$date": "2014-01-18T13:41:00Z"
-      }
-    },
-    {
-      "ID": 191,
-      "ChargePointID": 20773,
-      "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM20773/OCM-20773.orig.2014011813364753.jpg",
-      "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM20773/OCM-20773.thmb.2014011813364753.jpg",
-      "Comment": "",
-      "IsEnabled": true,
-      "IsVideo": false,
-      "IsFeaturedItem": false,
-      "IsExternalResource": false,
-      "MetadataValue": null,
-      "User": {
-        "ID": 1308,
-        "IdentityProvider": null,
-        "Identifier": null,
-        "CurrentSessionToken": null,
-        "Username": "Martin Winlow",
-        "Profile": null,
-        "Location": null,
-        "WebsiteURL": null,
-        "ReputationPoints": 23,
-        "Permissions": null,
-        "PermissionsRequested": null,
-        "DateCreated": null,
-        "DateLastLogin": null,
-        "IsProfilePublic": null,
-        "IsEmergencyChargingProvider": null,
-        "IsPublicChargingProvider": null,
-        "Latitude": null,
-        "Longitude": null,
-        "EmailAddress": null,
-        "EmailHash": null,
-        "ProfileImageURL": "https://www.gravatar.com/avatar/32f3b0666716c74fc39efc8d4649b1b2?s=80&d=robohash",
-        "IsCurrentSessionTokenValid": null,
-        "APIKey": null,
-        "SyncedSettings": null
-      },
-      "DateCreated": {
-        "$date": "2014-01-18T13:37:00Z"
-      }
-    }
-  ],
+  "MediaItems": null,
   "LevelOfDetail": null,
   "Chargers": null,
   "MetadataTags": null,

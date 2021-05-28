@@ -7,7 +7,7 @@
   "OperatorID": 3296,
   "OperatorsReference": null,
   "UsageTypeID": 5,
-  "UsageCost": null,
+  "UsageCost": "£0.40/kWh",
   "AddressInfo": {
     "ID": 137147,
     "Title": "Sycamore Road",
@@ -28,7 +28,7 @@
     "ContactTelephone1": null,
     "ContactTelephone2": null,
     "ContactEmail": null,
-    "AccessComments": "",
+    "AccessComments": null,
     "RelatedURL": "http://instavolt.co.uk",
     "Distance": null,
     "DistanceUnit": 0,
@@ -108,15 +108,89 @@
       },
       "Quantity": 1,
       "Comments": null
+    },
+    {
+      "ID": 272445,
+      "ConnectionTypeID": 33,
+      "ConnectionType": {
+        "ID": 33,
+        "Title": "CCS (Type 2)",
+        "FormalName": "IEC 62196-3 Configuration FF",
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
+        "IsUserSelectable": true
+      },
+      "LevelID": 3,
+      "Level": {
+        "ID": 3,
+        "Title": "Level 3:  High (Over 40kW)",
+        "Comments": "40KW and Higher",
+        "IsFastChargeCapable": true
+      },
+      "Amps": 125,
+      "Voltage": 400,
+      "PowerKW": 50,
+      "CurrentTypeID": 30,
+      "CurrentType": {
+        "ID": 30,
+        "Title": "DC",
+        "Description": "Direct Current"
+      },
+      "Quantity": 1,
+      "Comments": null
+    },
+    {
+      "ID": 272446,
+      "ConnectionTypeID": 2,
+      "ConnectionType": {
+        "ID": 2,
+        "Title": "CHAdeMO",
+        "FormalName": "IEC 62196-3 Configuration AA",
+        "IsDiscontinued": null,
+        "IsObsolete": null
+      },
+      "Reference": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
+        "IsUserSelectable": true
+      },
+      "LevelID": 3,
+      "Level": {
+        "ID": 3,
+        "Title": "Level 3:  High (Over 40kW)",
+        "Comments": "40KW and Higher",
+        "IsFastChargeCapable": true
+      },
+      "Amps": 125,
+      "Voltage": 400,
+      "PowerKW": 50,
+      "CurrentTypeID": 30,
+      "CurrentType": {
+        "ID": 30,
+        "Title": "DC",
+        "Description": "Direct Current"
+      },
+      "Quantity": 1,
+      "Comments": null
     }
   ],
-  "NumberOfPoints": null,
+  "NumberOfPoints": 2,
   "GeneralComments": null,
   "DatePlanned": null,
   "DateLastConfirmed": null,
   "StatusTypeID": 50,
   "DateLastStatusUpdate": {
-    "$date": "2020-10-04T06:01:00Z"
+    "$date": "2021-05-26T10:26:00Z"
   },
   "MetadataValues": [
     {
@@ -131,7 +205,7 @@
   "DateCreated": {
     "$date": "2019-12-24T05:23:00Z"
   },
-  "SubmissionStatusTypeID": 100,
+  "SubmissionStatusTypeID": 200,
   "AddressCleaningRequired": false,
   "DataProvider": {
     "ID": 1,
@@ -177,8 +251,8 @@
     "IsUserSelectable": true
   },
   "SubmissionStatus": {
-    "ID": 100,
-    "Title": "Imported and Published",
+    "ID": 200,
+    "Title": "Submission Published",
     "IsLive": true
   },
   "UserComments": null,

@@ -6,8 +6,8 @@
   "DataProvidersReference": null,
   "OperatorID": 24,
   "OperatorsReference": "1114,1115",
-  "UsageTypeID": 4,
-  "UsageCost": "£0.30/kWh; £0.15/kWh for Ecotricity energy customers",
+  "UsageTypeID": 5,
+  "UsageCost": "£0.30/kWh",
   "AddressInfo": {
     "ID": 21114,
     "Title": "Chieveley Moto M4 Services",
@@ -46,10 +46,84 @@
         "IsObsolete": null
       },
       "Reference": null,
-      "StatusTypeID": 50,
+      "StatusTypeID": 30,
       "StatusType": {
-        "ID": 50,
-        "Title": "Operational",
+        "ID": 30,
+        "Title": "Temporarily Unavailable",
+        "IsOperational": true,
+        "IsUserSelectable": true
+      },
+      "LevelID": 3,
+      "Level": {
+        "ID": 3,
+        "Title": "Level 3:  High (Over 40kW)",
+        "Comments": "40KW and Higher",
+        "IsFastChargeCapable": true
+      },
+      "Amps": null,
+      "Voltage": null,
+      "PowerKW": 50,
+      "CurrentTypeID": 30,
+      "CurrentType": {
+        "ID": 30,
+        "Title": "DC",
+        "Description": "Direct Current"
+      },
+      "Quantity": 1,
+      "Comments": null
+    },
+    {
+      "ID": 22572,
+      "ConnectionTypeID": 33,
+      "ConnectionType": {
+        "ID": 33,
+        "Title": "CCS (Type 2)",
+        "FormalName": "IEC 62196-3 Configuration FF",
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": null,
+      "StatusTypeID": 30,
+      "StatusType": {
+        "ID": 30,
+        "Title": "Temporarily Unavailable",
+        "IsOperational": true,
+        "IsUserSelectable": true
+      },
+      "LevelID": 3,
+      "Level": {
+        "ID": 3,
+        "Title": "Level 3:  High (Over 40kW)",
+        "Comments": "40KW and Higher",
+        "IsFastChargeCapable": true
+      },
+      "Amps": null,
+      "Voltage": null,
+      "PowerKW": 50,
+      "CurrentTypeID": 30,
+      "CurrentType": {
+        "ID": 30,
+        "Title": "DC",
+        "Description": "Direct Current"
+      },
+      "Quantity": 1,
+      "Comments": null
+    },
+    {
+      "ID": 272472,
+      "ConnectionTypeID": 33,
+      "ConnectionType": {
+        "ID": 33,
+        "Title": "CCS (Type 2)",
+        "FormalName": "IEC 62196-3 Configuration FF",
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": null,
+      "StatusTypeID": 30,
+      "StatusType": {
+        "ID": 30,
+        "Title": "Temporarily Unavailable",
         "IsOperational": true,
         "IsUserSelectable": true
       },
@@ -71,89 +145,15 @@
       },
       "Quantity": 2,
       "Comments": null
-    },
-    {
-      "ID": 22572,
-      "ConnectionTypeID": 1036,
-      "ConnectionType": {
-        "ID": 1036,
-        "Title": "Type 2 (Tethered Connector) ",
-        "FormalName": "IEC 62196-2",
-        "IsDiscontinued": false,
-        "IsObsolete": false
-      },
-      "Reference": null,
-      "StatusTypeID": 50,
-      "StatusType": {
-        "ID": 50,
-        "Title": "Operational",
-        "IsOperational": true,
-        "IsUserSelectable": true
-      },
-      "LevelID": 3,
-      "Level": {
-        "ID": 3,
-        "Title": "Level 3:  High (Over 40kW)",
-        "Comments": "40KW and Higher",
-        "IsFastChargeCapable": true
-      },
-      "Amps": null,
-      "Voltage": 400,
-      "PowerKW": 43,
-      "CurrentTypeID": 20,
-      "CurrentType": {
-        "ID": 20,
-        "Title": "AC (Three-Phase)",
-        "Description": "Alternating Current - Three Phase"
-      },
-      "Quantity": 1,
-      "Comments": null
-    },
-    {
-      "ID": 34553,
-      "ConnectionTypeID": 33,
-      "ConnectionType": {
-        "ID": 33,
-        "Title": "CCS (Type 2)",
-        "FormalName": "IEC 62196-3 Configuration FF",
-        "IsDiscontinued": false,
-        "IsObsolete": false
-      },
-      "Reference": null,
-      "StatusTypeID": 50,
-      "StatusType": {
-        "ID": 50,
-        "Title": "Operational",
-        "IsOperational": true,
-        "IsUserSelectable": true
-      },
-      "LevelID": 3,
-      "Level": {
-        "ID": 3,
-        "Title": "Level 3:  High (Over 40kW)",
-        "Comments": "40KW and Higher",
-        "IsFastChargeCapable": true
-      },
-      "Amps": null,
-      "Voltage": null,
-      "PowerKW": 50,
-      "CurrentTypeID": 30,
-      "CurrentType": {
-        "ID": 30,
-        "Title": "DC",
-        "Description": "Direct Current"
-      },
-      "Quantity": 1,
-      "Comments": null
     }
   ],
   "NumberOfPoints": 4,
-  "GeneralComments": "Access to rapid chargers via Ecotricity Electric Highway app only. ",
+  "GeneralComments": null,
   "DatePlanned": null,
   "DateLastConfirmed": null,
   "StatusTypeID": 50,
   "DateLastStatusUpdate": {
-    "$date": "2021-02-18T06:14:00Z"
+    "$date": "2021-05-27T19:56:00Z"
   },
   "MetadataValues": null,
   "DataQualityLevel": 1,
@@ -193,11 +193,11 @@
     "IsRestrictedEdit": false
   },
   "UsageType": {
-    "ID": 4,
-    "Title": "Public - Membership Required",
-    "IsPayAtLocation": false,
-    "IsMembershipRequired": true,
-    "IsAccessKeyRequired": true
+    "ID": 5,
+    "Title": "Public - Pay At Location",
+    "IsPayAtLocation": true,
+    "IsMembershipRequired": false,
+    "IsAccessKeyRequired": false
   },
   "StatusType": {
     "ID": 50,
@@ -235,7 +235,7 @@
         "Profile": null,
         "Location": null,
         "WebsiteURL": null,
-        "ReputationPoints": 47477,
+        "ReputationPoints": 47893,
         "Permissions": null,
         "PermissionsRequested": null,
         "DateCreated": null,
@@ -285,7 +285,7 @@
         "Profile": null,
         "Location": null,
         "WebsiteURL": null,
-        "ReputationPoints": 47477,
+        "ReputationPoints": 47893,
         "Permissions": null,
         "PermissionsRequested": null,
         "DateCreated": null,
@@ -335,7 +335,7 @@
         "Profile": null,
         "Location": null,
         "WebsiteURL": null,
-        "ReputationPoints": 47477,
+        "ReputationPoints": 47893,
         "Permissions": null,
         "PermissionsRequested": null,
         "DateCreated": null,
@@ -380,7 +380,7 @@
         "Profile": null,
         "Location": null,
         "WebsiteURL": null,
-        "ReputationPoints": 47477,
+        "ReputationPoints": 47893,
         "Permissions": null,
         "PermissionsRequested": null,
         "DateCreated": null,
@@ -430,7 +430,7 @@
         "Profile": null,
         "Location": null,
         "WebsiteURL": null,
-        "ReputationPoints": 47477,
+        "ReputationPoints": 47893,
         "Permissions": null,
         "PermissionsRequested": null,
         "DateCreated": null,
@@ -480,7 +480,7 @@
         "Profile": null,
         "Location": null,
         "WebsiteURL": null,
-        "ReputationPoints": 47477,
+        "ReputationPoints": 47893,
         "Permissions": null,
         "PermissionsRequested": null,
         "DateCreated": null,
@@ -530,7 +530,7 @@
         "Profile": null,
         "Location": null,
         "WebsiteURL": null,
-        "ReputationPoints": 47477,
+        "ReputationPoints": 47893,
         "Permissions": null,
         "PermissionsRequested": null,
         "DateCreated": null,
@@ -580,7 +580,7 @@
         "Profile": null,
         "Location": null,
         "WebsiteURL": null,
-        "ReputationPoints": 47477,
+        "ReputationPoints": 47893,
         "Permissions": null,
         "PermissionsRequested": null,
         "DateCreated": null,
@@ -680,7 +680,7 @@
         "Profile": null,
         "Location": null,
         "WebsiteURL": null,
-        "ReputationPoints": 47477,
+        "ReputationPoints": 47893,
         "Permissions": null,
         "PermissionsRequested": null,
         "DateCreated": null,
@@ -980,7 +980,7 @@
         "Profile": null,
         "Location": null,
         "WebsiteURL": null,
-        "ReputationPoints": 47477,
+        "ReputationPoints": 47893,
         "Permissions": null,
         "PermissionsRequested": null,
         "DateCreated": null,
@@ -1080,7 +1080,7 @@
         "Profile": null,
         "Location": null,
         "WebsiteURL": null,
-        "ReputationPoints": 47477,
+        "ReputationPoints": 47893,
         "Permissions": null,
         "PermissionsRequested": null,
         "DateCreated": null,
@@ -1130,7 +1130,7 @@
         "Profile": null,
         "Location": null,
         "WebsiteURL": null,
-        "ReputationPoints": 47477,
+        "ReputationPoints": 47893,
         "Permissions": null,
         "PermissionsRequested": null,
         "DateCreated": null,
@@ -1230,7 +1230,7 @@
         "Profile": null,
         "Location": null,
         "WebsiteURL": null,
-        "ReputationPoints": 47477,
+        "ReputationPoints": 47893,
         "Permissions": null,
         "PermissionsRequested": null,
         "DateCreated": null,
@@ -1330,7 +1330,7 @@
         "Profile": null,
         "Location": null,
         "WebsiteURL": null,
-        "ReputationPoints": 47477,
+        "ReputationPoints": 47893,
         "Permissions": null,
         "PermissionsRequested": null,
         "DateCreated": null,
