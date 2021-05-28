@@ -4,10 +4,10 @@
   "ParentChargePointID": null,
   "DataProviderID": 1,
   "DataProvidersReference": null,
-  "OperatorID": 1,
+  "OperatorID": 3449,
   "OperatorsReference": null,
-  "UsageTypeID": 1,
-  "UsageCost": "£0.30/kWh",
+  "UsageTypeID": 4,
+  "UsageCost": "£0.22 start + £0.30/kWh; Overstay £3.00/hour after 2 hours",
   "AddressInfo": {
     "ID": 174455,
     "Title": "Sport in Desford",
@@ -16,15 +16,15 @@
     "Town": "Leicester",
     "StateOrProvince": "Leicestershire",
     "Postcode": "LE9 9JU",
-    "CountryID": 18,
+    "CountryID": 1,
     "Country": {
-      "ID": 18,
-      "Title": "Australia",
-      "ISOCode": "AU",
-      "ContinentCode": "OC"
+      "ID": 1,
+      "Title": "United Kingdom",
+      "ISOCode": "GB",
+      "ContinentCode": "EU"
     },
-    "Latitude": 52.617651456720864,
-    "Longitude": -1.2915721658974917,
+    "Latitude": 52.618188160716755,
+    "Longitude": -1.290931625448934,
     "ContactTelephone1": "07967353790",
     "ContactTelephone2": "01455828786",
     "ContactEmail": null,
@@ -45,7 +45,7 @@
         "IsDiscontinued": false,
         "IsObsolete": false
       },
-      "Reference": "Sport in Desford (SiD)",
+      "Reference": "eP-0042-1",
       "StatusTypeID": 50,
       "StatusType": {
         "ID": 50,
@@ -69,17 +69,54 @@
         "Title": "AC (Three-Phase)",
         "Description": "Alternating Current - Three Phase"
       },
-      "Quantity": 2,
+      "Quantity": 1,
+      "Comments": null
+    },
+    {
+      "ID": 272040,
+      "ConnectionTypeID": 25,
+      "ConnectionType": {
+        "ID": 25,
+        "Title": "Type 2 (Socket Only)",
+        "FormalName": "IEC 62196-2 Type 2",
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": "eP-0042-2",
+      "StatusTypeID": 50,
+      "StatusType": {
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
+        "IsUserSelectable": true
+      },
+      "LevelID": 2,
+      "Level": {
+        "ID": 2,
+        "Title": "Level 2 : Medium (Over 2kW)",
+        "Comments": "Over 2 kW, usually non-domestic socket type",
+        "IsFastChargeCapable": false
+      },
+      "Amps": 32,
+      "Voltage": 230,
+      "PowerKW": 22,
+      "CurrentTypeID": 20,
+      "CurrentType": {
+        "ID": 20,
+        "Title": "AC (Three-Phase)",
+        "Description": "Alternating Current - Three Phase"
+      },
+      "Quantity": 1,
       "Comments": null
     }
   ],
   "NumberOfPoints": 2,
-  "GeneralComments": "Community Sports organisation",
+  "GeneralComments": "Community Sports organisation. Mobile phone app and sign-up apparently required, but could work with RFID or app from roaming partners with the Fortum back-end. (funds collected at end of session, not pre-pay)",
   "DatePlanned": null,
   "DateLastConfirmed": null,
   "StatusTypeID": 50,
   "DateLastStatusUpdate": {
-    "$date": "2021-04-02T23:29:00Z"
+    "$date": "2021-05-14T12:36:00Z"
   },
   "MetadataValues": null,
   "DataQualityLevel": 1,
@@ -105,25 +142,25 @@
     "DateLastImported": null
   },
   "OperatorInfo": {
-    "ID": 1,
-    "Title": "(Unknown Operator)",
-    "WebsiteURL": null,
-    "Comments": null,
-    "PhonePrimaryContact": null,
+    "ID": 3449,
+    "Title": "ePower",
+    "WebsiteURL": "https://www.epower.ie/",
+    "Comments": "Mostly in Ireland, but some outside the country",
+    "PhonePrimaryContact": "1800 99 88 77",
     "PhoneSecondaryContact": null,
-    "IsPrivateIndividual": null,
+    "IsPrivateIndividual": false,
     "AddressInfo": null,
     "BookingURL": null,
-    "ContactEmail": null,
+    "ContactEmail": "info@epower.ie",
     "FaultReportEmail": null,
-    "IsRestrictedEdit": null
+    "IsRestrictedEdit": false
   },
   "UsageType": {
-    "ID": 1,
-    "Title": "Public",
-    "IsPayAtLocation": null,
-    "IsMembershipRequired": null,
-    "IsAccessKeyRequired": null
+    "ID": 4,
+    "Title": "Public - Membership Required",
+    "IsPayAtLocation": false,
+    "IsMembershipRequired": true,
+    "IsAccessKeyRequired": true
   },
   "StatusType": {
     "ID": 50,
@@ -145,8 +182,8 @@
   "SpatialPosition": {
     "type": "Point",
     "coordinates": [
-      -1.2915721658974917,
-      52.617651456720864
+      -1.290931625448934,
+      52.618188160716755
     ]
   }
 }

@@ -7,7 +7,7 @@
   "OperatorID": 32,
   "OperatorsReference": null,
   "UsageTypeID": 5,
-  "UsageCost": null,
+  "UsageCost": "£0.42/kWh; other tariffs available",
   "AddressInfo": {
     "ID": 170305,
     "Title": "BP filling station",
@@ -46,11 +46,11 @@
         "IsObsolete": false
       },
       "Reference": "BPU0067",
-      "StatusTypeID": 100,
+      "StatusTypeID": 50,
       "StatusType": {
-        "ID": 100,
-        "Title": "Not Operational",
-        "IsOperational": false,
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
         "IsUserSelectable": true
       },
       "LevelID": 3,
@@ -83,11 +83,11 @@
         "IsObsolete": null
       },
       "Reference": "BPU0067",
-      "StatusTypeID": 100,
+      "StatusTypeID": 50,
       "StatusType": {
-        "ID": 100,
-        "Title": "Not Operational",
-        "IsOperational": false,
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
         "IsUserSelectable": true
       },
       "LevelID": 3,
@@ -190,7 +190,7 @@
   "DateLastConfirmed": null,
   "StatusTypeID": 50,
   "DateLastStatusUpdate": {
-    "$date": "2021-04-27T20:34:00Z"
+    "$date": "2021-05-14T15:55:00Z"
   },
   "MetadataValues": null,
   "DataQualityLevel": 1,
@@ -249,6 +249,56 @@
   },
   "UserComments": [
     {
+      "ID": 24336,
+      "ChargePointID": 169946,
+      "CommentTypeID": 10,
+      "CommentType": {
+        "ID": 10,
+        "Title": "General Comment"
+      },
+      "UserName": "Simon Hewison",
+      "Comment": "ABB Engineer attended and fixed fault yesterday",
+      "Rating": null,
+      "RelatedURL": null,
+      "DateCreated": {
+        "$date": "2021-05-14T15:54:47.557Z"
+      },
+      "User": {
+        "ID": 4575,
+        "IdentityProvider": null,
+        "Identifier": null,
+        "CurrentSessionToken": null,
+        "Username": "Simon Hewison",
+        "Profile": null,
+        "Location": null,
+        "WebsiteURL": null,
+        "ReputationPoints": 47628,
+        "Permissions": null,
+        "PermissionsRequested": null,
+        "DateCreated": null,
+        "DateLastLogin": null,
+        "IsProfilePublic": null,
+        "IsEmergencyChargingProvider": null,
+        "IsPublicChargingProvider": null,
+        "Latitude": null,
+        "Longitude": null,
+        "EmailAddress": null,
+        "EmailHash": null,
+        "ProfileImageURL": "https://www.gravatar.com/avatar/b6797fc022c04bb79e21d4ff9ba07154?s=80&d=robohash",
+        "IsCurrentSessionTokenValid": null,
+        "APIKey": null,
+        "SyncedSettings": null
+      },
+      "CheckinStatusTypeID": 210,
+      "CheckinStatusType": {
+        "ID": 210,
+        "Title": "Other (Positive/Good)",
+        "IsPositive": true,
+        "IsAutomatedCheckin": false
+      },
+      "IsActionedByEditor": false
+    },
+    {
       "ID": 24253,
       "ChargePointID": 169946,
       "CommentTypeID": 10,
@@ -272,7 +322,7 @@
         "Profile": null,
         "Location": null,
         "WebsiteURL": null,
-        "ReputationPoints": 47477,
+        "ReputationPoints": 47628,
         "Permissions": null,
         "PermissionsRequested": null,
         "DateCreated": null,
@@ -322,7 +372,7 @@
         "Profile": null,
         "Location": null,
         "WebsiteURL": null,
-        "ReputationPoints": 47477,
+        "ReputationPoints": 47628,
         "Permissions": null,
         "PermissionsRequested": null,
         "DateCreated": null,

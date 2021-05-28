@@ -2,12 +2,12 @@
   "ID": 160757,
   "UUID": "ACB6FF10-F052-408B-B004-D4D5C8FAC919",
   "ParentChargePointID": null,
-  "DataProviderID": 2,
-  "DataProvidersReference": "157821",
-  "OperatorID": null,
+  "DataProviderID": 1,
+  "DataProvidersReference": null,
+  "OperatorID": 59,
   "OperatorsReference": null,
-  "UsageTypeID": 2,
-  "UsageCost": null,
+  "UsageTypeID": 1,
+  "UsageCost": "$0.33/min (includes taxes)",
   "AddressInfo": {
     "ID": 161114,
     "Title": "Federated Co-operatives Ltd (FCL)",
@@ -23,13 +23,13 @@
       "ISOCode": "CA",
       "ContinentCode": "NA"
     },
-    "Latitude": 50.2999752,
-    "Longitude": -107.8017553,
+    "Latitude": 50.298329374527015,
+    "Longitude": -107.79908871113463,
     "ContactTelephone1": "",
     "ContactTelephone2": null,
     "ContactEmail": null,
     "AccessComments": "",
-    "RelatedURL": "",
+    "RelatedURL": "https://www.fuel.crs/more/electric",
     "Distance": null,
     "DistanceUnit": 0,
     "GeneralComments": null
@@ -46,8 +46,13 @@
         "IsObsolete": null
       },
       "Reference": null,
-      "StatusTypeID": null,
-      "StatusType": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
+        "IsUserSelectable": true
+      },
       "LevelID": 3,
       "Level": {
         "ID": 3,
@@ -55,9 +60,9 @@
         "Comments": "40KW and Higher",
         "IsFastChargeCapable": true
       },
-      "Amps": 100,
+      "Amps": 250,
       "Voltage": 400,
-      "PowerKW": 40,
+      "PowerKW": 100,
       "CurrentTypeID": 30,
       "CurrentType": {
         "ID": 30,
@@ -78,8 +83,13 @@
         "IsObsolete": false
       },
       "Reference": null,
-      "StatusTypeID": null,
-      "StatusType": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
+        "IsUserSelectable": true
+      },
       "LevelID": 3,
       "Level": {
         "ID": 3,
@@ -87,28 +97,28 @@
         "Comments": "40KW and Higher",
         "IsFastChargeCapable": true
       },
-      "Amps": 100,
+      "Amps": 250,
       "Voltage": 400,
-      "PowerKW": 40,
+      "PowerKW": 100,
       "CurrentTypeID": 30,
       "CurrentType": {
         "ID": 30,
         "Title": "DC",
         "Description": "Direct Current"
       },
-      "Quantity": 1,
+      "Quantity": 2,
       "Comments": null
     }
   ],
-  "NumberOfPoints": null,
-  "GeneralComments": "Planned for future date. Not Operational.",
+  "NumberOfPoints": 2,
+  "GeneralComments": "",
   "DatePlanned": {
     "$date": "2020-09-01T00:00:00Z"
   },
   "DateLastConfirmed": null,
-  "StatusTypeID": 150,
+  "StatusTypeID": 50,
   "DateLastStatusUpdate": {
-    "$date": "2020-06-26T03:12:00Z"
+    "$date": "2021-05-16T12:04:00Z"
   },
   "MetadataValues": null,
   "DataQualityLevel": 3,
@@ -118,35 +128,46 @@
   "SubmissionStatusTypeID": 100,
   "AddressCleaningRequired": false,
   "DataProvider": {
-    "ID": 2,
-    "Title": "afdc.energy.gov",
-    "WebsiteURL": "http://www.afdc.energy.gov/",
+    "ID": 1,
+    "Title": "Open Charge Map Contributors",
+    "WebsiteURL": "http://openchargemap.org",
     "Comments": null,
     "DataProviderStatusType": {
-      "ID": 20,
-      "Title": "Automated Import",
+      "ID": 1,
+      "Title": "Manual Data Entry",
       "IsProviderEnabled": true
     },
     "IsRestrictedEdit": false,
     "IsOpenDataLicensed": true,
     "IsApprovedImport": true,
-    "License": "This data is provided by the National Renewable Energy Laboratory (\"NREL\"), which is operated by the Alliance for Sustainable Energy, LLC (\"Alliance\"), for the U.S. Department of Energy (\"DOE\"), and may be used for any purpose whatsoever.",
-    "DateLastImported": {
-      "$date": "2021-03-27T13:40:33.127Z"
-    }
+    "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+    "DateLastImported": null
   },
-  "OperatorInfo": null,
+  "OperatorInfo": {
+    "ID": 59,
+    "Title": "GreenLots",
+    "WebsiteURL": "http://www.greenlots.com",
+    "Comments": "Part of the Shell group.",
+    "PhonePrimaryContact": null,
+    "PhoneSecondaryContact": null,
+    "IsPrivateIndividual": false,
+    "AddressInfo": null,
+    "BookingURL": null,
+    "ContactEmail": null,
+    "FaultReportEmail": null,
+    "IsRestrictedEdit": false
+  },
   "UsageType": {
-    "ID": 2,
-    "Title": "Private - Restricted Access",
+    "ID": 1,
+    "Title": "Public",
     "IsPayAtLocation": null,
-    "IsMembershipRequired": true,
+    "IsMembershipRequired": null,
     "IsAccessKeyRequired": null
   },
   "StatusType": {
-    "ID": 150,
-    "Title": "Planned For Future Date",
-    "IsOperational": false,
+    "ID": 50,
+    "Title": "Operational",
+    "IsOperational": true,
     "IsUserSelectable": true
   },
   "SubmissionStatus": {
@@ -163,8 +184,8 @@
   "SpatialPosition": {
     "type": "Point",
     "coordinates": [
-      -107.8017553,
-      50.2999752
+      -107.79908871113463,
+      50.298329374527015
     ]
   }
 }

@@ -6,8 +6,8 @@
   "DataProvidersReference": null,
   "OperatorID": 23,
   "OperatorsReference": "17226",
-  "UsageTypeID": 1,
-  "UsageCost": "PLN 1.24/kWh; Możliwe inne taryfy dla starszych samochodów",
+  "UsageTypeID": 4,
+  "UsageCost": "1.40 PLN/kWh; Możliwe inne taryfy dla starszych samochodów",
   "AddressInfo": {
     "ID": 58262,
     "Title": "Tesla Kostomloty Supercharger",
@@ -28,7 +28,7 @@
     "ContactTelephone1": null,
     "ContactTelephone2": null,
     "ContactEmail": null,
-    "AccessComments": "Stacja Paliw Orlen KOSTOMŁOTY, 55-311 Kostomłoty, Polska (u Wroclawi)",
+    "AccessComments": "Stacja Paliw Orlen Kostomłoty",
     "RelatedURL": null,
     "Distance": null,
     "DistanceUnit": 0,
@@ -46,11 +46,11 @@
         "IsObsolete": false
       },
       "Reference": null,
-      "StatusTypeID": 0,
+      "StatusTypeID": 50,
       "StatusType": {
-        "ID": 0,
-        "Title": "Unknown",
-        "IsOperational": null,
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
         "IsUserSelectable": true
       },
       "LevelID": 3,
@@ -61,8 +61,8 @@
         "IsFastChargeCapable": true
       },
       "Amps": null,
-      "Voltage": 400,
-      "PowerKW": 136,
+      "Voltage": null,
+      "PowerKW": 150,
       "CurrentTypeID": 30,
       "CurrentType": {
         "ID": 30,
@@ -79,7 +79,7 @@
   "DateLastConfirmed": null,
   "StatusTypeID": 50,
   "DateLastStatusUpdate": {
-    "$date": "2019-03-22T18:01:00Z"
+    "$date": "2021-05-17T21:29:00Z"
   },
   "MetadataValues": null,
   "DataQualityLevel": 1,
@@ -119,11 +119,11 @@
     "IsRestrictedEdit": null
   },
   "UsageType": {
-    "ID": 1,
-    "Title": "Public",
-    "IsPayAtLocation": null,
-    "IsMembershipRequired": null,
-    "IsAccessKeyRequired": null
+    "ID": 4,
+    "Title": "Public - Membership Required",
+    "IsPayAtLocation": false,
+    "IsMembershipRequired": true,
+    "IsAccessKeyRequired": true
   },
   "StatusType": {
     "ID": 50,
