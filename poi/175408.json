@@ -34,21 +34,55 @@
     "DistanceUnit": 0,
     "GeneralComments": null
   },
-  "Connections": [],
+  "Connections": [
+    {
+      "ID": 272269,
+      "ConnectionTypeID": 32,
+      "ConnectionType": {
+        "ID": 32,
+        "Title": "CCS (Type 1)",
+        "FormalName": "IEC 62196-3 Configuration EE",
+        "IsDiscontinued": false,
+        "IsObsolete": false
+      },
+      "Reference": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "ID": 50,
+        "Title": "Operational",
+        "IsOperational": true,
+        "IsUserSelectable": true
+      },
+      "LevelID": 2,
+      "Level": {
+        "ID": 2,
+        "Title": "Level 2 : Medium (Over 2kW)",
+        "Comments": "Over 2 kW, usually non-domestic socket type",
+        "IsFastChargeCapable": false
+      },
+      "Amps": 65,
+      "Voltage": 500,
+      "PowerKW": 25,
+      "CurrentTypeID": null,
+      "CurrentType": null,
+      "Quantity": 1,
+      "Comments": null
+    }
+  ],
   "NumberOfPoints": 1,
-  "GeneralComments": "Non-networked: just plug in and wait for charge to start.  25kw (65A) max. charge rate.  This is the typical Cheverolet-dealer Bosch/Delta Wallbox DCFC station.",
+  "GeneralComments": "Non-networked: please plug in and wait for charge to start.  ",
   "DatePlanned": null,
   "DateLastConfirmed": null,
   "StatusTypeID": 50,
   "DateLastStatusUpdate": {
-    "$date": "2021-05-18T04:30:00Z"
+    "$date": "2021-05-21T05:08:00Z"
   },
   "MetadataValues": null,
   "DataQualityLevel": 1,
   "DateCreated": {
     "$date": "2021-05-18T04:30:00Z"
   },
-  "SubmissionStatusTypeID": 1,
+  "SubmissionStatusTypeID": 200,
   "AddressCleaningRequired": false,
   "DataProvider": {
     "ID": 1,
@@ -81,9 +115,9 @@
     "IsUserSelectable": true
   },
   "SubmissionStatus": {
-    "ID": 1,
-    "Title": "Submission Under Review",
-    "IsLive": false
+    "ID": 200,
+    "Title": "Submission Published",
+    "IsLive": true
   },
   "UserComments": null,
   "PercentageSimilarity": null,
